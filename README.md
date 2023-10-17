@@ -1,8 +1,8 @@
-1. [Modern Web Geliştirme-1. Hafta](#modern-web-gelistirme-1)
+1. [Modern Web Geliştirme-1. Hafta](#modern-web-gelistirme-hafta-1)
 2. [Modern Web Geliştirme-2. Hafta](#modern-web-gelistirme-2)
 
 
-# Modern Web Geliştirme-1. Hafta
+# Modern Web Geliştirme Hafta 1
 
 ### Ben Kimim?
 1995 yılında İstanbul'da doğdum. Akademik yolculuğum Yıldız Teknik Üniversitesi Matematik Mühendisliği lisans programında başladı ve 2018 yılında mezun oldum. Yazılım kariyerime üniversitenin son senesinde  bir startup firmasında yazılım geliştirici olarak başladım. Ardından, hemen mezun olduktan sonra Kariyer.net'te çalışmaya başladım ve yaklaşık üç yıl süresince yazılım geliştirici olarak görev yaptım. Bu deneyimlerin ardından, Kıdemli Yazılım Uzmanı olarak görev yapmak üzere Doğuş Teknoloji'ye geçiş yaptım ve şu anki pozisyonumda yaklaşık 2.5 yıldır çalışmaktayım. Profesyonel kariyer hayatımın yanı sıra, akademik kariyerime de Yıldız Teknik Üniversitesi Matematik Mühendisliği bölümünde tezli yüksek lisans programında devam ediyorum. Bu programa başlamadan önce 2020 yılında, Yıldız Teknik Üniversitesi Bilgisayar Mühendisliği/Bilgi Teknolojileri (Tezsiz yüksek lisans) programını tamamladım. Akademik çalışmalarımı ve iş hayatımı bir arada sürdürerek kendimi sürekli geliştirmeye ve katkıda bulunmaya devam ediyorum.
