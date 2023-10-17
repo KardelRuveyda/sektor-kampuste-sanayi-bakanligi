@@ -228,20 +228,20 @@ Programlama dili seçimi, projenizin gereksinimlerine, becerilerinize ve kariyer
 
 **1- dir (Directory)**: Mevcut dizindeki dosyaları ve klasörleri listeler. __
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84) __
-*2- cd (Change Directory)*: Dizinleri değiştirmek için kullanılır. __
+**2- cd (Change Directory)**: Dizinleri değiştirmek için kullanılır. __
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b) __
 *3- mkdir (Make Directory)*: Yeni bir klasör oluşturur.__
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/634f362f-1c5a-41ec-9590-69f9c9ae0e07)\
-*4- echo*: Metin veya değişkenleri ekrana yazdırır.\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20)\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/feeff7a0-6983-4db0-aebf-4918718a3a33)\
-*5- copy*: Dosyaları kopyalar.\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/dc8fecac-c7a1-4cdc-abcd-b0ca50ca9531)\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/1141cb9b-7639-42ec-83e3-adb8b83083f2)\
-*6- move*: Dosyaları taşır veya yeniden adlandırır.\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/3f76a0b5-8ef1-41ad-b421-a095cfdb10ab)\
-*7- del* (Delete): Dosya veya klasörleri siler.\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/cf587642-e5df-4ab7-b966-ec7af16e00ba)\
+**4- echo**: Metin veya değişkenleri ekrana yazdırır.__
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20) __
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/feeff7a0-6983-4db0-aebf-4918718a3a33) __
+**5- copy**: Dosyaları kopyalar.__
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/dc8fecac-c7a1-4cdc-abcd-b0ca50ca9531) __
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/1141cb9b-7639-42ec-83e3-adb8b83083f2) __
+**6- move**: Dosyaları taşır veya yeniden adlandırır. __
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/3f76a0b5-8ef1-41ad-b421-a095cfdb10ab) __
+**7- del** (Delete): Dosya veya klasörleri siler. __
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/cf587642-e5df-4ab7-b966-ec7af16e00ba) __
 
 ## Github nedir? Github adresi açalım!
 
@@ -273,25 +273,25 @@ Proje yönetimi, belirli bir hedefi veya sonucu elde etmek için planlama, uygul
 
 *Proje yönetimi genellikle aşağıdaki temel adımları içerir:*
 
-*Proje Tanımı ve Planlama:* Proje hedefleri, kapsamı, bütçesi, kaynakları ve zaman çizelgesi gibi ana unsurları içeren proje planının oluşturulması.
-*Kaynakların Tahsisi:* İhtiyaç duyulan insan kaynakları, malzemeler ve finansmanın belirlenmesi ve tahsis edilmesi.
-*Uygulama ve İzleme:* Proje planının uygulanması ve proje ilerlemesinin izlenmesi. Bu aşamada herhangi bir sorunun tanımlanması ve gerekirse düzeltilmesi gerekir.
-*Kontrol ve Raporlama:* Proje ilerlemesini sürekli olarak izleyerek herhangi bir sapmanın tespit edilmesi ve proje paydaşlarına düzenli raporlar sunulması.
-*Sonlandırma ve Değerlendirme:* Projenin başarıyla tamamlanması, sonuçların değerlendirilmesi ve projenin sonlandırılması.
+**Proje Tanımı ve Planlama:** Proje hedefleri, kapsamı, bütçesi, kaynakları ve zaman çizelgesi gibi ana unsurları içeren proje planının oluşturulması.
+**Kaynakların Tahsisi:** İhtiyaç duyulan insan kaynakları, malzemeler ve finansmanın belirlenmesi ve tahsis edilmesi.
+**Uygulama ve İzleme:** Proje planının uygulanması ve proje ilerlemesinin izlenmesi. Bu aşamada herhangi bir sorunun tanımlanması ve gerekirse düzeltilmesi gerekir.
+**Kontrol ve Raporlama:** Proje ilerlemesini sürekli olarak izleyerek herhangi bir sapmanın tespit edilmesi ve proje paydaşlarına düzenli raporlar sunulması.
+**Sonlandırma ve Değerlendirme:** Projenin başarıyla tamamlanması, sonuçların değerlendirilmesi ve projenin sonlandırılması.
 
 Proje yönetimi, her türlü proje için geçerli olabilir, örneğin inşaat projeleri, yazılım geliştirme projeleri, pazarlama kampanyaları veya organizasyonel değişiklikler gibi farklı türdeki projeler için kullanılır. Proje yönetimi, hedeflerin daha verimli bir şekilde ulaşılmasını sağlar ve riskleri minimize etmek için önemli bir araçtır. Birçok farklı proje yönetimi metodolojisi ve araçları bulunmaktadır, örneğin PMP (Project Management Professional), PRINCE2 ve Agile gibi. Bu metodolojiler, farklı projelerin ihtiyaçlarına ve gereksinimlerine uygun olarak seçilir.
 
 
 ### Proje Yönetimi Şekilleri Nelerdir?
 
-*Geleneksel Proje Yönetimi:* Geleneksel proje yönetimi, proje planlamasını ayrıntılı bir şekilde yapar, projeyi baştan sona sırasıyla işlemleri tamamlamak için tasarlar. Bu yaklaşım, özellikle inşaat projeleri gibi büyük, karmaşık projeler için uygundur. Waterfall model, bu yaklaşımın bir örneğidir.
-*Agile Proje Yönetimi:* Agile, özellikle yazılım geliştirme projeleri için yaygın olarak kullanılan bir esnek proje yönetimi yaklaşımıdır. Agile, proje sürecini kısa dönemler halinde (sprintler) böler ve esneklik sağlar. Scrum, Kanban ve Lean gibi metodolojiler Agile yaklaşımının örnekleridir.
-*Scrum:* Scrum, Agile yaklaşımının bir uygulama biçimidir ve yazılım geliştirme projeleri için popülerdir. Scrum, işbirliğine dayalı, yinelemeli bir yaklaşımı benimser ve belirli bir süre içinde (genellikle 2-4 hafta) çalışan işlevsel parçaların üretilmesini hedefler.
-*Kanban:* Kanban, işin sürekli akışını izleyen ve yönlendiren bir görsel yönetim sistemidir. Proje yönetiminde, Kanban tahtaları kullanılır ve görevler veya işler kartlar üzerinde temsil edilir. Bu yaklaşım, iş akışını daha verimli hale getirmek için kullanılır.
-*Lean Proje Yönetimi:* Lean, atıl kaynakları ve iş süreçlerini en aza indirmeyi hedefleyen bir yönetim felsefesidir. Bu yaklaşım, verimliliği artırmak, israfı azaltmak ve değeri artırmak için kullanılır.
-*PRINCE2 (Projects IN Controlled Environments):* PRINCE2, İngiltere'de geliştirilen bir proje yönetimi metodolojisidir. Süreç odaklıdır ve proje yaşam döngüsünü ayrıntılı bir şekilde tanımlar.
-*PMI/PMBOK:* Project Management Institute (PMI) tarafından geliştirilen Proje Yönetimi Bilgi Kılavuzu (PMBOK), proje yönetimi ile ilgili en yaygın kabul gören standartlardan biridir. PMBOK, proje yönetim süreçlerini ve en iyi uygulamaları tanımlar.
-*Hybrid (Karışık) Yaklaşımlar:* Bazı projeler, farklı metodolojilerin birleşimiyle yönetilebilir. Bu, "hybrid" proje yönetimi olarak adlandırılır. Örneğin, bir proje hem geleneksel proje yönetimi hem de Agile prensiplerini içerebilir.
+**Geleneksel Proje Yönetimi:** Geleneksel proje yönetimi, proje planlamasını ayrıntılı bir şekilde yapar, projeyi baştan sona sırasıyla işlemleri tamamlamak için tasarlar. Bu yaklaşım, özellikle inşaat projeleri gibi büyük, karmaşık projeler için uygundur. Waterfall model, bu yaklaşımın bir örneğidir.
+**Agile Proje Yönetimi:** Agile, özellikle yazılım geliştirme projeleri için yaygın olarak kullanılan bir esnek proje yönetimi yaklaşımıdır. Agile, proje sürecini kısa dönemler halinde (sprintler) böler ve esneklik sağlar. Scrum, Kanban ve Lean gibi metodolojiler Agile yaklaşımının örnekleridir.
+**Scrum:** Scrum, Agile yaklaşımının bir uygulama biçimidir ve yazılım geliştirme projeleri için popülerdir. Scrum, işbirliğine dayalı, yinelemeli bir yaklaşımı benimser ve belirli bir süre içinde (genellikle 2-4 hafta) çalışan işlevsel parçaların üretilmesini hedefler.
+**Kanban:** Kanban, işin sürekli akışını izleyen ve yönlendiren bir görsel yönetim sistemidir. Proje yönetiminde, Kanban tahtaları kullanılır ve görevler veya işler kartlar üzerinde temsil edilir. Bu yaklaşım, iş akışını daha verimli hale getirmek için kullanılır.
+**Lean Proje Yönetimi:** Lean, atıl kaynakları ve iş süreçlerini en aza indirmeyi hedefleyen bir yönetim felsefesidir. Bu yaklaşım, verimliliği artırmak, israfı azaltmak ve değeri artırmak için kullanılır.
+**PRINCE2 (Projects IN Controlled Environments):** PRINCE2, İngiltere'de geliştirilen bir proje yönetimi metodolojisidir. Süreç odaklıdır ve proje yaşam döngüsünü ayrıntılı bir şekilde tanımlar.
+**PMI/PMBOK:** Project Management Institute (PMI) tarafından geliştirilen Proje Yönetimi Bilgi Kılavuzu (PMBOK), proje yönetimi ile ilgili en yaygın kabul gören standartlardan biridir. PMBOK, proje yönetim süreçlerini ve en iyi uygulamaları tanımlar.
+**Hybrid (Karışık) Yaklaşımlar:** Bazı projeler, farklı metodolojilerin birleşimiyle yönetilebilir. Bu, "hybrid" proje yönetimi olarak adlandırılır. Örneğin, bir proje hem geleneksel proje yönetimi hem de Agile prensiplerini içerebilir.
 
 Proje yönetimi yaklaşımı, projenin özelliğine ve organizasyonun ihtiyaçlarına bağlı olarak seçilir. İşin büyüklüğü, karmaşıklığı, süresi, kaynakları ve paydaşların talepleri, hangi proje yönetimi yaklaşımının kullanılacağını etkileyebilir.
 
