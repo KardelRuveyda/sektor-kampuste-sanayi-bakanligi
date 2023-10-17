@@ -4,7 +4,7 @@ Sektör Kampüste Programı, çalışma alanları doğrultusunda güncel bilgile
 Bu program kapsamında Ankara Üniversitesi'nde MTH4033 kodlu, Bursa Uluduğa Üniversitesi'nde ise MTH3021 kodlu Modern Web Geliştirme Temelleri dersini vermekteyim. Bu ders kapsamında amacım öğrencileri sektöre hazırlamak, üniversitede
 aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleştirmek ve öğrencilerin kendine en uygun alanı bulabilmelerini hedeflemektir. 
 
--> Ders notlarına aşağıdaki yönlendiremlerden ulaşabilirsiniz.
+-> Ders notlarına aşağıdaki yönlendirmelerden ulaşabilirsiniz.
 
 1. [Ben Kimim?](#ben-kimim.md)
 2. [Modern Web Geliştirme-1. Hafta](#modern-web-gelistirme-hafta-1.md)
