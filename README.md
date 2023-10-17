@@ -1,23 +1,23 @@
 1. [Modern Web Geliştirme-1. Hafta](#modern-web-gelistirme-hafta-1)
-2. [Modern Web Geliştirme-2. Hafta](#modern-web-gelistirme-2)
+2. [Modern Web Geliştirme-2. Hafta](#modern-web-gelistirme-hafta-2)
 
 
 # Modern Web Geliştirme Hafta 1
 
 ### Ben Kimim?
 1995 yılında İstanbul'da doğdum. Akademik yolculuğum Yıldız Teknik Üniversitesi Matematik Mühendisliği lisans programında başladı ve 2018 yılında mezun oldum. Yazılım kariyerime üniversitenin son senesinde  bir startup firmasında yazılım geliştirici olarak başladım. Ardından, hemen mezun olduktan sonra Kariyer.net'te çalışmaya başladım ve yaklaşık üç yıl süresince yazılım geliştirici olarak görev yaptım. Bu deneyimlerin ardından, Kıdemli Yazılım Uzmanı olarak görev yapmak üzere Doğuş Teknoloji'ye geçiş yaptım ve şu anki pozisyonumda yaklaşık 2.5 yıldır çalışmaktayım. Profesyonel kariyer hayatımın yanı sıra, akademik kariyerime de Yıldız Teknik Üniversitesi Matematik Mühendisliği bölümünde tezli yüksek lisans programında devam ediyorum. Bu programa başlamadan önce 2020 yılında, Yıldız Teknik Üniversitesi Bilgisayar Mühendisliği/Bilgi Teknolojileri (Tezsiz yüksek lisans) programını tamamladım. Akademik çalışmalarımı ve iş hayatımı bir arada sürdürerek kendimi sürekli geliştirmeye ve katkıda bulunmaya devam ediyorum.
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/4d7510ca-c0b1-492d-abb7-9b6809547b7f)
 
 ### Yazılımın Tanımı
 Yazılım, bilgisayarlar ve diğer dijital cihazlar için özel olarak tasarlanmış programlar veya uygulamaların toplamını ifade eder. Bu programlar, işlevselliği, kullanıcı deneyimini ve veri işleme yeteneklerini geliştirmek, sorunları çözmek veya belirli görevleri gerçekleştirmek için kullanılır. Modern web geliştirmeleri, özellikle internet üzerinde çalışan yazılımların tasarımı, geliştirilmesi ve bakımıyla ilgilenir. Bu ders, öğrencilere bu alandaki en son teknolojileri ve yaklaşımları öğretmeyi amaçlar.
 
-Bonus: Kitap Önerisi: Hannah Fry Merhaba Dünya
+**Bonus: Kitap Önerisi: Hannah Fry Merhaba Dünya**
 
 
 ### Tarihte ilk bilgisayar programcısı: Ada Lovelace!
 Ada Lovelace, 19. yüzyılın başlarında yaşamış olan İngiliz bir matematikçi ve yazılım geliştiricisidir. Ada Lovelace, Charles Babbage'in tasarladığı "fark motoru" adlı mekanik bilgisayarın programlamasını yapmış ve bu nedenle tarihteki ilk bilgisayar programcısı olarak kabul edilir. Onun çalışmaları, bilgisayar programlamasının temellerini atmış ve bilgisayarların sadece sayıları işlemekle kalmayıp genel amaçlı işlemler yapabileceğini öngörmüştür. Ada Lovelace'in yazdığı notlar, modern programlama dillerinin ve bilgisayarlarının gelişiminde önemli bir kilometre taşıdır.
 
-
-Bonus: Kitap Önerisi : Julia Gray Ben Ada Lovelace
+**Bonus: Kitap Önerisi : Julia Gray Ben Ada Lovelace**
 
 ### Programlama Mantığı
 Programlama mantığı, bir programı veya yazılımı tasarlama ve geliştirme sürecinde kullanılan temel düşünme ve problem çözme yaklaşımını ifade eder. Bu yaklaşım, bilgisayar programlarının oluşturulması için izlenen akıl yürütme ve lojik düşünme sürecini içerir. Programlama mantığı, aşağıdaki temel bileşenleri içerir:
@@ -54,6 +54,8 @@ Günümüzün vazgeçilmez bir parçası olan internet, bilgisayarlar arası ile
 #### 1960'lar: İnternetin Doğuşu
 
 İnternetin temelleri, 1960'lı yıllarda Soğuk Savaş döneminde atıldı. Amerika Birleşik Devletleri Savunma Bakanlığı'nın ARPA (Advanced Research Projects Agency) tarafından başlatılan ARPANET projesi, bilgisayarlar arasında veri iletimini sağlayan ilk büyük ölçekli bilgisayar ağıydı. ARPANET, 1969 yılında ilk bağlantısını kurarak bilgisayarlar arası iletişimin ilk adımını attı.
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/71835017-a594-4d51-87ce-9c1e8746a69a)
 
 #### 1970'ler: TCP/IP Protokolü
 
@@ -114,6 +116,8 @@ Kullanıcı web sitesiyle etkileşimde bulunabilir. JavaScript kullanılarak, sa
 
 Bu süreç, kullanıcının bir web sitesini ziyaret ettiğinde gerçekleşen temel adımları açıklar. Web sitesi tasarımı, içerik yönetimi, güvenlik ve performans gibi birçok önemli faktörü içerir, ancak temel olarak web sunucusunun istemcilere (kullanıcıların tarayıcılarına) web sayfasını sunmasıyla başlar.
 
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/23a516fc-4358-43c9-a159-6d7f95529d89)
+
 ### IT’de Neler Oluyor?
 
 Bir IT (Bilgi Teknolojileri) organizasyonunda çok çeşitli görev tanımları bulunabilir, çünkü IT alanı büyük ve karmaşıktır.
@@ -163,6 +167,8 @@ Backend Developer'ların temel görevleri şunlar içerebilir:
 - Web uygulamasının güvenliğini ve performansını sağlamak
 - API'ler (Application Programming Interface) oluşturmak ve yönetmek.
 
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/0e5fd5bc-4c44-430a-8738-e05c023396b6)
+
 ####  Full Stack Developer (Tam Yığın Geliştirici):
 
 Full Stack Developer, hem ön yüz (frontend) hem de arka yüz (backend) geliştirme alanlarında deneyime sahip olan ve her iki tarafı da yönetebilen bir geliştiricidir. Yani, bir web uygulamasının hem kullanıcı arayüzünü tasarlayabilir hem de sunucu tarafındaki iş mantığını ve veri tabanı işlemlerini yönetebilirler.
@@ -175,6 +181,9 @@ Full Stack Developer'lar genellikle aşağıdaki görevleri üstlenir:
 - Tüm web uygulamasının genel yapısını ve performansını yönetmek.
 - Full Stack Developerlar, projelerde daha fazla bağımsızlık ve çok yönlülük sağlayabilirler, ancak hem frontend hem de backend teknolojilerinde derin bir bilgi gerektirirler.
 - Her bir geliştirici türü, web uygulamalarının farklı yönlerini ele alır ve bir projede işbirliği yaparak tamamlanmasını sağlar. Projenizin gereksinimlerine bağlı olarak, bu geliştirici türlerinden biri veya birkaçı bir arada çalışabilir.
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/17c9cbfd-70b4-45fa-97ea-7123820b935a)
+
 
 ### Programlama dilleri ve dil seçimi
 Programlama dilleri, bilgisayarlarla iletişim kurmak ve yazılım geliştirmek için kullanılan özel dillerdir. Her bir programlama dilinin kendi söz dizimi (syntax) ve semantiği (meaning) vardır ve farklı görevler için daha uygun olan diller bulunabilir. İşte bazı popüler programlama dilleri ve kullanım alanları:
@@ -213,4 +222,5 @@ Programlama dili seçimi, projenizin gereksinimlerine, becerilerinize ve kariyer
 
 
 
-# Modern Web Geliştirme-2. Hafta
+#  Modern Web Geliştirme Hafta 2
+
