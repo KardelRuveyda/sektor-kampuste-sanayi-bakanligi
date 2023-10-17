@@ -1,5 +1,3 @@
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f7f66973-4c40-4838-aff7-4ecb9ac08715)
-
 ### Herkese Merhabalar !
 
 Sektör Kampüste Programı, çalışma alanları doğrultusunda güncel bilgilerle donatılmış insan kaynağı yetiştirmek için firmalar tarafından üniversitelerde MTH koduyla kredili olarak açılan uzaktan senkron dersleri kapsamaktadır. 
@@ -11,3 +9,7 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 1. [Ben Kimim?](#ben-kimim)
 2. [Modern Web Geliştirme-1. Hafta](#modern-web-gelistirme-hafta-1)
 3. [Modern Web Geliştirme-2. Hafta](#modern-web-gelistirme-hafta-2)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f7f66973-4c40-4838-aff7-4ecb9ac08715)
+
+
