@@ -7,8 +7,8 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 -> Ders notlarına aşağıdaki yönlendirmelerden ulaşabilirsiniz.
 
 1. [Ben Kimim?](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/ben-kimim.md)
-2. [Modern Web Geliştirme-1. Hafta](#modern-web-gelistirme-hafta-1.md)
-3. [Modern Web Geliştirme-2. Hafta](#modern-web-gelistirme-hafta-2.md)
+2. [Modern Web Geliştirme-1. Hafta](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-1.md)
+3. [Modern Web Geliştirme-2. Hafta](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-2.md)
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f7f66973-4c40-4838-aff7-4ecb9ac08715)
 
