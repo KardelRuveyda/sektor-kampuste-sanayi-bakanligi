@@ -224,3 +224,43 @@ Programlama dili seçimi, projenizin gereksinimlerine, becerilerinize ve kariyer
 
 #  Modern Web Geliştirme Hafta 2
 
+## Yazılımdan önce son çıkış : Terminal Komutları
+
+1- dir (Directory): Mevcut dizindeki dosyaları ve klasörleri listeler.
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84)
+2- cd (Change Directory): Dizinleri değiştirmek için kullanılır.
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b)
+3- mkdir (Make Directory): Yeni bir klasör oluşturur.
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/634f362f-1c5a-41ec-9590-69f9c9ae0e07)
+4- echo: Metin veya değişkenleri ekrana yazdırır.
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20)
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/feeff7a0-6983-4db0-aebf-4918718a3a33)
+5- copy: Dosyaları kopyalar.
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/dc8fecac-c7a1-4cdc-abcd-b0ca50ca9531)
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/1141cb9b-7639-42ec-83e3-adb8b83083f2)
+6- move: Dosyaları taşır veya yeniden adlandırır.
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/3f76a0b5-8ef1-41ad-b421-a095cfdb10ab)
+7- del (Delete): Dosya veya klasörleri siler.
+![Uploading image.png…]()
+
+## Github nedir? Github adresi açalım!
+
+GitHub, kod geliştirme, işbirliği ve sürüm kontrolü için kullanılan popüler bir platformdur. 
+
+### GitHub Nedir?
+GitHub, geliştiricilerin kodlarını saklamalarına, işbirliği yapmalarına, kod incelemeleri yapmalarına ve projelerini yönetmelerine yardımcı olan bir web tabanlı platformdur. Ayrıca açık kaynak projelerin paylaşılmasına ve topluluk katılımına olanak sağlar. GitHub, projelerin sürüm kontrolünü yapmak için Git adlı dağıtık bir sürüm kontrol sistemi üzerine kurulmuştur.
+
+### GitHub Hesabı Nasıl Açılır:
+
+- GitHub'a gitmek için bir web tarayıcısı açın ve "https://github.com" adresine gidin.
+- GitHub ana sayfasında, sağ üst köşede "Sign up" veya "Sign up for GitHub" gibi bir seçenek bulunmalıdır. Bu seçeneğe tıklayın.
+- Kayıt formunu doldurun. Bu form, adınızı, kullanıcı adınızı, e-posta adresinizi ve şifrenizi içerir. Ayrıca, bir profil resmi eklemek isteyip istemediğinizi seçebilirsiniz.
+- "Verify" veya "I'm not a robot" gibi güvenlik doğrulama adımlarını geçtikten sonra, "Create account" veya "Sign up for GitHub" gibi bir düğme ile kayıt işlemini tamamlayın.
+- Kayıt işlemi tamamlandığında, GitHub hesabınıza giriş yapmanız gerekecektir. Kullanıcı adınızı ve şifrenizi kullanarak giriş yapabilirsiniz.
+- İlk kez giriş yaptığınızda, GitHub size ilgi alanlarınıza ve projelere göz atmanızı, projelere katılmanızı veya kendi projelerinizi oluşturmanızı öneren bir yol haritası sunacaktır.
+
+GitHub hesabınızı oluşturduktan sonra, projeler oluşturabilir, kodları depolayabilir, işbirliği yapabilir ve diğer geliştiricilerle iletişim kurabilirsiniz. GitHub'ın sunduğu hizmetlerin büyük bir kısmı ücretsizdir ve açık kaynak projeler için özel fırsatlar sunar. Özel projeler ve daha fazla depolama alanı gibi ek özelliklere erişmek için bir ücretli plana da kaydolabilirsiniz.
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/ed9ea3b2-03da-47c2-afdd-19b1470a82e0)
+
+
