@@ -32,12 +32,9 @@
 
 **- copy**: Dosyaları kopyalar.
 
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/9d43fd29-d058-41e8-a9e1-22028069acdb)
 
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/dc8fecac-c7a1-4cdc-abcd-b0ca50ca9531)
-
-
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/1141cb9b-7639-42ec-83e3-adb8b83083f2)
-
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/62a579ac-3057-4375-b9a9-3e173e22bbd5)
 
 **- move**: Dosyaları taşır veya yeniden adlandırır.
 
