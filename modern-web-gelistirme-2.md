@@ -4,21 +4,53 @@
 ## Yazılımdan önce son çıkış : Terminal Komutları
 
 **- dir (Directory)**: Mevcut dizindeki dosyaları ve klasörleri listeler.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84)##
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84)
+
+
 **- cd (Change Directory)**: Dizinleri değiştirmek için kullanılır.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b)##
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b)
+
+
 **- mkdir (Make Directory)**: Yeni bir klasör oluşturur.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/634f362f-1c5a-41ec-9590-69f9c9ae0e07)##
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/634f362f-1c5a-41ec-9590-69f9c9ae0e07)
+
+
 **- echo**: Metin veya değişkenleri ekrana yazdırır.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20)##
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/feeff7a0-6983-4db0-aebf-4918718a3a33)##
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20)
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/feeff7a0-6983-4db0-aebf-4918718a3a33)
+
+
 **- copy**: Dosyaları kopyalar.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/dc8fecac-c7a1-4cdc-abcd-b0ca50ca9531)##
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/1141cb9b-7639-42ec-83e3-adb8b83083f2)##
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/dc8fecac-c7a1-4cdc-abcd-b0ca50ca9531)
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/1141cb9b-7639-42ec-83e3-adb8b83083f2)
+
+
 **- move**: Dosyaları taşır veya yeniden adlandırır.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/3f76a0b5-8ef1-41ad-b421-a095cfdb10ab)##
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/3f76a0b5-8ef1-41ad-b421-a095cfdb10ab)
+
+
 **- del** (Delete): Dosya veya klasörleri siler.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/cf587642-e5df-4ab7-b966-ec7af16e00ba)##
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/cf587642-e5df-4ab7-b966-ec7af16e00ba)
+
+
 
 ## Github nedir? Github adresi açalım!
 
