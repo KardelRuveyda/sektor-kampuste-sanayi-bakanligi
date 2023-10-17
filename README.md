@@ -226,11 +226,11 @@ Programlama dili seçimi, projenizin gereksinimlerine, becerilerinize ve kariyer
 
 ## Yazılımdan önce son çıkış : Terminal Komutları
 
-**1- dir (Directory)**: Mevcut dizindeki dosyaları ve klasörleri listeler.\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84)\
-*2- cd (Change Directory)*: Dizinleri değiştirmek için kullanılır.\
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b)\
-*3- mkdir (Make Directory)*: Yeni bir klasör oluşturur.\
+**1- dir (Directory)**: Mevcut dizindeki dosyaları ve klasörleri listeler. __
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84) __
+*2- cd (Change Directory)*: Dizinleri değiştirmek için kullanılır. __
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b) __
+*3- mkdir (Make Directory)*: Yeni bir klasör oluşturur.__
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/634f362f-1c5a-41ec-9590-69f9c9ae0e07)\
 *4- echo*: Metin veya değişkenleri ekrana yazdırır.\
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20)\
