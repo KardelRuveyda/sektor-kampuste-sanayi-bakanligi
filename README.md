@@ -201,7 +201,7 @@ Microsoft tarafından geliştirilen C#, özellikle Windows platformunda uygulama
 #### Ruby
 Basit ve esnek Ruby, web geliştirme (Ruby on Rails çerçevesi ile), otomasyon ve prototip oluşturma için popülerdir.
 
-Programlama Dili Seçiminde Nelere Dikkat Edilmelidir:
+**Programlama Dili Seçiminde Nelere Dikkat Edilmelidir:**
 
 #### Proje Gereksinimleri
 Hangi tür bir projede çalıştığınıza bağlı olarak, belirli bir programlama dilinin avantajları ve dezavantajları olabilir. Proje gereksinimlerini iyi anlayarak doğru dili seçmek önemlidir.
