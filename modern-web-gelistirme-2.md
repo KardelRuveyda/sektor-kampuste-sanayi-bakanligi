@@ -80,12 +80,36 @@ Proje yönetimi, belirli bir hedefi veya sonucu elde etmek için planlama, uygul
 *Proje yönetimi genellikle aşağıdaki temel adımları içerir:*
 
 **Proje Tanımı ve Planlama:** Proje hedefleri, kapsamı, bütçesi, kaynakları ve zaman çizelgesi gibi ana unsurları içeren proje planının oluşturulması.
+
+
 **Kaynakların Tahsisi:** İhtiyaç duyulan insan kaynakları, malzemeler ve finansmanın belirlenmesi ve tahsis edilmesi.
+
+
 **Uygulama ve İzleme:** Proje planının uygulanması ve proje ilerlemesinin izlenmesi. Bu aşamada herhangi bir sorunun tanımlanması ve gerekirse düzeltilmesi gerekir.
+
+
 **Kontrol ve Raporlama:** Proje ilerlemesini sürekli olarak izleyerek herhangi bir sapmanın tespit edilmesi ve proje paydaşlarına düzenli raporlar sunulması.
+
+
 **Sonlandırma ve Değerlendirme:** Projenin başarıyla tamamlanması, sonuçların değerlendirilmesi ve projenin sonlandırılması.
 
+
+
 Proje yönetimi, her türlü proje için geçerli olabilir, örneğin inşaat projeleri, yazılım geliştirme projeleri, pazarlama kampanyaları veya organizasyonel değişiklikler gibi farklı türdeki projeler için kullanılır. Proje yönetimi, hedeflerin daha verimli bir şekilde ulaşılmasını sağlar ve riskleri minimize etmek için önemli bir araçtır. Birçok farklı proje yönetimi metodolojisi ve araçları bulunmaktadır, örneğin PMP (Project Management Professional), PRINCE2 ve Agile gibi. Bu metodolojiler, farklı projelerin ihtiyaçlarına ve gereksinimlerine uygun olarak seçilir.
+
+
+### Öğrencilerden Gelen Proje Yönetimi Tanımlamaları
+
+**ANKARA ÜNİVERSİTESİ ÖĞRENCİLERİ**
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/cc149cd3-8917-474d-bf8d-b4ad29062a3b)
+
+**ULUDAĞ ÜNİVERSİTESİ ÖĞRENCİLERİ**
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/6edbb146-b872-4c9e-9d28-9e5666411237)
+
+
 
 
 ### Proje Yönetimi Şekilleri Nelerdir?
