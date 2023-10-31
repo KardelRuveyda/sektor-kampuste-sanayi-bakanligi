@@ -3,22 +3,51 @@
 
 ## Yazılımdan önce son çıkış : Terminal Komutları
 
-**- dir (Directory)**: Mevcut dizindeki dosyaları ve klasörleri listeler.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84)##
-**- cd (Change Directory)**: Dizinleri değiştirmek için kullanılır.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b)##
-**- mkdir (Make Directory)**: Yeni bir klasör oluşturur.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/634f362f-1c5a-41ec-9590-69f9c9ae0e07)##
-**- echo**: Metin veya değişkenleri ekrana yazdırır.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20)##
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/feeff7a0-6983-4db0-aebf-4918718a3a33)##
-**- copy**: Dosyaları kopyalar.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/dc8fecac-c7a1-4cdc-abcd-b0ca50ca9531)##
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/1141cb9b-7639-42ec-83e3-adb8b83083f2)##
-**- move**: Dosyaları taşır veya yeniden adlandırır.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/3f76a0b5-8ef1-41ad-b421-a095cfdb10ab)##
-**- del** (Delete): Dosya veya klasörleri siler.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/cf587642-e5df-4ab7-b966-ec7af16e00ba)##
+### dir (Directory): Mevcut dizindeki dosyaları ve klasörleri listeler.
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/7c49e2a7-14a0-4592-92af-bfdd3f6f4c84)
+
+
+###  cd (Change Directory: Dizinleri değiştirmek için kullanılır.
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5d4cfb3f-d9a0-442d-9496-ffa841b3d68b)
+
+
+###  mkdir (Make Directory): Yeni bir klasör oluşturur.
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/634f362f-1c5a-41ec-9590-69f9c9ae0e07)
+
+
+###  echo: Metin veya değişkenleri ekrana yazdırır.
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/a010f3ef-a158-4628-8cda-d17e67860b20)
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/feeff7a0-6983-4db0-aebf-4918718a3a33)
+
+
+### copy: Dosyaları kopyalar.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/9d43fd29-d058-41e8-a9e1-22028069acdb)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/62a579ac-3057-4375-b9a9-3e173e22bbd5)
+
+### move: Dosyaları taşır veya yeniden adlandırır.
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/3f76a0b5-8ef1-41ad-b421-a095cfdb10ab)
+
+
+### del: (Delete): Dosya veya klasörleri siler.
+
+
+![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/cf587642-e5df-4ab7-b966-ec7af16e00ba)
+
+
 
 ## Github nedir? Github adresi açalım!
 
@@ -51,23 +80,58 @@ Proje yönetimi, belirli bir hedefi veya sonucu elde etmek için planlama, uygul
 *Proje yönetimi genellikle aşağıdaki temel adımları içerir:*
 
 **Proje Tanımı ve Planlama:** Proje hedefleri, kapsamı, bütçesi, kaynakları ve zaman çizelgesi gibi ana unsurları içeren proje planının oluşturulması.
+
+
 **Kaynakların Tahsisi:** İhtiyaç duyulan insan kaynakları, malzemeler ve finansmanın belirlenmesi ve tahsis edilmesi.
+
+
 **Uygulama ve İzleme:** Proje planının uygulanması ve proje ilerlemesinin izlenmesi. Bu aşamada herhangi bir sorunun tanımlanması ve gerekirse düzeltilmesi gerekir.
+
+
 **Kontrol ve Raporlama:** Proje ilerlemesini sürekli olarak izleyerek herhangi bir sapmanın tespit edilmesi ve proje paydaşlarına düzenli raporlar sunulması.
+
+
 **Sonlandırma ve Değerlendirme:** Projenin başarıyla tamamlanması, sonuçların değerlendirilmesi ve projenin sonlandırılması.
 
+
+
 Proje yönetimi, her türlü proje için geçerli olabilir, örneğin inşaat projeleri, yazılım geliştirme projeleri, pazarlama kampanyaları veya organizasyonel değişiklikler gibi farklı türdeki projeler için kullanılır. Proje yönetimi, hedeflerin daha verimli bir şekilde ulaşılmasını sağlar ve riskleri minimize etmek için önemli bir araçtır. Birçok farklı proje yönetimi metodolojisi ve araçları bulunmaktadır, örneğin PMP (Project Management Professional), PRINCE2 ve Agile gibi. Bu metodolojiler, farklı projelerin ihtiyaçlarına ve gereksinimlerine uygun olarak seçilir.
+
+
+### Öğrencilerden Gelen Proje Yönetimi Tanımlamaları
+
+**ANKARA ÜNİVERSİTESİ ÖĞRENCİLERİ**
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/cc149cd3-8917-474d-bf8d-b4ad29062a3b)
+
+**ULUDAĞ ÜNİVERSİTESİ ÖĞRENCİLERİ**
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/6edbb146-b872-4c9e-9d28-9e5666411237)
+
+
 
 
 ### Proje Yönetimi Şekilleri Nelerdir?
 
 **Geleneksel Proje Yönetimi:** Geleneksel proje yönetimi, proje planlamasını ayrıntılı bir şekilde yapar, projeyi baştan sona sırasıyla işlemleri tamamlamak için tasarlar. Bu yaklaşım, özellikle inşaat projeleri gibi büyük, karmaşık projeler için uygundur. Waterfall model, bu yaklaşımın bir örneğidir.
+
+
 **Agile Proje Yönetimi:** Agile, özellikle yazılım geliştirme projeleri için yaygın olarak kullanılan bir esnek proje yönetimi yaklaşımıdır. Agile, proje sürecini kısa dönemler halinde (sprintler) böler ve esneklik sağlar. Scrum, Kanban ve Lean gibi metodolojiler Agile yaklaşımının örnekleridir.
+
+
 **Scrum:** Scrum, Agile yaklaşımının bir uygulama biçimidir ve yazılım geliştirme projeleri için popülerdir. Scrum, işbirliğine dayalı, yinelemeli bir yaklaşımı benimser ve belirli bir süre içinde (genellikle 2-4 hafta) çalışan işlevsel parçaların üretilmesini hedefler.
+
+
 **Kanban:** Kanban, işin sürekli akışını izleyen ve yönlendiren bir görsel yönetim sistemidir. Proje yönetiminde, Kanban tahtaları kullanılır ve görevler veya işler kartlar üzerinde temsil edilir. Bu yaklaşım, iş akışını daha verimli hale getirmek için kullanılır.
+
+
 **Lean Proje Yönetimi:** Lean, atıl kaynakları ve iş süreçlerini en aza indirmeyi hedefleyen bir yönetim felsefesidir. Bu yaklaşım, verimliliği artırmak, israfı azaltmak ve değeri artırmak için kullanılır.
+
+
 **PRINCE2 (Projects IN Controlled Environments):** PRINCE2, İngiltere'de geliştirilen bir proje yönetimi metodolojisidir. Süreç odaklıdır ve proje yaşam döngüsünü ayrıntılı bir şekilde tanımlar.
-**PMI/PMBOK:** Project Management Institute (PMI) tarafından geliştirilen Proje Yönetimi Bilgi Kılavuzu (PMBOK), proje yönetimi ile ilgili en yaygın kabul gören standartlardan biridir. PMBOK, proje yönetim süreçlerini ve en iyi uygulamaları tanımlar.
+
+
 **Hybrid (Karışık) Yaklaşımlar:** Bazı projeler, farklı metodolojilerin birleşimiyle yönetilebilir. Bu, "hybrid" proje yönetimi olarak adlandırılır. Örneğin, bir proje hem geleneksel proje yönetimi hem de Agile prensiplerini içerebilir.
 
 Proje yönetimi yaklaşımı, projenin özelliğine ve organizasyonun ihtiyaçlarına bağlı olarak seçilir. İşin büyüklüğü, karmaşıklığı, süresi, kaynakları ve paydaşların talepleri, hangi proje yönetimi yaklaşımının kullanılacağını etkileyebilir.
@@ -88,12 +152,20 @@ Baştan her şeyin planlandığı şelale(Waterfall) modelinde hangi zaman dilim
 
 ## Agile Manifestosu’ndan bahsedelim ! 😊
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/8732d0a8-c2b1-4e48-8b45-6409a390d2ed)
+
+
 Manifestonun çıkışı 2001 yılında yazılım ağırlıklı meşhur topluluktan çıkmıştır. Örneklendirme bir yazılım projesi üzerinden gerçekleştirmiştir. Yazılım projelerinde projeyi en baştan planlayıp sonuna kadar bu plandan sapmadan ilerlesek bile sonuçta başta tasarlanan amaçtan farklı bir noktaya ulaşmış olabilir. En kötüsü de bu sorunu son ana kadar fark edememe halidir. Projeyi geliştiren kişiler kendi yöntemleriyle aralarda teslim ederek, değer koyarak ilerlemelidir. Bu strateji takıma hız kazandırır ve motive eder. Agile Manifesto da tam olarak bu ihtiyaçtan ortaya çıkmıştır. Scrum’ın kurucularından Jeff Sutherland de bu manifestonun imzalayıcıları arasındadır. (Jeff Sutherland’in “Scrum iki katı işi yarı zamanda yapma sanatı” kitabını da tavsiye ederim. :))
 
 ## Scrum’dan bahsetmesek olmaz ! 😊
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/ba134653-ece5-4ffc-9687-19e5321ffe3c)
+
+
 Resimlerde gördüğümüz takımlar Amerikan Futbolu ve Curling takımlarıydı. Görüldüğü üzere bu iki sporda da takımlar, oyuncuların birlik olup değer katmasıyla başarıya ulaşabilir. Açıkçası Amerikan Futbolu ve Curling ile çok ilgilenmiyor ve takip etmiyorum. En sevdiğim spor basketbol ve ondan örnek verebilirim. Üçlük sayı atışı dediğimizde aklımıza gelenler elbette ki yakın tarihte Golden State Warriors’un yıldız oyuncusu Stephen Curry. Biraz daha geçmişe gidersek Ray Allen ve Reggie Miller’ı da tabii ki göz ardı edemeyiz. Basketbolla yakından ilgilendiğim zamanlarda üçlük sayı atışını hep bir şekilde yeteneğe bağlardım ancak izlediğim bir belgeselde oyuncuların üçlük sayı isabet yüzdelerini arttırabilmek için disiplinli ve planlı bir şekilde çalıştıklarının farkına vardım. Aslına bakarsanız eski zamanlarda üçlük sayı atışı o kadar da kıymetli değilmiş, daha doğrusu üçlük sayı atışı kavramı bulunmuyormuş. Sonraları birçok oyuncu potaya hayli uzaktan kaydettikleri sayılarla maçları çevirmeye başlayınca üçlük sayı atışı kavramı basketbol terimlerine dahil olmuş,yaygınlaşmış ve yaygınlaştıkça da oyuncular bunun üzerine çalışmalar yapmaya yoğunlaşmışlardır. Buradan Agile’a nasıl geçeceğimi merak ediyorsunuz tabii.Her şey de olduğu gibi Agile ekiplerde de başarının kilit noktası doğru ve planlı çalışmaktır. Konuya Agile açısından yaklaşmak için Golden State Warriors oyuncularının durumunu bir inceleyelim derim. Golden State Warriors takımında herkes yapması gereken görevi, üzerine düşen sorumluluğu biliyor. Örneğin; çoğunlukla üç sayılık atışları ile anılan Stephen Curry, sayı isabeti düşük olmasına rağmen her maçta sürekli üçlük deneseydi ne olurdu? Peki takımın başarılı forveti olan Draymond Green, savunma yapmak yerine sürekli dışarıdan sayı kaydetmeyi deneseydi bu durum takımı etkiler miydi? Bu sorulara çoğumuzun verebileceği cevapları bir kelimede toparlayabilseydik eğer herhalde bu kelime, “Başarısızlık” olacaktır çünkü basketbol bir takım oyunudur. Basketbolda da tıpkı Agile ekiplerde olduğu gibi herkesin bir görev tanımı vardır ve oyuncular arasındaki görev dağılımı maç öncesinde gerçekleştirilir. Agile, takımların kendilerine verilen görevlere istinaden doğru ve planlı bir şekilde çalışmasını hedefler. Tabii ki Agile ekiplerde de,tıpkı basketbol maçlarında olduğu gibi, takım üyelerinin sahip olduğu görev tanımları dışında diğer arkadaşlarına destek olması gereken durumlar olabilir ama unutmayın ki bu da oyunun bir parçasıdır. :)
+
+
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/9da255dc-9527-44b6-a515-284c3ddcc721)
+
+
 Scrum da grupların bir takım halinde topu istenilen hedefe götürürken birlikte çabaladıklarını gösterir. Amerikan futbolunda amaç, topun karşı tarafa geçmesini engellemektir ve o sırada takımdan kimse bireysel egosunu düşünmez. Topa sahip olan arkadaşın hedefe ulaşması için onu korur ve etrafında dururlar. Agile’da da belli bir hizmeti müşteri veya son kullanıcıya ekip olarak sürekli paslaşarak teslim etmek hedef alınır. Scrum kavramı da 19. yüzyılın ilk yarısında İngiltere’de kurulan birebir temasa dayalı bir takım oyunu olan Rugby’den gelmektedir. Agile kavramında da ,çoğu takım oyununda olduğu gibi, hedefe ulaşana kadar sürekli yeniden yön verme ve senkron olarak çalışma amaçlanır. Agile’ın normal proje yönetiminden farklılaştığı ilk nokta burasıdır. Agile kısa döngülerle değeri ortaya koymak üzerine oluşturulan bir felsefedir. Günümüzde bu felsefeyi uygulayıp Scrum’ı benimseyen birçok kurum ve kuruluş vardır. Bunlara örnek olarak Google,Apple,Facebook,Yahoo,Spotify,Adobe,AirBnB örnek olarak verilebilir.
 **Agile olmak için;**
 - Agile doğru önceliklendirmelerle alınmış işlerin doğru şekilde parçalanarak işlenmesini ve iterasyon sonunda müşteri için değer olarak çıktı haline getirilmesini önemser.
@@ -108,23 +180,43 @@ Scrum da grupların bir takım halinde topu istenilen hedefe götürürken birli
 **NOT:** Agile sadece yazılım projeleri için kullanılmamaktadır. Ulaştırmadan uzay çalışmalarına, sanayiden akademik organizasyonlara, eğitimden sağlığa kadar pek çok sektörde kullanılmaktadır.
 
 ## Agile Manifesto’dan bahsetmiştik. Şimdi biraz da prensipleri üzerine konuşalım! 😊
+
+
 **Sürekli Teslimat:** Müşteri veya kullanıcıya ürünü parça parça sunmak Agile prensiplerinin en önemli unsurlarındadır.
+
+
 **Araçlar :** Agile ekiplerin mümkün oldukça aynı ortamda olması gerekir ancak son zamanlarda pandemiden dolayı Agile ekipler de uzaktan çalışmaya alıştılar. Uzaktan çalışma ile bir arada bulunamayan takımlar yüz yüze görüşememenin sebep olabileceği sıkıntılara istinaden bazı uygulamalar kullanmaya başlamıştır. Online Boardlar için Miro,Vsts,Trello,Jenkins vs gibi alternatifler kullanılırken; toplantılar için Zoom, Webex, Teams, Skype vb alternatiflerden yararlanılmaktadır.
+
+
 **Definition of done:** Sprint sonunda teslim etmeyi taahhüt ettiğimiz beş maddelik bir işimiz olduğunu ama sadece üç puanlık bir kısmını bitirebildiğimi düşünelim. Müşteri ile el sıkıştığımda tamamlanma kriteri beş puan üzerinden değerlendirilir. Dolayısıyla iş tamamlanmamış sayılır. Bu her ne kadar kötü görünse de, işe yarar çıktıların oluşturulması ve bir ürün değerinin ortaya konması açısından anlamlıdır. İşlerin bu şekilde eksik kalmaması ve istekleri tam olarak karşılanması için planlama toplantılarında üzerinde karar kılınan maddelerin takım tarafından iyice anlaşılır ve yapılabilir parçalara bölünmüş olması önemlidir.
+
+
 **İletişim:** Kimse ekipte birbirini bir işin yapılması için uyarmamalıdır. Zaten planlamanın başında alınan işler bellidir ve takım bu işleri bitireceğine dair birbirine söz vermiştir. Bu sözün tutulması için de herkes elinden geleni yapmalıdır. O nedenle döngünün içerisinde takımdakilerin birbirlerini “Bu talebi bitirdin mi? Bitirecek misin?” şeklinde uyarması etik değildir. Eğer bir yavaşlık söz konusu ise veya belli başlı nedenler ile alınan talepler bitirilmediyse retrospective toplantısında tartışılmalıdır.
+
+
 **Toplantılar:** Agile yaklaşımın iterasyonlar bazında vazgeçilmez toplantı ritüelleri vardır. Daily Meeting, Sprint Planning, Review, Retrospective vb. Bunları yazının ilerleyen kısımlarında ele alacağız.
+
+
 **Yalınlık :** Agile süreçlerinde sadelik önemlidir.
+
+
 ## Size bir yerlerden tanıdık gelebilir! Agile rolleri ve ekip özelliklerinden bahsedelim ! 😊
 Agile ekipleri Cross functional olmalıdır. Cross Functional ekip, ortak bir amaç için çalışan farklı işlevsel uzmanlığa sahip bir grup insandır. Agile metodoloji ile çalışan takımlardaki ekip üyelerinin cross functional olarak ifade edilen yetkinliklere sahip olması tercih edilir. Bu hem aynı ekipteki her geliştiricinin bir başkasının işini yapabilmesi farklı domainlerde çalışılabilmesi açısından önemli bir yetkinliktir
 ### Agile Practitioner
 Projedeki ürüne göre uzmanlıklar değişebilir. Agile’da Proje Yöneticisi kavramına rastlanmamaktadır. Bunun yerine Agile Practitioner kullanılır. Agile Koç, Scrum Master veya Scrum Coach olarak da adlandırılabilir. Agile Practitioner ekiple birlikte işi yapan kişi değildir. Ekipte işle ilgili dönüp danışılacak kişidir. Ekibin önündeki engelleri açan kişidir ancak ekibin yerine iş yapmaz. Kurumsal anlamda sorunları çözmeye çalışır.
 Agile Practitioner’ın ortak amacı,ekibin engellerini ortadan kaldırmak demiştik. Bu engeller; bütçe desteği, yazılımsal araç eksikliği, yönetimsel sorunlar vb. olabilir. Bu sorunlar dahilinde operasyonel olarak işe yardım etmekle yükümlü değillerdir. Örneğin, ekip bir şeyi yanlış yapıyor ise Agile Pracititonerlar onların fikirleri alınmadığı sürece hiçbir şey yapmamalıdır.
+
+
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/5bce56ae-9c60-41cc-b40b-56f4d99fb6ff)
 ### Development Team
 Yazılım ekibi; işi yapmakla yükümlü olan,plan ve iterasyonlara bağlı olarak işleri tamamlamaya çalışan ve sürekli iletişim halinde kalan çok kalabalık olmayan ekiplerdir.
+
+
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/ddf34d03-d1a6-41b9-a5d1-11f1249ce218)
 ### Product Owner
 Ürünün sahibidir ve öncelikleri belirledikten sonra detayları sağlamakla yükümlüdür. Ürün veya hizmetin yol haritasını bilen, bunları biçimlendiren, ek olarak yapılacak işleri önceliklendiren kişidir. Product Owner ekipten olabileceği gibi müşteri organizasyonundan da olabilir.
+
+
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/c42997c7-9243-407b-a164-1f2acfe0d201)
 ### Agile Ekip Özellikleri
 - Önerilen 3–9 kişi arasıdır. Hatta şöyle bir tabir vardır. “Bir öğünde üç pizza ile doyan bir ekip Agile ekip olabilir. :)”
@@ -211,6 +303,8 @@ Benzetme tahminlemesine göre eğer bir işe 3 SP(Story Point) kadar büyüklük
 
 - Product Owner döngü için gerekli işleri Development Team’e ilettikten sonra Development Team bu talepler ile ilgili puanlama yaparken herkesin ortak görüşünü kolayca almak için çeşitli yöntemlerden yararlanır. Planning Poker bunlardan birisidir.
 - Eğer ekipten birisi bir iş için 8 SP verirken diğeri, 1 SP veriyorsa, neden biri bu kadar yüksek diğeri bu kadar düşük verdiğine dair bir tartışma yapılır ve ekipçe ortak karara varılır.
+
+
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/e905c44d-6da6-4008-b452-78c1589b0baa)
 
 ### İterasyon/Sprint
@@ -247,6 +341,8 @@ Her gün yapılan rutin toplantılardır. Bu toplantılarda amaç şu üç soruy
 **Transparency:** Ekibin kendi içerisinde bilgiyi doğru paylaşmasıdır.
 **Inspection :** Kök nedenler bulmaktır.
 **Adaptation:** Bu kök nedenlere göre yeni kavramlar ortaya koyulmasıdır.
+
+
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/600505e6-6d14-4fe8-b4ba-8653db92aa04)
 ### Hız ( Velocity Tracking)
 - Hızdan kasıt “ne kadar zamanda ne kadar iş bitiriyoruz?” sorusunun cevabıdır. Definition of Done’a göre bitiriyorsak ekip olarak hızımız budur.

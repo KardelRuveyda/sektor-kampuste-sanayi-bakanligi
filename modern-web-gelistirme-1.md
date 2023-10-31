@@ -1,9 +1,5 @@
 # Modern Web Geliştirme 1
 
-### Ben Kimim?
-1995 yılında İstanbul'da doğdum. Akademik yolculuğum Yıldız Teknik Üniversitesi Matematik Mühendisliği lisans programında başladı ve 2018 yılında mezun oldum. Yazılım kariyerime üniversitenin son senesinde  bir startup firmasında yazılım geliştirici olarak başladım. Ardından, hemen mezun olduktan sonra Kariyer.net'te çalışmaya başladım ve yaklaşık üç yıl süresince yazılım geliştirici olarak görev yaptım. Bu deneyimlerin ardından, Kıdemli Yazılım Uzmanı olarak görev yapmak üzere Doğuş Teknoloji'ye geçiş yaptım ve şu anki pozisyonumda yaklaşık 2.5 yıldır çalışmaktayım. Profesyonel kariyer hayatımın yanı sıra, akademik kariyerime de Yıldız Teknik Üniversitesi Matematik Mühendisliği bölümünde tezli yüksek lisans programında devam ediyorum. Bu programa başlamadan önce 2020 yılında, Yıldız Teknik Üniversitesi Bilgisayar Mühendisliği/Bilgi Teknolojileri (Tezsiz yüksek lisans) programını tamamladım. Akademik çalışmalarımı ve iş hayatımı bir arada sürdürerek kendimi sürekli geliştirmeye ve katkıda bulunmaya devam ediyorum.
-![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/4d7510ca-c0b1-492d-abb7-9b6809547b7f)
-
 ### Yazılımın Tanımı
 Yazılım, bilgisayarlar ve diğer dijital cihazlar için özel olarak tasarlanmış programlar veya uygulamaların toplamını ifade eder. Bu programlar, işlevselliği, kullanıcı deneyimini ve veri işleme yeteneklerini geliştirmek, sorunları çözmek veya belirli görevleri gerçekleştirmek için kullanılır. Modern web geliştirmeleri, özellikle internet üzerinde çalışan yazılımların tasarımı, geliştirilmesi ve bakımıyla ilgilenir. Bu ders, öğrencilere bu alandaki en son teknolojileri ve yaklaşımları öğretmeyi amaçlar.
 
