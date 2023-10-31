@@ -45,6 +45,8 @@ Birden fazla kişinin bir proje üzerinde etkin çalışması için ortaya atıl
 
 ### Git Kurulum İşlemleri/Git Bash
 
+
+
 ### Git Workflow
 
 ### Repository Kavramı
