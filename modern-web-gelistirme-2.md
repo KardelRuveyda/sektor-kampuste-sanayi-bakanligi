@@ -1,5 +1,5 @@
 
-#  Modern Web Geliştirme Hafta 2
+#  Modern Web Geliştirme 2
 
 ## Yazılımdan önce son çıkış : Terminal Komutları
 
