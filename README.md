@@ -13,3 +13,4 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f7f66973-4c40-4838-aff7-4ecb9ac08715)
 
 
+  
