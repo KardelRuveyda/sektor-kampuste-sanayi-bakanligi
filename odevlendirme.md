@@ -18,6 +18,7 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 
 
 
--> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Pazartesi akşamına kadar iletmenizi istiyorum.
+-> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana **Pazartesi** akşamına kadar iletmenizi istiyorum. ( Ankara Universitesi ) 
+-> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana **Çarşamba** akşamına kadar iletmenizi istiyorum. ( Uludağ Universitesi ) 
 -> Her aşamada ekran görüntülerini alıp yorum yapmanız değerli olacaktır.
 -> Sorun yaşayan arkadaşlar Pazartesi gününe kadar benle iletişime geçip hatalarını da gösterebilirler.
