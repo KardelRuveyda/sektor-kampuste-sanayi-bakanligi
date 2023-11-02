@@ -1,7 +1,7 @@
 
 #  Modern Web Geliştirme 3
 
-## Git Temeelleri
+## Git Temelleri
 
 ### Versiyon Kontrol Sistemi
 
