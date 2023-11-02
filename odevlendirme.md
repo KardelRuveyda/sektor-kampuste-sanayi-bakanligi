@@ -29,4 +29,6 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 
 -> Sorun yaşayan arkadaşlar Pazartesi gününe kadar benle iletişime geçip hatalarını da gösterebilirler.
 
+-> Ödevlerinizi **ruveydakardelcetin@gmail.com** adresine iletebilirsiniz.
+
 
