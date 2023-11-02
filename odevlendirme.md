@@ -19,4 +19,5 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 
 
 -> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Pazartesi akşamına kadar iletmenizi istiyorum.
+-> Her aşamada ekran görüntülerini alıp yorum yapmanız değerli olacaktır.
 -> Sorun yaşayan arkadaşlar Pazartesi gününe kadar benle iletişime geçip hatalarını da gösterebilirler.
