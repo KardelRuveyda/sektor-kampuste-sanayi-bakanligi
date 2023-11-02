@@ -31,4 +31,5 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 
 -> Ödevlerinizi **ruveydakardelcetin@gmail.com** adresine iletebilirsiniz.
 
+-> Ders notlarının devamını ekleyeceğim, haftaya o notları okuyup gelirsek üzerinden geçip bir sonraki konuya devam edeceğiz.
 
