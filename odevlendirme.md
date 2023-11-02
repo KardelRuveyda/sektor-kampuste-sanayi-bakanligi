@@ -1,7 +1,6 @@
-## Modern Web Geliştirme Ödevlendirmeler
+## Modern Web Geliştirme Ödevlendirmeler(Ankara Üniversitesi & Uludağ Üniversitesi)
 
-
-### Ödev 1- Versiyon Kontrol Sistemleri(Git)
+## Ödev 1- Versiyon Kontrol Sistemleri(Git)
 
 - Bir tane dosya oluşturacaksınız.
 - Bu dosyanın içerisinde **modern-web-gelistirme.txt** ( bir dosya oluşturcaksınız.)
@@ -19,6 +18,5 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 
 
 
--> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Pazartesi 00.00'a kadar iletmenizi istiyorum.
-
+-> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Pazartesi akşamına kadar iletmenizi istiyorum.
 -> Sorun yaşayan arkadaşlar Pazartesi gününe kadar benle iletişime geçip hatalarını da gösterebilirler.
