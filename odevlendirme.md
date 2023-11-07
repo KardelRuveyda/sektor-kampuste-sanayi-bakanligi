@@ -55,3 +55,16 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 - Local ortamınızdaki branchleri listeleyin. 
 - Kendi branchinizi oluşturun. 
 - Kendi branchinize git komut satırıyla geçi yapın.
+
+### Dördüncü Kısım
+- Github üzerinde (benim projelerim de olabilir,farklı projeler de olabilir.) bir repo seçin.
+- Bu repoyu kendi localinize ( yani bilgisayarınıza) çekmek için uygun git komutunu kullanın.
+
+
+### Beşinci Kısım
+- Boş bir klasör oluşturunuz. 
+- Bu klasör içerisinde github.txt bir dosya ekleyiniz. Bu dosya içerisine "test" yazabilirsiniz. 
+- Bu projeyi git ile izlemeye alın. 
+- Gerekli işlemleri yaptıktan sonra github repository oluşturun. 
+- Localinizdeki bu değişilkleri uzak repoya aktarın.
+- Bu çalışmaları yaptıktan ve ekran görüntülerini aldıktan sonra repository'i silebilirsiniz.
