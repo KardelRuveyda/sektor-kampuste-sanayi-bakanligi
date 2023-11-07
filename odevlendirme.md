@@ -43,3 +43,9 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 - Bu değişikliği Working Directory'den -> Staging Area'ya doğru aktarın.
 - Sonrasında Stage'ye eklenmiş değişikliği geri alarak tekrar Working Directory dizinine dönün.
 - Sonrasında da Working Directory dizinindeki değişikliği de tekrar geri alarak, herhangi bir değişiklik yapmadığınız duruma dönün.
+
+
+### İkinci Kısım
+- Repository üzerinden son üç logu getirecek git komutunu yazınız.
+- Repository üzerinden son 15 dakika içerisindeki logu getirecek git komutunu yazınız.
+- Logları tek satırda gösterebileceğiniz komutu yazınız. 
