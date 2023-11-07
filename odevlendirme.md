@@ -69,9 +69,9 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 - Localinizdeki bu değişilkleri uzak repoya aktarın.
 - Bu çalışmaları yaptıktan ve ekran görüntülerini aldıktan sonra repository'i silebilirsiniz.
 
-
--> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Pazartesi akşamına kadar iletmenizi istiyorum. ( Ankara Universitesi )
--> Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Çarşamba akşamına kadar iletmenizi istiyorum. ( Uludağ Universitesi )
--> Her aşamada ekran görüntülerini alıp yorum yapmanız değerli olacaktır.
--> Sorun yaşayan arkadaşlar Pazartesi gününe kadar benle iletişime geçip hatalarını da gösterebilirler.
--> Ödevlerinizi ruveydakardelcetin@gmail.com adresine iletebilirsiniz.
+### Ödevlerin Detayları
+- Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Pazartesi akşamına kadar iletmenizi istiyorum. ( Ankara Universitesi )
+- Her aşamanın ekran görüntüleriyle bir word dokumantasyonunda oluşturup bana Çarşamba akşamına kadar iletmenizi istiyorum. ( Uludağ Universitesi )
+- Her aşamada ekran görüntülerini alıp yorum yapmanız değerli olacaktır.
+- Sorun yaşayan arkadaşlar Pazartesi gününe kadar benle iletişime geçip hatalarını da gösterebilirler.
+- Ödevlerinizi ruveydakardelcetin@gmail.com adresine iletebilirsiniz.
