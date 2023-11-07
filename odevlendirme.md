@@ -68,3 +68,5 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 - Gerekli işlemleri yaptıktan sonra github repository oluşturun. 
 - Localinizdeki bu değişilkleri uzak repoya aktarın.
 - Bu çalışmaları yaptıktan ve ekran görüntülerini aldıktan sonra repository'i silebilirsiniz.
+
+
