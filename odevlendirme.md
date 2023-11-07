@@ -49,3 +49,9 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 - Repository üzerinden son üç logu getirecek git komutunu yazınız.
 - Repository üzerinden son 15 dakika içerisindeki logu getirecek git komutunu yazınız.
 - Logları tek satırda gösterebileceğiniz komutu yazınız. 
+
+
+### Üçüncü Kısım
+- Local ortamınızdaki branchleri listeleyin. 
+- Kendi branchinizi oluşturun. 
+- Kendi branchinize git komut satırıyla geçi yapın.
