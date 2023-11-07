@@ -33,3 +33,13 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 
 -> Ders notlarının devamını ekleyeceğim, haftaya o notları okuyup gelirsek üzerinden geçip bir sonraki konuya devam edeceğiz.
 
+
+## Ödev 2- Versiyon Kontrol Sistemleri(Git)
+
+### İlk Kısım
+
+- Working Directory'de bir dosya oluşturun.
+- Bu dosyada herhangi bir değişiklik yapın. 
+- Bu değişikliği Working Directory'den -> Staging Area'ya doğru aktarın.
+- Sonrasında Stage'ye eklenmiş değişikliği geri alarak tekrar Working Directory dizinine dönün.
+- Sonrasında da Working Directory dizinindeki değişikliği de tekrar geri alarak, herhangi bir değişiklik yapmadığınız duruma dönün.
