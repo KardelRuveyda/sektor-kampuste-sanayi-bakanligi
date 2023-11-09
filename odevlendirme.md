@@ -70,3 +70,5 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 - Bu çalışmaları yaptıktan ve ekran görüntülerini aldıktan sonra repository'i silebilirsiniz.
 
 
+--->Ödevlerinizi word dokümantasyonu şeklinde de oluşturabilirsiniz veya bir medium makalesi yazarak bana linkini de
+paylaşabilirsiniz. "ruveydakardelcetin@mgmail.com" a gönderim sağlayabilirsiniz.
