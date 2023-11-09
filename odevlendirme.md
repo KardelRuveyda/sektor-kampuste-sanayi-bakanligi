@@ -75,3 +75,5 @@ Oluşturduğunuz dosya dizinine git'i entegre etmenizi istiyorum.
 - Her aşamada ekran görüntülerini alıp yorum yapmanız değerli olacaktır.
 - Sorun yaşayan arkadaşlar Pazartesi gününe kadar benle iletişime geçip hatalarını da gösterebilirler.
 - Ödevlerinizi ruveydakardelcetin@gmail.com adresine iletebilirsiniz.
+- Ödevlerinizi word dokümantasyonu şeklinde de oluşturabilirsiniz veya bir medium makalesi yazarak bana linkini de
+paylaşabilirsiniz
