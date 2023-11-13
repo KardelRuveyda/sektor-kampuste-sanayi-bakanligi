@@ -1,4 +1,4 @@
-
+ 
 #  Modern Web Geliştirme 3
 
 ## Git Temelleri
@@ -248,19 +248,56 @@ git add . komutu, Git ile çalışırken çalışma dizininde yapılan tüm değ
 ### Faydalı Git Komutları: git commit
 
 
+git commit, Git'in temel komutlarından biridir ve yerel depoya (local repository) yapılan değişiklikleri kaydetmek veya bir sürümü oluşturmak için kullanılır. Commit işlemi, çalışma dizinindeki (working directory) değişiklikleri Staging Area'da hazırlanmış (staged) dosyalar haline getirir ve bu değişiklikleri yerel depoya kaydeder. 
+
+**Değişiklikleri Kaydetme:** git commit, çalışma dizininde yapılan değişiklikleri yerel depoya kalıcı olarak kaydeder. Bu, bir iş veya özellik üzerinde çalışmanızı tamamladığınızda bu değişiklikleri projenin tarihçesine dahil etmenizi sağlar.
+
+**Commit Mesajı Eklemek:** Her commit işlemi için açıklayıcı bir commit mesajı eklemek önemlidir. Commit mesajı, bu değişikliğin neden yapıldığını ve neyi ifade ettiğini anlamak için önemlidir.
+
+**Projeyi Versiyonlamak:** Commitler, projenizin versiyonlarını oluşturur. Her commit, projenin bir önceki sürümünden ne kadar değiştiğini ve neyin eklenip çıkarıldığını gösterir.
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/92673cc8-e807-4f2e-851a-d591ddda0e2b)
+
+
+- Yukarıdaki örnekte, -m bayrağı ile birlikte commit mesajını doğrudan komut satırından ekledik. Commit mesajını daha detaylı bir şekilde eklemek için ise git commit komutunu çalıştırdığınızda bir metin düzenleyici açılır ve burada commit mesajınızı yazabilirsiniz.
+- Commit işlemi, Git'in temel prensiplerinden biridir ve projelerin geçmişini, işbirliği yapmayı ve hata ayıklamayı yönetmek için hayati bir rol oynar. Commitler, projenizin tarihini belgelemek için kullanılır ve gerektiğinde geçmiş sürümlere geri dönmenize olanak tanır. -m, git commit komutuyla birlikte kullanılan bir bayrak (flag) veya seçenektir. -m, commit mesajını komut satırında doğrudan girmenizi sağlar. Yani, -m bayrağı, commit mesajını bir metin dizesi olarak girme işlevi sağlar.
 
  ### Faydalı Git Komutları: clear
 
+ Git bash’de clear işlemi yapar ve tüm komut sistemi temizlenir. 
+
+ 
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/ae2fc741-1aa9-4e2d-a2aa-a34a14be6ca4)
+
+
  ### Faydalı Git Komutları: Projede Değişiklik Yapalım!
 
-### Faydalı Git Komutları: Projede İki Değişiklik Birden Yapalım!
+- Projede index.html sayfasında değişiklik gerçekleştirdik Çalıştığımız dizinde hangi alanda değişiklik yaptığımızı git status ile görebiliriz.Git status görüldüğü zaman dosyanın düzenlendiği bilgisi verilir. 
 
-### Faydalı Git Komutları: Projede İki Değişiklik Birden Yapalım!
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/d6ad9b3c-0a40-4426-82bb-16137bc69ca5)
+
+- Öncelikle tek bir dosya olduğu için geçiş bölgesine gönderirken git add index.html diyerek dosya dizininden geçiş bölgesine gönderilir. 
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/b014fab9-95ae-41e9-9334-3e4240ced317)
+
+- Yeni bir dosya ekleyelim.
+- Varolan dosyada değişiklik yapalım.
+- Touch yeni bir dosya eklenmesini sağlar.
+- Dosyan düzenlendi. Ancak untracked diye belirlemiş, çünkü bu dosya git’e henüz bildirilmedi. Local repo bilmediği dosya için izlenmemiş untrackked der. Staging areaya göndermek için git add –A dersek yaptığımız tüm değişiklikleri staging area’ya gönderir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/7590efb5-449f-4db4-85e5-6d16a2dfc70d)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/bbc2296a-e177-4fac-8798-2f850456e7a7)
 
 ### Faydalı Git Komutları: Bir dosyanın ismini değiştirelim!
 
-### Faydalı Git Komutları: Bir dosyanın ismini değiştirelim!
+Ls –al derseniz dosyaların isimlerini görmüş olursunuz. 
 
+Mv text.txt readme.txt
+Önceki dosya ismini silinmiş olarak algılar
+Yeni dosya ismini ise untracked olarak algılıyor.
+Git add . Veya git add –A diyebilirsiniz.
 
 ### Faydalı Git Komutları: Geçiş bölgesine gönderilen değişiklikler arası geçiş
 
