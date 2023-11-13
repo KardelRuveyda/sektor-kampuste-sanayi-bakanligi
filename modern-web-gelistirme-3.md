@@ -106,19 +106,148 @@ Bu genel Git iş akışı, projelerin yönetimini ve işbirliğini kolaylaştır
 
 ### Repository Kavramı
 
+Üzerinde çalışılan projeyle ilgili tüm dosyaları değişiklikleri, dallandırmalar bu repo üzerinde bulundurulur. 
+Projemizin zaman makinesi olarak düşünülebilir. İleri bir tarihe gidilebilir. Geri bir tarihe de gidilebilir. Repository Kavramı özetle bu anlama gelir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/3d544572-4280-40b5-b5b4-96ece9586063)
+
 ### Working Directory/Staging Area/Local Repository/Remote Repository
+
+Git'in genel çalışma akışı, dört ana bölümden oluşur ve bu bölümler arasındaki geçişler, Git iş akışının temelini oluşturur. 
+
+**Working Directory (Çalışma Dizini)**
+
+Bu, projenizin fiziksel dosyalarının saklandığı ve üzerinde çalıştığınız yerdir.
+Yaptığınız değişiklikler bu alanda bulunur.
+
+**Staging Area (Hazırlık Alanı)**
+
+Değişikliklerinizi Working Directory'den Staging Area'ya eklersiniz.
+Staging Area, bir sonraki commit (sürüm) için hangi değişikliklerin dahil edileceğini belirlemenizi sağlar.
+git add komutu ile değişiklikleri Staging Area'ya eklersiniz.
+
+**Local Repository (Yerel Depo)**
+
+Staging Area'daki değişiklikleri bir commit (sürüm) olarak kaydedebilirsiniz.
+Local Repository, tüm projenin geçmiş sürümlerini ve tarihçesini içerir.
+Değişiklikleri burada sakladıktan sonra geri alabilir ve geçmiş sürümlere dönebilirsiniz.
+
+
+**Remote Repository (Uzak Depo)**
+
+Projenin merkezi depo (repository) olarak düşünülür.
+Diğer geliştiricilerle işbirliği yapmak için kullanılır.
+Projeyi paylaşmak ve senkronize etmek için kullanılır.
+Uzak Depo, GitHub, GitLab, Bitbucket gibi platformlarda veya başka bir sunucuda bulunabilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/48f68a9a-02b6-4aa9-a2e6-35a4a6804b0b)
+
 
 ### Commit Kavramı ve Commit Mesajı Önemi
 
+Git için yapılan değişiklikleri kaydettiğimiz bir alandır. Yani yaptığımız değişiklikleri kaydediyoruz ve gönderiyoruz olarak düşünebiliriz. 
+
+**Özgün ve Açıklayıcı Olun**
+
+
+Commit mesajınız neyi değiştirdiğinizi ve neden değiştirdiğinizi açık bir şekilde ifade etmelidir.
+
+
+**Özgün Başlık Kullanın**
+
+
+Commit başlığınız kısa, özgün ve açıklayıcı olmalıdır.
+Başlık, bu değişikliği açıklayan bir anahtar kelime veya ifade içermelidir.
+
+
+**Ayrıntıları Alt Satıra Ekleyin**
+
+
+Commit başlığından sonra, ayrıntıları açıklamak için ikinci bir satır ekleyin.
+Ayrıntılar, neyi değiştirdiğinizi ve nedenini daha fazla açıklamalıdır.
+İş İlgili Referansları Ekleyin:
+
+İş akışınızı izlemek ve değişikliklerin nedenini anlamak için ilgili sorun numarası veya talep numarası gibi referansları eklemek iyi bir uygulamadır.
+
+**Zaman Etiketi Eklemeyin**
+
+Commit mesajınıza tarih veya saat eklemek yerine Git'in bu bilgiyi zaten sakladığını unutmayın.
+
+
+**İmla ve Dilbilgisine Dikkat Edin**
+
+Mesajınızın imla, dilbilgisi ve yazım kurallarına uygun olduğundan emin olun.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/bf2b2f86-d4bd-4b5a-9393-a51726cd5e05)
+
+
 ### Faydalı Git Komutları: git config
+
+
+- Kullanıcı adı email işlemleri kaydedilir. 
+- Config’den de kullanıcı bilgileri görünmüş olur.
+- git config, Git'in yapılandırma ayarlarını belirlemenizi ve yapılandırmalarınızı görüntülemenizi sağlayan bir Git komutudur.
+- Git'i daha iyi kişiselleştirmek, kullanıcı bilgilerini tanımlamak, proje özgü ayarları yapmak ve diğer Git ayarlarını kontrol etmek için kullanılır. git config komutu ile aşağıdaki türde yapılandırmaları belirleyebilirsiniz
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/828b5b1c-163f-4557-9709-27f2df408be7)
+
 
 ### Faydalı Git Komutları: git init
 
+- Local Repository oluşturmak için çalışma klasörünün içerisine git init denildiğinde boş bir git repository oluşturulur.
+- .git adında bir klasör oluşturulur.  Eğer bu klasör görülmediyse Hidden Items kısmı kapalıdır.
+- .git dosyası, bir Git deposunun (repository) kalbidir ve Git'in projeyi yönetmek, versiyon kontrolü yapmak ve geçmiş değişiklikleri izlemek için kullanıldığı bir dizi dosya ve alt klasörden oluşur. Bu dosyalar ve klasörler, projenin tam tarihçesini, dallarını, commit'lerini ve diğer Git verilerini içerir.
+
+**.git dosyası şunları içerir:**
+
+**objects**: Bu klasör, Git'in içindeki nesnelerin (bloklar ve ağaçlar) saklandığı yerdir. Bu nesneler, commit'lerin, ağaçların ve dosyaların sürüm bilgilerini içerir.
+
+**refs**: Bu klasör, daların (branches), etiketlerin (tags) ve diğer başvuruların depolandığı yerdir. Özellikle, refs/heads klasörü, projedeki tüm dalları ve onların son commit'leri içerir.
+
+**HEAD**: Bu dosya, şu an hangi dalın aktif olduğunu gösterir. Yani projenin şu anki konumunu belirler.
+
+**config**: Bu dosya, Git yapılandırma ayarlarını içerir. Kullanıcı bilgileri, uzak depo (remote repository) adresleri ve diğer yapılandırma seçenekleri burada saklanır.
+
+**index**: Bu dosya, Staging Area veya Hazırlık Alanı olarak bilinen alandaki değişikliklerin bir listesini içerir. Yani, bir sonraki commit'te hangi dosyaların dahil edileceğini belirler.
+
+**logs**: Bu klasör, Git'in tarihçe kayıtlarını (log) tuttuğu yerdir. Özellikle, refs/heads altındaki dalların değişiklikleri burada kaydedilir.
+
+.git dosyası, projenin tam tarihçesini ve Git'in yönetimini sağlamak için kritik bir rol oynar. Genellikle bu dosyayı elle düzenlemeniz gerekmez; çünkü Git, bu dosyaları otomatik olarak yönetir. Ancak, bu dosyaları incelemek ve anlamak, Git'i daha derinlemesine anlamanıza yardımcı olabilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/dedc4ad9-fd80-44c1-bc32-4708c30164d3)
+
+
 ### Faydalı Git Komutları: git status
+
+git status, Git komutlarından biridir ve mevcut çalışma dizinindeki değişiklikleri ve Git deposunun (repository) durumunu incelemenizi sağlar. Bu komut, Git ile çalışırken proje ve dosyalarınızın hangi aşamalarda olduğunu anlamanıza yardımcı olur. git status komutu aşağıdaki bilgileri sağlar:
+
+- **Değiştirilen Dosyalar (Modified Files):** Eğer çalışma dizinindeki dosyalarda değişiklikler varsa, bu dosyalar git status çıktısında listelenir. Bu değişiklikler henüz stajlanmış (Staging Area'ya eklenmemiş) durumdadır.
+- **Staging Area'da Bulunan Dosyalar (Staged Files):** Eğer bazı dosyalar Staging Area'ya eklenmişse, yani bir sonraki commit'te dahil edilmeyi bekliyorlarsa, bu dosyalar da git status çıktısında listelenir.
+**- Yeni Eklenen Dosyalar (New Files):** Eğer yeni oluşturulmuş dosyalar varsa ve henüz Staging Area'ya eklenmemişlerse, bu dosyalar git status çıktısında "untracked files" (izlenmeyen dosyalar) olarak gösterilir.
+**- Silinen Dosyalar (Deleted Files):** Eğer bir dosya silinmişse ve bu silme işlemi henüz commit edilmemişse, bu dosya da git status çıktısında görünür.
+- **Hangi Dalın Üzerinde Çalıştığınız (On branch):** Hangi dalın (branch) üzerinde olduğunuz git status çıktısında belirtilir. Bu, projenin hangi sürümünü düzenlediğinizi gösterir.
+- **Geçmiş ve Gelecekteki İşaretçiler (Your branch is ahead of 'origin/master' by 3 commits):** Eğer uzak bir depo (remote repository) ile senkronize değilseniz ve örneğin yerel depo daha fazla commit içeriyorsa, bu bilgi git status çıktısında görünür.
+
+git status komutunu düzenli olarak kullanmak, projenizdeki değişiklikleri ve durumu takip etmenize yardımcı olur. Bu, hangi dosyaların Staging Area'ya eklenmesi gerektiğini belirlemenize ve hangi dosyaların commit'e dahil edilmesi gerektiğini anlamanıza yardımcı olur.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/966da4bf-f730-4764-8bf3-2b5ede63ac06)
+
 
 ### Faydalı Git Komutları: git add .
 
+git add . komutu, Git ile çalışırken çalışma dizininde yapılan tüm değişiklikleri Staging Area (Hazırlık Alanı) olarak adlandırılan alana eklemek için kullanılır. Staging Area, bir sonraki commit (sürüm) için hangi değişikliklerin dahil edileceğini belirlediğiniz yerdir. Bu komut, değişiklikleri tüm dosyaları ve alt klasörleri içeren bir şekilde Staging Area'ya ekler.
+
+- **Tüm Değişiklikleri Ekleme:** git add . komutunu çalıştırdığınızda, çalışma dizinindeki tüm değişiklikler (yeni dosyalar, değiştirilen dosyalar ve silinen dosyalar) Staging Area'ya eklenir. Bu, mevcut çalışma dizininde yapılan tüm değişikliklerin bir sonraki commit'e dahil edilmesini sağlar.
+- **Hızlı ve Kapsamlı Ekleme:** Bu komut, tüm değişiklikleri toplu bir şekilde Staging Area'ya eklemenizi sağlar. Bu, birden fazla dosya üzerinde çalıştığınızda ve tüm değişiklikleri tek bir commit'te kaydetmek istediğinizde oldukça kullanışlıdır.
+-** Commit Öncesi Kontrol: **git status komutunu kullanarak hangi dosyaların Staging Area'da olduğunu ve hangilerinin henüz eklenmediğini kontrol edebilirsiniz. Bu, bir commit yapmadan önce son kontrolü yapmanıza yardımcı olur.
+
+**Not:** git add . komutu, tüm değişiklikleri ekler, ancak dikkatli kullanılmalıdır çünkü yanlışlıkla eklenmemesi gereken dosyaları da dahil edebilir. Değişiklikleri dikkatlice gözden geçirip sadece ilgili dosyaları Staging Area'ya eklemek, daha kontrollü ve temiz bir iş akışı sağlayabilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/85e992a6-421f-439a-8bfc-8c7efa3bbb3a)
+
 ### Faydalı Git Komutları: git commit
+
+
 
  ### Faydalı Git Komutları: clear
 
