@@ -97,6 +97,11 @@ NorthWind veya başka hazır veri tabanı kullanarak SQL çalışmalarımızı d
 
 ![Picture10](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/72779678-e1e7-4457-a22c-ff0fc703c4f2)
 
+### Temel SQL Komutları Giriş
+
+Structure Query Language namıdeğer SQL bir sorgulama dilidir. Bu sorgulama dilinin sorguladığı zat ise veritabanıdır. Yani o zaman SQL ‘e veritabanını sorgulama dili de diyebiliriz.
+SQL de aslında bir programlama dili gibidir. Bir programlama dili kadar kapsamlı olmasa da onun da kendine göre SYNTAX’ları vardır. Bir geliştirici gözü ile de bakıldığında; aslında bir projenin kilit noktalarından birisi de veritabanıdır. Bunu unutmamak gerekir. Veritabanının doğru tasarlanması hatta oluşturulan tablolardaki veri tiplerinin bile seçimi; ileride yapılan geliştirmelerde geliştiricinin karşısına avantaj olarak da çıkabilir; dezavantaj da..
+
 
 
 
