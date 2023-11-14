@@ -44,7 +44,7 @@ Microsoft SQL Server sürümleri; yazılımı, yazılımı geliştiren programc�
 
 - Bu alanda sürüm seçimi yapılmaktadır.
 - Express sürümünü veya Evaluation Sürümünü seçebilirsiniz.
-- **Evalation** : 180 günlük deneme sürümü
+- **Evulation** : 180 günlük deneme sürümü
 - **Developer:** Geliştiricilere yönelik lisanslamadır.
 - **Express :** Ücretsiz olan bir sürümdür .Database boyutu olarak en fazla 10 GB’a kadar desteklemektedir.
 
