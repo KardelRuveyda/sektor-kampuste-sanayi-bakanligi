@@ -23,7 +23,7 @@ ADD NewColumn_2 NVARCHAR(100)
 -- DDL sorgusunu kullanmam gerekir. O da Truncate metotudur. 
 Truncate table TestTable
 
--- Eklenen kolonları silmek için
+-- Eklenen kolonları silmek için 
 -- DDL sorgusu olan Drop kullanılır. 
 -- NewColumn_2 silindi.
 
