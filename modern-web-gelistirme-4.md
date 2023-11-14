@@ -1,4 +1,4 @@
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f2b04ba2-7ebd-48e4-8293-e25f470ce850)#  Modern Web Geliştirme 4
+## Modern Web Geliştirme 4
 
 ## Veri Tabanı Temelleri ( Veri tabanı yönetim sistemleri)
 
