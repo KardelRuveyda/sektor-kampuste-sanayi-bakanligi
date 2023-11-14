@@ -64,7 +64,9 @@ Microsoft SQL Server sürümleri; yazılımı, yazılımı geliştiren programc�
 
   ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e2792720-3c45-49ce-83fa-3ba6180984f4)
 
-- Aşağıdaki alanda karşınıza Feature Select alanı gelmektedir. Bu alanda ihtiyacınız olan alanları kurmanız daha sağlıklı olacaktır. Zaten burada işaretlemediklerinizi daha sonra ihtiyaç duyduğunuz takdirde Setup alanından tekrar kurabilirsiniz.Bu alanlarda Feature’ler ile ilgili özelliklere aşağıdaki linkten ulaşabilmeniz mümkündür.https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15
+- Aşağıdaki alanda karşınıza Feature Select alanı gelmektedir. Bu alanda ihtiyacınız olan alanları kurmanız daha sağlıklı olacaktır. Zaten burada işaretlemediklerinizi daha sonra ihtiyaç duyduğunuz takdirde Setup alanından tekrar kurabilirsiniz.
+- Bu alanlarda Feature’ler ile ilgili özelliklere aşağıdaki linkten ulaşabilmeniz mümkündür.
+- **Feature Özellikleri:** https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15
 
 ![Picture1](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/754f2244-0986-4aa0-a847-66d47827e003)
 
