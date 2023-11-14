@@ -88,36 +88,3 @@ Günümüzde bilgisayar ortamlarında tutulan ilişkisel veri tabanlarının man
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### C# Temelleri
-
-### .NET Core Temelleri
-
-### Monolith Mimari
