@@ -1,4 +1,4 @@
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/d373c6b5-640e-4f4a-80ec-8106209b830a)![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/ec23683c-1338-44ec-b56e-59e9aaafb731)![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/520a3132-94c7-400d-9890-309d5bb6c4cc)![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/9c8fa256-6527-4454-9ace-ab057506db97)![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/a5cf46b7-99b9-4ea0-be9d-eca4edf90c56)#  Modern Web Geliştirme 5
+#  Modern Web Geliştirme 5
 
 
 ## MSSQL Uygulamaları
