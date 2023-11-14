@@ -292,30 +292,160 @@ git commit, Git'in temel komutlarından biridir ve yerel depoya (local repositor
 
 ### Faydalı Git Komutları: Bir dosyanın ismini değiştirelim!
 
-Ls –al derseniz dosyaların isimlerini görmüş olursunuz. 
+- Ls –al derseniz dosyaların isimlerini görmüş olursunuz.
+- Mv text.txt readme.txt
+- Önceki dosya ismini silinmiş olarak algılar
+- Yeni dosya ismini ise untracked olarak algılanır.
+- Git add . Veya git add –A diyebilirsiniz.
 
-Mv text.txt readme.txt
-Önceki dosya ismini silinmiş olarak algılar
-Yeni dosya ismini ise untracked olarak algılıyor.
-Git add . Veya git add –A diyebilirsiniz.
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/2d75c466-f776-4f8c-9ff7-8f94934a7a30)
 
 ### Faydalı Git Komutları: Geçiş bölgesine gönderilen değişiklikler arası geçiş
 
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/abee22fa-9cd3-493e-922e-55664d20dd82)
+
+- İndex.html’de değişiklik yapalım. Sonrasında bu yaptığımız değişikliği geçiş bölgesine aldıktan sonra geçiş bölgesinden çıkaralım. 
+- Geçiş bölgesinden çıkardıktan sonra çalışma düzenine düşer. Oradan da çıkaralım!
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f73c7729-44b4-4cd2-b060-70817cf208c1)
+
 ### Faydalı Git Komutları: git log
 
+git log, Git deposundaki commit tarihçesini incelemek için kullanılan bir komuttur. Bu komut, projenizin geçmiş commit'lerini, kim tarafından yapıldığını, ne zaman yapıldığını, hangi commit mesajlarına sahip olduğunu ve commit kimliklerini (SHA-1 hash) görüntüler. git log, projenin evrimini izlemek, hata ayıklama yapmak, işbirliği yapmak ve projenin geçmiş sürümleri hakkında bilgi edinmek için çok önemli bir araçtır.
+
+**git log komutunun bazı yaygın kullanımları şunlardır:**
+
+- git log: Tüm commitleri tarih sırasına göre gösterir.
+- git log -n: En son n commit'i gösterir. Örneğin, git log -3, en son 3 commit'i gösterir.
+- git log --author=<author>: Belirli bir yazarın commit'lerini filtreler.
+- git log <branch>: Belirli bir dalın commit tarihçesini görüntüler.
+- git log --oneline: Her commit için yalnızca kısa bir kimlik ve commit mesajı gösterir.
+git log komutu, projenizin geçmişini anlamak, hata ayıklama yapmak ve işbirliği yapmak için oldukça önemli bir araçtır. Tüm commitleri tarih sırasına göre gösterir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/1dcd859c-7cdd-40f6-9515-731a8b169dc1)
+
 ### Faydalı Git Komutları: ZAMAN GERİYE AKSIN!
+
+Commitler içerisinde Birtakım değişiklikler commit’ine geri dönelim. Bunu yapabilmek için git checkout logId dememiz yeterlidir. Bu işlem yapıldığında Head kısmı o commit’e dönmüş olur. 
+Zaman makinesinde geriye gelinmiş oldu. Geriye gidebiliyorsak, ileriye de gidebiliriz. Tamamıyla geri gelmek değil de versiyonlar arasında geçiş yapılabilir. 
+
+git checkout, Git'in esnek bir komutu olup, proje çalışma dizinini değiştirmek ve farklı dallar arasında geçiş yapmak için kullanılır. Bu komut, işbirliği ve projenin farklı sürümleri arasında geçiş yapma yeteneği sağlar. git checkout komutu aşağıdaki temel amaçlar için kullanılır:
+
+**Dallar Arasında Geçiş Yapma:**
+
+git checkout <branch> komutu, farklı projelerin dalları arasında geçiş yapmanıza olanak tanır. Örneğin, bir geliştirme dalından ana dala geçiş yapabilirsiniz.
+
+**Belirli Bir Commit'e Geri Dönme:**
+
+
+git checkout <commit> komutu, belirli bir commit'in durumuna geri dönmeyi sağlar. Bu, projenizin geçmiş sürümlerini incelemek veya bir hatayı düzeltmek için kullanışlıdır.
+Dosyaları veya Dalları İşaretleme (tagging):
+
+git checkout komutu, etiketleri (tags) veya dal isimlerini kullanarak belirli bir projenin sürümünü işaretlemek için kullanılabilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/a433db58-ffbe-43ce-b1b2-696b4ed9f195)
+
 
 
 ### Faydalı Git Komutları: Gidip de dönmek istemezsek?
 
+**İki yol vardır. Revert ve Reset**
+
+git revert, Git'te bir önceki commit'in değişikliklerini geri almak için kullanılan bir komuttur. Bu komut, mevcut bir dal üzerindeki son commit'i geri alır ve bu değişiklikleri yeni bir commit ile kaydeder. git revert işlemi, geçmiş commit'lerin değiştirilmesi yerine, yeni bir commit ekleyerek geçmiş bir hatanın düzeltilmesine veya istenmeyen bir değişikliğin geri alınmasına olanak tanır.
+
+**git revert komutunu kullanmanın temel nedenleri şunlar olabilir:**
+
+
+- **Hatalı bir commit'i geri almak:** Eğer son commit'inizde bir hata yaptıysanız, bu hatayı düzeltmek için git revert kullanabilirsiniz. Yeni bir commit ile hata düzeltilir ve geçmiş sürüm korunur.
+- **Bir değişikliği geri almak:** Eğer bir önceki commit'de eklediğiniz bir değişikliği geri almak isterseniz, git revert bu değişikliği geri almanıza yardımcı olur.
+- **İşbirliği durumlarında kullanım:** Ekip içindeki diğer geliştiricilerin çalışmalarını bozmamak için git revert, daha önce paylaşılmış olan bir commit'i düzeltebilmeniz için kullanışlıdır. Bu, geçmişteki bir hata veya eksiklik durumunda kullanışlıdır.
+
+git revert komutu, geçmiş commit'leri korurken hataları düzeltmek veya değişiklikleri geri almak için kullanışlı bir araçtır. Bu sayede geçmiş sürümleri bozmamanız ve işbirliği içinde çalışmanız mümkün olur.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/8d47fa33-16ad-4e7d-b6a4-efc17c94d8d9)
+
+
 ### Faydalı Git Komutları: Sil Baştan Başlamak Gerek Bazen!
 
+**git reset**, Git'te bir önceki commit'leri veya projenizin durumunu değiştirmek için kullanılan bir komuttur. Bu komut, projenin tarihçesini değiştirir ve belirli commit'leri geri alabilir veya birleştirebilir. git reset komutu, farklı modlarıyla gelir ve hangi modun kullanıldığına bağlı olarak farklı işlevlere sahiptir. 
+
+- **Soft Reset (git reset --soft):** Bu mod, belirli bir commit'i geri alır, ancak yapılan değişiklikleri çalışma dizini (working directory) ve Staging Area'da (Hazırlık Alanı) korur. Yani, geri alınan commit sonrası değişiklikleri tekrar inceleme ve yeni bir commit oluşturma fırsatı sunar.
+- **Mixed Reset (git reset --mixed):** Bu mod, belirli bir commit'i geri alır ve Staging Area'daki değişiklikleri siler, ancak çalışma dizinindeki değişiklikleri korur. Bu, commit'e gitmeyi unuttuğunuz veya hatalı bir commit'i düzeltmeniz gerektiğinde kullanışlıdır.
+- **Hard Reset (git reset --hard):** Bu mod, belirli bir commit'i geri alır ve bu commit sonrası yapılan tüm değişiklikleri tamamen siler. Bu, bir commit'i veya bir dizi commit'i geri almak ve değişiklikleri tamamen kaldırmak istediğinizde kullanılır.
+
+git reset, özellikle projenizin geçmişini yönetirken veya hatalı commit'leri düzeltirken kullanışlıdır. Ancak dikkatli kullanılmalıdır çünkü projedeki değişiklikleri geri alabilir ve bu değişiklikler kaybolabilir. Bu nedenle, bu komutu kullanmadan önce dikkatlice düşünmelisiniz.
+
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/0990aee0-8b13-4664-a628-ad92f66648c0)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/28f12cea-5499-490f-a5df-59c70d34b427)
+
+
 ### Faydalı Git Komutları: Git ignore
+
+- Repository üzerinden takip edilmesini istenmeyen dosyalar bu dosyada tutulur.
+- .gitignore dosyası tutulmalıdır.
+- .gitignore dosyası en başta oluşturulmalıdır. Sonradan oluşturulduğunda hemen algılanmayabilir. O nedenle cacheleri temizlemek gerekir.  
+
+
+**.gitignore dosyasının kullanımı şunlara hizmet eder:**
+
+
+- **Üretilen Dosyaları veya Derleme Çıktılarını İzlememek:** Projenizin derleme çıktıları, geçici dosyalar veya projenin çalışması sırasında üretilen dosyalar genellikle .gitignore dosyasına eklenir. Bu, bu tür dosyaların Git tarihçesine dahil edilmemesini sağlar.
+- **Dosyaları veya Gizli Bilgileri Korumak:** API anahtarları, şifreler veya başka hassas bilgiler, .gitignore ile korunabilir. Bu sayede bu tür bilgilerin Git tarihçesinde saklanmasının önüne geçilir.
+- **Geçici Dosyaları İzlememek:** Geçici dosyalar ve veritabanı yedeklemeleri, Git tarihçesine eklenmemesi gereken dosyalardır. .gitignore, bu tür dosyaları izlemeden korumanıza yardımcı olur.
+
+.gitignore dosyası, projenin daha temiz ve daha yönetilebilir olmasına yardımcı olur. Ayrıca, hassas bilgilerin Git tarihçesine eklenmesini önler ve gereksiz dosyaları paylaşarak projeyi daha hızlı hale getirir. Bu nedenle, Git depolarını oluştururken ve paylaşırken .gitignore dosyası oluşturmak önemlidir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/b084ba0a-ddb3-4581-902b-fc163ec3f707)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/b11f32e6-1f76-4d24-b3ec-08df6afde74e)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/b7317b8b-f3f4-4c4d-bc57-86f9c7065df7)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f827be69-4d17-4646-a75b-8cd4093ba012)
 
 
 ### Faydalı Git Komutları: Git Branching
 
+Üzerinde çalışılan projenin farklı geliştirmeler için farklı dallara ayrılmasını sağlar. 
+Örneğin bir projede html ile ilgili değişikliklerden bir kişi sorumlu olsun, css ile ilgili gelişmelerden bir kişi sorumlu olsun. Bu kişilerin çalışmalarının engelenmemesi için branch mantığından yararlanılır. Ayrı ayrı branchlerde çalışarak sonrasında hepsi master’a merge işlemini gerçekleştirebilirler. 
+Master’ın kendisini de bir dal olarak düşünebilirsiniz. 
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/a410d32e-5226-4b15-bc1c-20d7553a5a67)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/aa7e45ff-9562-45bd-b40b-0f7b5596ba0d)
+
+
 ### Faydalı Git Komutları: git clone
 
+git clone komutu, bir uzak depoyu kopyalayarak yerel bir kopyasını oluşturmanıza yardımcı olan bir Git komutudur. Bu komut, ornek-repo adlı uzak depoyu GitHub'dan kopyalayarak, mevcut dizinde bir ornek-repo dizini oluşturur ve bu depoyu bu dizine klonlar.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/a5824090-5256-4c0b-b008-89f7184798f8)
+
+
 ### Faydalı Git Komutları: Projeyi Github‘a atalım!
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/38dd5bc0-dbc2-4a11-9d2d-6c052ef44a7a)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e9c91d9b-633f-4809-87a0-cb9b25d0380d)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/642aeff9-f0a1-41b0-aa9e-986784aafb72)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/9d05c386-2d8f-4833-8270-66baf99defd7)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/d52258bf-bd5e-445b-9544-c39fbe849d9f)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/17a5e3e2-3c11-4fa9-b214-27b8a07eff35)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/800fe0cd-ad23-4e43-957d-f87a322e6206)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/63ffd0d7-ef2c-4373-b21e-38aee792d612)
+
+
+### Faydalı olabilecek bir Cheat-Sheet!
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/218d3889-f6fd-4d90-80ea-c53d910233a4)
 
