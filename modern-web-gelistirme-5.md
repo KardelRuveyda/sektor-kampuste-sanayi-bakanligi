@@ -42,8 +42,11 @@ Microsoft SQL Server sürümleri; yazılımı, yazılımı geliştiren programc�
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/cdb924f9-f115-46bb-994d-c4fa368d1142)
 
-- Bu alanda sürüm seçimi yapılmaktadır. Express sürümünü veya Evaluation Sürümünü seçebilirsiniz.
-Evalation : 180 günlük deneme sürümüDeveloper: Geliştiricilere yönelik lisanslamadır.Express : Ücretsiz olan bir sürümdür .Database boyutu olarak en fazla 10 GB’a kadar desteklemektedir.
+- Bu alanda sürüm seçimi yapılmaktadır.
+- Express sürümünü veya Evaluation Sürümünü seçebilirsiniz.
+- **Evalation** : 180 günlük deneme sürümü
+- **Developer:** Geliştiricilere yönelik lisanslamadır.
+- **Express :** Ücretsiz olan bir sürümdür .Database boyutu olarak en fazla 10 GB’a kadar desteklemektedir.
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/0a58bd10-ab43-4cf5-b984-d72d48465bbe)
 
