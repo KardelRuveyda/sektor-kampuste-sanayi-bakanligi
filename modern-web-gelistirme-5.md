@@ -60,7 +60,7 @@ Microsoft SQL Server sürümleri; yazılımı, yazılımı geliştiren programc�
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/cb215b10-2013-48d0-9ff6-2d6c54f27ac6)
 
-- Yandaki alanda Firewall ile ilgili uyarı verilmektedir. Uyarıda ilgili portların açık olmaması; Windows Firewall’ı disable edebilir.
+- Aşağıdaki alanda Firewall ile ilgili uyarı verilmektedir. Uyarıda ilgili portların açık olmaması; Windows Firewall’ı disable edebilir.
 
   ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e2792720-3c45-49ce-83fa-3ba6180984f4)
 
@@ -82,7 +82,8 @@ Microsoft SQL Server sürümleri; yazılımı, yazılımı geliştiren programc�
   
 ![Picture5](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/1fd4fdae-0adf-4db3-bf21-48d16c3b7d16)
 
-- Yandaki alanda ise Database dosyalarının hangi konumda barındırılacağı seçilir.-Seçtiğiniz disklerin ayırma boyutları 64K olmalıdır.-Database ve Log ayrı disklerde olmalıdır.
+- Aşağıdaki alanda ise Database dosyalarının hangi konumda barındırılacağı seçilir.
+- -Seçtiğiniz disklerin ayırma boyutları 64K olmalıdır.-Database ve Log ayrı disklerde olmalıdır.
   
 ![Picture6](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/092f1880-7541-43e4-a7d1-fb1e3e884c20)
 
