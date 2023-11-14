@@ -3,6 +3,8 @@
 
 ## MSSQL Uygulamaları
 
+-> [https://www.w3schools.com/ ](https://www.w3schools.com/sql/default.asp) ( SQL ile ilgili alıştırmalara bu siteden de bakabilirsiniz.) 
+
 ### SQL Nedir?
 
 Structured Query Language kelimelerinin kısaltılmışı olan SQL bir veri tabanı uygulamasıdır. Türkçe karşılığı Yapılandırılmış Sorgu Dili anlamına gelmektedir.
