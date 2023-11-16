@@ -12,7 +12,7 @@ create table TestTable(
 
 -- YeniSutun diye bir alan eklemek istiyorum. ( int tipinde ) 
 ALTER TABLE TestTable
-ADD NewColumn int default 0
+ADD NewColumn int
 
 -- -- YeniSutun diye bir alan eklemek istiyorum. ( NVARCHAR tipinde ) 
 
