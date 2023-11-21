@@ -60,6 +60,11 @@ where ProductName like '%Alice'
 select * from Products
 where ProductName like '%Alice%'
 
+-- İçerisinde Alice ile biten olmayan ( Not Like )   
+select * from Products
+where ProductName NOT LIKE '%Alice'
+
+
 --Birden fazla kayıt için 
 -- CategoryId 1 yada 2 yada 3 olanlar
 -- Or komutunu kullanırız.
