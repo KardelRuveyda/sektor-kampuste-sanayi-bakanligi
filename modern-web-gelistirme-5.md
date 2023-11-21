@@ -1,4 +1,4 @@
-#  Modern Web Geliştirme 5
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/05b506c2-a25a-48ea-9ba4-7d3cea759777)![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fdca60fd-ac30-4bc2-9980-845fe12fb20d)#  Modern Web Geliştirme 5
 
 
 ## MSSQL Uygulamaları
@@ -48,7 +48,9 @@ Microsoft SQL Server sürümleri; yazılımı, yazılımı geliştiren programc�
 - **Developer:** Geliştiricilere yönelik lisanslamadır.
 - **Express :** Ücretsiz olan bir sürümdür .Database boyutu olarak en fazla 10 GB’a kadar desteklemektedir.
 
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/0a58bd10-ab43-4cf5-b984-d72d48465bbe)
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/0a58bd10-a
+
+b43-4cf5-b984-d72d48465bbe)
 
 - Lisans şartları kabul edilir.
 
@@ -112,6 +114,26 @@ NorthWind veya başka hazır veri tabanı kullanarak SQL çalışmalarımızı d
 
 Structure Query Language namıdeğer SQL bir sorgulama dilidir. Bu sorgulama dilinin sorguladığı zat ise veritabanıdır. Yani o zaman SQL ‘e veritabanını sorgulama dili de diyebiliriz.
 SQL de aslında bir programlama dili gibidir. Bir programlama dili kadar kapsamlı olmasa da onun da kendine göre SYNTAX’ları vardır. Bir geliştirici gözü ile de bakıldığında; aslında bir projenin kilit noktalarından birisi de veritabanıdır. Bunu unutmamak gerekir. Veritabanının doğru tasarlanması hatta oluşturulan tablolardaki veri tiplerinin bile seçimi; ileride yapılan geliştirmelerde geliştiricinin karşısına avantaj olarak da çıkabilir; dezavantaj da..
+
+## Veri Tipleri
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/688260aa-caed-4c1e-bf46-b714f4201027)
+
+
+
+## Yerleşik Fonksiyonlar
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/ff3692ee-d153-41c1-a2d0-0699412c1d00)
+
+## SQL komutlarına bakıldığında ; iki şekilde değerlendirillir!**
+- Data'yı çeken,
+- Data'yı değiştiren
+
+## DML & DDL Farkı
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f2a38a26-e0e0-4641-a24e-ee52ce67a74e)
+
+
 
 
 
