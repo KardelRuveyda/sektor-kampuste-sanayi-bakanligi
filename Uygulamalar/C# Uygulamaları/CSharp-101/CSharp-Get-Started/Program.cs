@@ -12,6 +12,15 @@ Console.WriteLine(2 + 2);
 //Yorum Satırı İşlemleri
 // Yorum satırına almak için // kullanabilirsiniz. 
 // Çoklu satırları yorum satına almak için ise  "/*" başlayıp "*/"
+
+/*
+Console.WriteLine("Test");
+Console.WriteLine("Test 2");
+Console.WriteLine("Test 3");
+Console.WriteLine("Test 4");
+*/
+
+
 #endregion
 
 
