@@ -11,7 +11,7 @@ Console.WriteLine(2 + 2);
 #region 2-) Yorum Satırı İşlemleri
 //Yorum Satırı İşlemleri
 // Yorum satırına almak için // kullanabilirsiniz. 
-// Çoklu satırları yorum satına almak için ise  "/*" başlayıp "/*"
+// Çoklu satırları yorum satına almak için ise  "/*" başlayıp "*/"
 #endregion
 
 
