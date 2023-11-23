@@ -129,7 +129,7 @@ SQL de aslında bir programlama dili gibidir. Bir programlama dili kadar kapsam
 - Data'yı çeken,
 - Data'yı değiştiren
 
-## DML & DDL Farkı
+## DDL & DML Farkı
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f2a38a26-e0e0-4641-a24e-ee52ce67a74e)
 
