@@ -81,8 +81,36 @@ select * from Products
 where UnitPrice>=18 and UnitPrice<=40
 
 --Between komutu da kullanılabilir.
-
 select * from Products
 where UnitPrice BETWEEN 18 and 40
+
+-- Insert Data Manipulation
+insert into TestTable(name,surname,age)
+values('kardel','test',18)
+
+--Kayıt eklenmiş mi kontrol et
+select * from TestTable
+
+--spesifik bir kayıt çek
+select * from TestTable
+where id= 1 
+
+--Update Data Manipulation
+update TestTable
+set age = 17
+where id =1
+
+--Güncelleme gerçekleştirdikten sonra kontrol et
+select * from TestTable
+where id= 1 
+
+--Delete Data Manipulation 
+delete from TestTable
+where id =1 
+
+-- Silme işlemin gerçekleştirdikten sonra kontrol et
+select * from TestTable
+where id= 2
+
 
 
