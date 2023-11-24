@@ -212,4 +212,5 @@ Son olarak, programlama dili seçiminiz kişisel tercihlerinize ve ilgilerinize 
 
 Programlama dili seçimi, projenizin gereksinimlerine, becerilerinize ve kariyer hedeflerinize bağlı olarak değişebilir. Bu nedenle dikkatli bir analiz ve araştırma yaparak doğru dili seçmek önemlidir.
 
+**Önemli Not** : Programlama dili seçiminde genellikle daha büyük projeler için önemli faktör: "Performans ve Verimlilik"
 
