@@ -25,7 +25,7 @@ where UnitPrice>53 and UnitsInStock<42
 --Tablodaki ortalama fiyatı getirme
 select AVG(UnitPrice) as Ortalama_Fiyat from Products
 
---Yuvarlama ortalama
+--Yuvarlama ortalama: Küsüratlı bir sayıyıyı yuvarlama işlemi
 select CEILING(AVG(UnitPrice)) from Products
 
 -- Tablodaki stock oranlarının toplamı getirme
