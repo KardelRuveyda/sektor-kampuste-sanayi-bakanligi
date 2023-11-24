@@ -131,6 +131,8 @@ SQL de aslında bir programlama dili gibidir. Bir programlama dili kadar kapsam
 
 ## DDL & DML Farkı
 
+DDL ifadeleri genellikle bir veritabanı yöneticisi veya veritabanı yapısını değiştirmek için uygun ayrıcalıklara ve izinlere sahip bir geliştirici tarafından yürütülür. DML, bir veritabanındaki verileri değiştirmek için kullanılır. DML ifadeleri, bir veritabanına veri eklemek, güncellemek ve silmek için kullanılır.
+
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f2a38a26-e0e0-4641-a24e-ee52ce67a74e)
 
 
