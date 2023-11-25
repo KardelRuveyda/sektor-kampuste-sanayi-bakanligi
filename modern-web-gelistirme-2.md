@@ -365,10 +365,10 @@ Her gün yapılan rutin toplantılardır. Bu toplantılarda amaç şu üç soruy
 - Bu toplantılarda müşterinin ürünle ilgili eksiklikler de ortaya çıkabilir. Müşteri nezninde bu eksiklikler sonraki sprint için birer backlog maddesi olabilir.
 - Toplantıya Product Owner, Development Team, Agile Coach ve müşteri (isteğe bağlı) katılır.
 ### Retrospectives
-- Müşteriyle degil ekiple alakalı bir toplantıdır.
+- Müşteriyle **degil** ekiple alakalı bir toplantıdır.
 - Ekip kendi kendini eleştirir. Neyi iyi yapıp neyi kötü yaptığını tespit etmeye çalışır.
-- Scrum Master ile birlikte sürecin nasıl iyileştirileceği tartışılır. Bu toplantılarda Scrum Master yol gösterici kimliği ile bulunduğundan etkisi büyüktür.
-- PO,Agile Coach ve ekibin tamamı katılır.
+- Scrum Master ile birlikte sürecin nasıl iyileştirileceği tartışılır. **Bu toplantılarda Scrum Master yol gösterici kimliği ile bulunduğundan etkisi büyüktür.**
+- Product Owner,Agile Coach,Scrum Master, Development Team ve **ekibin tamamı** katılır.
 
 **Son olarak aklımızdan çıkarmayalım ve uygulayalım! Shu Ha Ri 😊**
 
