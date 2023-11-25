@@ -168,9 +168,11 @@ Başlık, bu değişikliği açıklayan bir anahtar kelime veya ifade içermelid
 
 Commit başlığından sonra, ayrıntıları açıklamak için ikinci bir satır ekleyin.
 Ayrıntılar, neyi değiştirdiğinizi ve nedenini daha fazla açıklamalıdır.
-İş İlgili Referansları Ekleyin:
 
-İş akışınızı izlemek ve değişikliklerin nedenini anlamak için ilgili sorun numarası veya talep numarası gibi referansları eklemek iyi bir uygulamadır.
+
+**İş İlgili Referansları Ekleyin:**
+
+İş akışınızı izlemek ve değişikliklerin nedenini anlamak için ilgili **sorun numarası veya talep numarası** gibi referansları eklemek iyi bir uygulamadır.
 
 **Zaman Etiketi Eklemeyin**
 
