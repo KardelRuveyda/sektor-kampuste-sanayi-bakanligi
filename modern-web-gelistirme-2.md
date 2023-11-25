@@ -226,7 +226,7 @@ Yazılım ekibi; işi yapmakla yükümlü olan,plan ve iterasyonlara bağlı ola
 - Başlanmış olan işlerin sayısı veya büyüklüğü sınırlanmalıdır.
 - Süreklilikte etkin ekip üyeleri olması avantajdır.
 - Farklı yetkinliklerden farklı bilgilere sahip olan kişiler olmasında yarar vardır. (Cross-Functional)
-- Fiziken aynı ortamda olmaları iletişimin gücü ve verimliliği açısından önemlidir. Bu nedenle şirketlerde agile takımlar genellikle çevreden izole olmuş ve bir arada yaşayabilecekleri odalarda çalışırlar. Pandemi şartlarında ise yukarıda da belirttiğimiz üzere çeşitli çevrimiçi araçlarla bu fiziki ortamı sanal dünyaya taşırlar.
+- Fiziken aynı ortamda olmaları iletişimin gücü ve verimliliği açısından önemlidir. Bu nedenle şirketlerde agile takımlar genellikle çevreden izole olmuş ve bir arada yaşayabilecekleri odalarda çalışırlar. Ancak pandemi şartlarında çeşitli çevrimiçi araçlarla bu fiziki ortamı sanal dünyaya taşırlar.
 - Her bilgi ile ilgili ufak da olsa bilgisi olan ve takımı kuvvetlendiren takım arkadaşlarına T-Shaped adı da verilir. T-Shaped yaklaşımındaki takım arkadaşlarının her alanda bilgisi ufak da olsa vardır. Tek bir alanda da kendini tam anlamıyla geliştirmiştir ve derin bilgileri vardır.
 - I-Shaped ise bir konuda uzmanlığım var, başka bir şeye bakmam yaklaşımında olan çalışanlardır. Bu çalışanların bir konuda derin bilgisi ve uzmanlığı bulunmaktadır. Eğer bildikleri konu ile ilgili sorun yaşanırsa adres bellidir.
 Üstlendiği rol itibariyle Feautereler, User Storyler ve bunların tamamlanıp tamamlanamadığı konusunun takip edilmesi Product Owner sorumluluğundadır.
