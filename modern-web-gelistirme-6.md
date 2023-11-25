@@ -125,6 +125,15 @@ Başkalarının (veya kendinizin) mevcut değerlerin üzerine yazmasını istemi
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/d530d895-f385-4273-96b1-dd0ffb5c05d5)
 
+**Sayısal değerler için + karakteri matematiksel bir operatör olarak çalışır (burada int (tamsayı) değişkenleri kullandığımıza dikkat edin):**
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/b41366d9-4e09-4617-9fed-466b807e41b8)
+
+**_Yukarıdaki örnekten şunu bekleyebilirsiniz:_**
+- x, 5 değerini saklar
+- y, 6 değerini saklar
+Ardından, 5 olan x + y değerini görüntülemek için WriteLine() yöntemini kullanırız.
+
 
 
 
