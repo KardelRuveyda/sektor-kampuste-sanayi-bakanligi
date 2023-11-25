@@ -114,6 +114,19 @@ Başkalarının (veya kendinizin) mevcut değerlerin üzerine yazmasını istemi
 
 **Not:** Değer atamadan sabit bir değişken bildiremezsiniz. Bunu yaparsanız bir hata oluşur: Bir const alanı için bir değer sağlanması gerekir.
 
+#### Ekran Değişkenleri
+
+- WriteLine() yöntemi genellikle değişken değerlerini konsol penceresinde görüntülemek için kullanılır.
+- Hem metni hem de bir değişkeni birleştirmek için + karakterini kullanmak gerekir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/ae9a560e-6874-4d7e-8a60-08dbde1026f0)
+
+**Bir değişkeni başka bir değişkene eklemek için + karakterini de kullanabilirsiniz:**
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/d530d895-f385-4273-96b1-dd0ffb5c05d5)
+
+
+
 
 
 
