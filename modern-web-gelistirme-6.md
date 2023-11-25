@@ -66,7 +66,7 @@ Yorumlar, C# kodunu açıklamak ve daha okunabilir hale getirmek için kullanıl
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/1b41b18b-127d-49d3-b126-f347aad39b25)
 
-#### C# Değişkenleri
+### C# Değişkenleri
 
 Değişkenler, veri değerlerini saklamak için kullanılan kaplardır. C#'ta farklı değişken türleri vardır (farklı anahtar kelimelerle tanımlanır), örneğin:
 
@@ -75,6 +75,49 @@ Değişkenler, veri değerlerini saklamak için kullanılan kaplardır. C#'ta fa
 - **char** - 'a' veya 'B' gibi tek karakterleri saklar. Char değerleri tek tırnak işaretiyle çevrelenir
 - **string** - "Merhaba Dünya" gibi metinleri saklar. String değerleri çift tırnak ile çevrelenir
 - **bool** - iki durumlu değerleri saklar: doğru veya yanlış
+
+#### Değişken Bildirme (Oluşturma)
+
+- Bir değişken oluşturmak için türünü belirtmeli ve ona bir değer atamalısınız.
+- Burada type bir C# türüdür (int veya string gibi) ve variableName değişkenin adıdır (x veya name gibi). Eşittir işareti değişkene değer atamak için kullanılır.
+
+
+**string türünde name adında bir değişken oluşturun ve ona "Kardel" değerini atama.**
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/d5b22f08-b933-4987-8429-430c632565d5)
+
+**int türünde myNum adında bir değişken oluşturun ve ona 61 değerini atama.**
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/c751aff6-32c0-41b8-a569-8b8c36ec4d97)
+
+**Ayrıca bir değişkeni değer atamadan da bildirebilir ve değeri daha sonra atayabilirsiniz**
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f54dedc7-3060-45cf-a29c-0f01b8823719)
+
+**Mevcut bir değişkene yeni bir değer atarsanız, bu değerin önceki değerin üzerine yazılacağını unutmayın.**
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/39a168f3-b974-4e80-954a-637bc1f94e80)
+
+#### Diğer Tipler
+
+Diğer türlerdeki değişkenlerin nasıl bildirileceğine dair bir gösterim aşağıdaki gibidir!
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/5c7303ad-769e-4243-b391-7ba5cc308e77)
+
+#### Constants
+
+Başkalarının (veya kendinizin) mevcut değerlerin üzerine yazmasını istemiyorsanız, değişken türünün önüne const anahtar sözcüğünü ekleyebilirsiniz.Bu, değişkeni değiştirilemez ve salt okunur anlamına gelen "sabit" olarak bildirecektir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/98b12ebf-e73a-4687-a72c-a144fe0d00e2)
+
+**const** anahtar sözcüğü, bir değişkenin her zaman aynı değeri saklamasını istediğinizde kullanışlıdır, böylece başkaları (veya kendiniz) kodunuzu karıştırmaz. Genellikle sabit olarak anılan bir örnek PI (3.14159...) değeridir.
+
+**Not:** Değer atamadan sabit bir değişken bildiremezsiniz. Bunu yaparsanız bir hata oluşur: Bir const alanı için bir değer sağlanması gerekir.
+
+
+
+
+
 
 
 
