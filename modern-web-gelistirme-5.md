@@ -152,10 +152,6 @@ Bu fonksiyonlar bir sütunda yer alan tek bir değere işlem yapar ve tek bir de
 - **UCASE() :** Bir alan değerini büyük harfe çevirir.
 
 
-
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/ff3692ee-d153-41c1-a2d0-0699412c1d00)
-
 ## SQL komutlarına bakıldığında ; iki şekilde değerlendirillir!**
 - Data'yı çeken,
 - Data'yı değiştiren
