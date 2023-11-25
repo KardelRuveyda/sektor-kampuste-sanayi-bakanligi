@@ -95,7 +95,9 @@ Proje yönetimi, belirli bir hedefi veya sonucu elde etmek için planlama, uygul
 
 
 
-Proje yönetimi, her türlü proje için geçerli olabilir, örneğin inşaat projeleri, yazılım geliştirme projeleri, pazarlama kampanyaları veya organizasyonel değişiklikler gibi farklı türdeki projeler için kullanılır. Proje yönetimi, hedeflerin daha verimli bir şekilde ulaşılmasını sağlar ve riskleri minimize etmek için önemli bir araçtır. Birçok farklı proje yönetimi metodolojisi ve araçları bulunmaktadır, örneğin PMP (Project Management Professional), PRINCE2 ve Agile gibi. Bu metodolojiler, farklı projelerin ihtiyaçlarına ve gereksinimlerine uygun olarak seçilir.
+Proje yönetimi, her türlü proje için geçerli olabilir, örneğin inşaat projeleri, yazılım geliştirme projeleri, pazarlama kampanyaları veya organizasyonel değişiklikler gibi farklı türdeki projeler için kullanılır. Proje yönetimi, hedeflerin daha verimli bir şekilde ulaşılmasını sağlar ve riskleri minimize etmek için önemli bir araçtır. Birçok farklı proje yönetimi metodolojisi ve araçları bulunmaktadır, örneğin PMP (Project Management Professional), PRINCE2 ve Agile gibi. Bu metodolojiler, farklı projelerin ihtiyaçlarına ve gereksinimlerine uygun olarak seçilir. 
+
+*_*Proje ilerlemesinin izlenmesi ve kontrol edilmesi, projenin sonlandırılmasına kadar devam eder.**_
 
 
 ### Öğrencilerden Gelen Proje Yönetimi Tanımlamaları
