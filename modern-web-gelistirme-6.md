@@ -28,4 +28,3 @@
 - https://visualstudio.microsoft.com/vs/community/ adresinden ücretsiz olarak indirebilirsiniz.
 - C# ile yazılan uygulamalar .NET Framework'ü kullanır, bu nedenle program, çerçeve ve dil Microsoft tarafından oluşturulduğundan Visual Studio'yu kullanmak mantıklıdır.
 
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/63487305-36ab-46f8-8b79-4891f72392bf)
