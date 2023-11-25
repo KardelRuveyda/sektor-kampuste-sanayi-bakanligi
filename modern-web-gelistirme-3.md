@@ -219,6 +219,12 @@ Mesajınızın imla, dilbilgisi ve yazım kurallarına uygun olduğundan emin ol
 
 .git dosyası, projenin tam tarihçesini ve Git'in yönetimini sağlamak için kritik bir rol oynar. Genellikle bu dosyayı elle düzenlemeniz gerekmez; çünkü Git, bu dosyaları otomatik olarak yönetir. Ancak, bu dosyaları incelemek ve anlamak, Git'i daha derinlemesine anlamanıza yardımcı olabilir.
 
+**Örnek bir .git klasörü**
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fbdf3748-f208-4342-a294-ff5e47336e2f)
+
+
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/dedc4ad9-fd80-44c1-bc32-4708c30164d3)
 
 
