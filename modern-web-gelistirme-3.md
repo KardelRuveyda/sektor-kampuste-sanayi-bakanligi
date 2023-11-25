@@ -13,15 +13,18 @@ Git açık kaynak kodlu bir versiyon sürüm kontrol sistemidir
 
 ### Neden git ?
 
+**_Koyuyla belirttiklerime dikkat! :)_**
+
 - Geliştirme süreçlerini izlemek
-- Projede yapılan değişikliklerin nerede ve ne zaman yapıldığı izlenmek 
-- Yanlış veya hatalı işlem yapıldığında daha önceki düzgün çalışılan versiyona dönmek istenebilir. 
 
+- **Projede yapılan değişikliklerin nerede ve ne zaman yapıldığı izlenmek**
 
-Projelerde birden fazla kişi çalıştığını düşünürsek, gelişimin hızlanmasını sağlar.
-Projede geliştirme yaparken, bulunduğumuz konuma nereden geldiğimizi anlamak için eski ve yeni kodumuz arasında karşılaştırma yapmamızı sağlar.
-Projede hatayla karşılaştığımız durumlarda eski kod kaydına dönmemizi sağlar.
-Açık kaynaklı projeler baz alınarak geliştirilecek yeni projelerde, süreci kolaylaştırmayı sağlar.
+- **Yanlış veya hatalı işlem yapıldığında daha önceki düzgün çalışılan versiyona dönmek istenebilir.**
+
+- **Projelerde birden fazla kişi çalıştığını düşünürsek, gelişimin hızlanmasını sağlar.**
+- Projede geliştirme yaparken, bulunduğumuz konuma nereden geldiğimizi anlamak için eski ve yeni kodumuz arasında karşılaştırma yapmamızı sağlar.
+- Projede hatayla karşılaştığımız durumlarda eski kod kaydına dönmemizi sağlar.
+- Açık kaynaklı projeler baz alınarak geliştirilecek yeni projelerde, süreci kolaylaştırmayı sağlar.
 
 **Versiyon Kontrol Sistem Tipleri**
 
@@ -165,9 +168,11 @@ Başlık, bu değişikliği açıklayan bir anahtar kelime veya ifade içermelid
 
 Commit başlığından sonra, ayrıntıları açıklamak için ikinci bir satır ekleyin.
 Ayrıntılar, neyi değiştirdiğinizi ve nedenini daha fazla açıklamalıdır.
-İş İlgili Referansları Ekleyin:
 
-İş akışınızı izlemek ve değişikliklerin nedenini anlamak için ilgili sorun numarası veya talep numarası gibi referansları eklemek iyi bir uygulamadır.
+
+**İş İlgili Referansları Ekleyin:**
+
+İş akışınızı izlemek ve değişikliklerin nedenini anlamak için ilgili **sorun numarası veya talep numarası** gibi referansları eklemek iyi bir uygulamadır.
 
 **Zaman Etiketi Eklemeyin**
 
@@ -213,6 +218,12 @@ Mesajınızın imla, dilbilgisi ve yazım kurallarına uygun olduğundan emin ol
 **logs**: Bu klasör, Git'in tarihçe kayıtlarını (log) tuttuğu yerdir. Özellikle, refs/heads altındaki dalların değişiklikleri burada kaydedilir.
 
 .git dosyası, projenin tam tarihçesini ve Git'in yönetimini sağlamak için kritik bir rol oynar. Genellikle bu dosyayı elle düzenlemeniz gerekmez; çünkü Git, bu dosyaları otomatik olarak yönetir. Ancak, bu dosyaları incelemek ve anlamak, Git'i daha derinlemesine anlamanıza yardımcı olabilir.
+
+**Örnek bir .git klasörü**
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fbdf3748-f208-4342-a294-ff5e47336e2f)
+
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/dedc4ad9-fd80-44c1-bc32-4708c30164d3)
 

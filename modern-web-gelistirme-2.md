@@ -95,7 +95,9 @@ Proje yönetimi, belirli bir hedefi veya sonucu elde etmek için planlama, uygul
 
 
 
-Proje yönetimi, her türlü proje için geçerli olabilir, örneğin inşaat projeleri, yazılım geliştirme projeleri, pazarlama kampanyaları veya organizasyonel değişiklikler gibi farklı türdeki projeler için kullanılır. Proje yönetimi, hedeflerin daha verimli bir şekilde ulaşılmasını sağlar ve riskleri minimize etmek için önemli bir araçtır. Birçok farklı proje yönetimi metodolojisi ve araçları bulunmaktadır, örneğin PMP (Project Management Professional), PRINCE2 ve Agile gibi. Bu metodolojiler, farklı projelerin ihtiyaçlarına ve gereksinimlerine uygun olarak seçilir.
+Proje yönetimi, her türlü proje için geçerli olabilir, örneğin inşaat projeleri, yazılım geliştirme projeleri, pazarlama kampanyaları veya organizasyonel değişiklikler gibi farklı türdeki projeler için kullanılır. Proje yönetimi, hedeflerin daha verimli bir şekilde ulaşılmasını sağlar ve riskleri minimize etmek için önemli bir araçtır. Birçok farklı proje yönetimi metodolojisi ve araçları bulunmaktadır, örneğin PMP (Project Management Professional), PRINCE2 ve Agile gibi. Bu metodolojiler, farklı projelerin ihtiyaçlarına ve gereksinimlerine uygun olarak seçilir. 
+
+**_Proje ilerlemesinin izlenmesi ve kontrol edilmesi, projenin sonlandırılmasına kadar devam eder._**
 
 
 ### Öğrencilerden Gelen Proje Yönetimi Tanımlamaları
@@ -224,9 +226,9 @@ Yazılım ekibi; işi yapmakla yükümlü olan,plan ve iterasyonlara bağlı ola
 - Başlanmış olan işlerin sayısı veya büyüklüğü sınırlanmalıdır.
 - Süreklilikte etkin ekip üyeleri olması avantajdır.
 - Farklı yetkinliklerden farklı bilgilere sahip olan kişiler olmasında yarar vardır. (Cross-Functional)
-- Fiziken aynı ortamda olmaları iletişimin gücü ve verimliliği açısından önemlidir. Bu nedenle şirketlerde agile takımlar genellikle çevreden izole olmuş ve bir arada yaşayabilecekleri odalarda çalışırlar. Pandemi şartlarında ise yukarıda da belirttiğimiz üzere çeşitli çevrimiçi araçlarla bu fiziki ortamı sanal dünyaya taşırlar.
-- Her bilgi ile ilgili ufak da olsa bilgisi olan ve takımı kuvvetlendiren takım arkadaşlarına T-Shaped adı da verilir. T-Shaped yaklaşımındaki takım arkadaşlarının her alanda bilgisi ufak da olsa vardır. Tek bir alanda da kendini tam anlamıyla geliştirmiştir ve derin bilgileri vardır.
-- I-Shaped ise bir konuda uzmanlığım var, başka bir şeye bakmam yaklaşımında olan çalışanlardır. Bu çalışanların bir konuda derin bilgisi ve uzmanlığı bulunmaktadır. Eğer bildikleri konu ile ilgili sorun yaşanırsa adres bellidir.
+- Fiziken aynı ortamda olmaları iletişimin gücü ve verimliliği açısından önemlidir. Bu nedenle şirketlerde agile takımlar genellikle çevreden izole olmuş ve bir arada yaşayabilecekleri odalarda çalışırlar. **Ancak pandemi şartlarında çeşitli çevrimiçi araçlarla bu fiziki ortamı sanal dünyaya taşıdılar.**
+- Her bilgi ile ilgili ufak da olsa bilgisi olan ve takımı kuvvetlendiren takım arkadaşlarına **T-Shaped** adı da verilir. T-Shaped yaklaşımındaki takım arkadaşlarının her alanda bilgisi ufak da olsa vardır. Tek bir alanda da kendini tam anlamıyla geliştirmiştir ve derin bilgileri vardır.
+- **I-Shaped** ise bir konuda uzmanlığım var, başka bir şeye bakmam yaklaşımında olan çalışanlardır. Bu çalışanların bir konuda derin bilgisi ve uzmanlığı bulunmaktadır. Eğer bildikleri konu ile ilgili sorun yaşanırsa adres bellidir.
 Üstlendiği rol itibariyle Feautereler, User Storyler ve bunların tamamlanıp tamamlanamadığı konusunun takip edilmesi Product Owner sorumluluğundadır.
 
 ![image](https://github.com/KardelRuveyda/sektorde-kampus/assets/33912144/8b2469ff-25d5-48b4-a6ee-191a088533e3)
@@ -363,10 +365,10 @@ Her gün yapılan rutin toplantılardır. Bu toplantılarda amaç şu üç soruy
 - Bu toplantılarda müşterinin ürünle ilgili eksiklikler de ortaya çıkabilir. Müşteri nezninde bu eksiklikler sonraki sprint için birer backlog maddesi olabilir.
 - Toplantıya Product Owner, Development Team, Agile Coach ve müşteri (isteğe bağlı) katılır.
 ### Retrospectives
-- Müşteriyle degil ekiple alakalı bir toplantıdır.
+- Müşteriyle **degil** ekiple alakalı bir toplantıdır.
 - Ekip kendi kendini eleştirir. Neyi iyi yapıp neyi kötü yaptığını tespit etmeye çalışır.
-- Scrum Master ile birlikte sürecin nasıl iyileştirileceği tartışılır. Bu toplantılarda Scrum Master yol gösterici kimliği ile bulunduğundan etkisi büyüktür.
-- PO,Agile Coach ve ekibin tamamı katılır.
+- Scrum Master ile birlikte sürecin nasıl iyileştirileceği tartışılır. **Bu toplantılarda Scrum Master yol gösterici kimliği ile bulunduğundan etkisi büyüktür.**
+- Product Owner,Agile Coach,Scrum Master, Development Team ve **ekibin tamamı** katılır.
 
 **Son olarak aklımızdan çıkarmayalım ve uygulayalım! Shu Ha Ri 😊**
 

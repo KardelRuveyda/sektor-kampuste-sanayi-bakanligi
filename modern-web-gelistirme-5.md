@@ -123,15 +123,46 @@ SQL de aslında bir programlama dili gibidir. Bir programlama dili kadar kapsam
 
 ## Yerleşik Fonksiyonlar
 
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/ff3692ee-d153-41c1-a2d0-0699412c1d00)
+**SQL Çoklu Satır (Aggregate) Fonksiyonları**
+
+Bu fonksiyonlar bir sütunda yer alan birden fazla değerler üzerinde yaptığı hesaplamalar sonrası tek bir değer geri verir.
+
+- **AVG() :** Sayısal değer içeren bir tablo sütunundaki değerlerin ortalamasını verir.
+- **COUNT() :** Verilen kriterlere uyan tablo satır sayısını verir.
+- **FIRST() :** Tabloda belirtilen sütundaki ilk değeri verir.
+- **LAST() :** Tabloda belirtilen sütundaki son değeri verir.
+- **MAX() :** Tabloda belirtilen sütundaki en büyük değeri verir.
+- **MIN() :** Tabloda belirtilen sütundaki en küçük değeri verir.
+- **SUM() :** Sayısal değer içeren bir tablo sütunundaki değerlerin toplamını verir.
+
+
+**SQL Sayısal (Scalar) Fonksiyonları**
+
+
+Bu fonksiyonlar bir sütunda yer alan tek bir değere işlem yapar ve tek bir değer geri verir.
+
+- **LCASE() :** Bir alan değerini küçük harfe çevirir.
+- **LEN() :** Bir metin alanının uzunluğunu verir.
+- **MID() :** Bir metin alanındaki karakterlerin bir kısmını elde etmek kullanılır.
+- **NOW() :** Bilgisayarın tarih ve saat değerlerini verir.
+- **FORMAT() :** Bir veri alanının ne şekilde gösterileceğini belirler.
+- **ROUND() :** Sayısal bir veri alanının değerini bir tamsayıya yuvarlar.
+- **CEILING() :** Aşağı yuvarla (Herhangi bir ondalık için sayının kendinden büyük, en küçük tam sayıyı verir)
+- **FLOOR :** Aşağı yuvarla (Herhangi bir ondalık için sayının kendinden küçük, en büyük tam sayıyı verir)
+- **UCASE() :** Bir alan değerini büyük harfe çevirir.
+
 
 ## SQL komutlarına bakıldığında ; iki şekilde değerlendirillir!**
 - Data'yı çeken,
 - Data'yı değiştiren
 
-## DML & DDL Farkı
+## DDL & DML Farkı
+
+DDL ifadeleri genellikle bir veritabanı yöneticisi veya veritabanı yapısını değiştirmek için uygun ayrıcalıklara ve izinlere sahip bir geliştirici tarafından yürütülür. DML, bir veritabanındaki verileri değiştirmek için kullanılır. DML ifadeleri, bir veritabanına veri eklemek, güncellemek ve silmek için kullanılır.
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f2a38a26-e0e0-4641-a24e-ee52ce67a74e)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e5b519af-ba17-446b-94bb-1bc9b0c379e0)
 
 
 
