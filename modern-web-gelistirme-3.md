@@ -13,15 +13,15 @@ Git açık kaynak kodlu bir versiyon sürüm kontrol sistemidir
 
 ### Neden git ?
 
+**_Koyuyla belirttiklerime dikkat! :)_**
+
 - Geliştirme süreçlerini izlemek
-- Projede yapılan değişikliklerin nerede ve ne zaman yapıldığı izlenmek 
-- Yanlış veya hatalı işlem yapıldığında daha önceki düzgün çalışılan versiyona dönmek istenebilir. 
-
-
-Projelerde birden fazla kişi çalıştığını düşünürsek, gelişimin hızlanmasını sağlar.
-Projede geliştirme yaparken, bulunduğumuz konuma nereden geldiğimizi anlamak için eski ve yeni kodumuz arasında karşılaştırma yapmamızı sağlar.
-Projede hatayla karşılaştığımız durumlarda eski kod kaydına dönmemizi sağlar.
-Açık kaynaklı projeler baz alınarak geliştirilecek yeni projelerde, süreci kolaylaştırmayı sağlar.
+**- Projede yapılan değişikliklerin nerede ve ne zaman yapıldığı izlenmek** 
+**- Yanlış veya hatalı işlem yapıldığında daha önceki düzgün çalışılan versiyona dönmek istenebilir.**
+**- Projelerde birden fazla kişi çalıştığını düşünürsek, gelişimin hızlanmasını sağlar.**
+- Projede geliştirme yaparken, bulunduğumuz konuma nereden geldiğimizi anlamak için eski ve yeni kodumuz arasında karşılaştırma yapmamızı sağlar.
+- Projede hatayla karşılaştığımız durumlarda eski kod kaydına dönmemizi sağlar.
+- Açık kaynaklı projeler baz alınarak geliştirilecek yeni projelerde, süreci kolaylaştırmayı sağlar.
 
 **Versiyon Kontrol Sistem Tipleri**
 
