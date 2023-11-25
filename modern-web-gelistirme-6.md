@@ -134,6 +134,36 @@ Başkalarının (veya kendinizin) mevcut değerlerin üzerine yazmasını istemi
 - y, 6 değerini saklar
 Ardından, 5 olan x + y değerini görüntülemek için WriteLine() yöntemini kullanırız.
 
+#### Birçok Değişken Bildirme
+
+- Aynı türde birden fazla değişken bildirmek için virgülle ayrılmış bir liste kullanılabilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fe2f35d1-0f17-46f2-99d2-987318467eb5)
+
+
+- Aynı değeri tek bir satırda birden fazla değişkene de atayabilirsiniz.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/6580e022-e39e-48a7-8c09-2a8332ca5f2c)
+
+#### C# Tanımlayıcıları
+
+- Tüm C# değişkenleri benzersiz isimlerle tanımlanmalıdır.
+- Bu benzersiz isimler tanımlayıcı olarak adlandırılır.
+- Tanımlayıcılar kısa isimler (x ve y gibi) veya daha açıklayıcı isimler (age, sum, totalVolume) olabilir.
+- **Not:** Anlaşılabilir ve sürdürülebilir kod oluşturmak için açıklayıcı isimler kullanılması önerilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/5338ce2b-d847-4da2-a3d7-70d40f1a34b3)
+
+**Değişkenleri adlandırmak için genel kurallar şunlardır:**
+
+- İsimler harfler, rakamlar ve alt çizgi karakteri (_) içerebilir
+- İsimler bir harf veya alt çizgi ile başlamalıdır
+- İsimler küçük harfle başlamalıdır ve boşluk içeremez
+- İsimler büyük/küçük harfe duyarlıdır ("myVar" ve "myvar" farklı değişkenlerdir)
+- Ayrılmış sözcükler (int veya double gibi C# anahtar sözcükleri gibi) ad olarak kullanılamaz
+
+
+
 
 
 
