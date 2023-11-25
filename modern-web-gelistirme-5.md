@@ -135,6 +135,8 @@ DDL ifadeleri genellikle bir veritabanı yöneticisi veya veritabanı yapısın�
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f2a38a26-e0e0-4641-a24e-ee52ce67a74e)
 
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e5b519af-ba17-446b-94bb-1bc9b0c379e0)
+
 
 
 
