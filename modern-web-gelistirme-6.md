@@ -164,6 +164,134 @@ Ardından, 5 olan x + y değerini görüntülemek için WriteLine() yöntemini k
 
 
 
+### C# Veri Tipleri
+
+- C#'ta bir değişken belirtilen bir veri türünde olmalıdır.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/19a86e24-fb9e-4654-a9f3-411b6561e053)
+
+- Bir veri türü, değişken değerlerinin boyutunu ve türünü belirtir.
+- İlgili değişken için doğru veri türünü kullanmak önemlidir; hatalardan kaçınmak, zamandan ve bellekten tasarruf etmek için, ancak aynı zamanda kodunuzu daha sürdürülebilir ve okunabilir hale getirecektir. 
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/2f52864d-7345-4d45-a948-88c7bba41128)
+
+#### Sayılar
+
+**_Sayı türleri iki gruba ayrılır:_**
+
+- Tamsayı türleri, pozitif veya negatif (123 veya -456 gibi) tam sayıları ondalıklar olmadan depolar. Geçerli türler int ve long'dur. Hangi türü kullanmanız gerektiği, sayısal değere bağlıdır.
+- Floating nokta türleri, bir veya daha fazla ondalık içeren kesirli kısmı olan sayıları temsil eder. Geçerli türler float ve double'dır.
+- C#'ta birçok sayısal tür olmasına rağmen, sayılar için en çok kullanılan int (tam sayılar için) ve double (kayan noktalı sayılar için) türleridir.
+
+##### Integer Türleri
+
+**Int**
+int veri türü -2147483648 ile 2147483647 arasındaki tam sayıları saklayabilir. Genel olarak ve dersimizde, int veri türü, sayısal değerli değişkenler oluştururken tercih edilen veri türüdür.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e6fcafbd-6695-4c57-87f5-c80b363fcd82)
+
+**Long**
+
+Long veri türü -9223372036854775808 ile 9223372036854775807 arasındaki tam sayıları saklayabilir. Bu, int değeri saklamak için yeterince büyük olmadığında kullanılır. Değeri "L" ile bitirmeniz gerekmektedir. 
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/76b5e1a5-1277-4437-bb3e-7b67d625bf87)
+
+##### Float Nokta Türleri
+
+Ondalıklı bir sayıya ihtiyacınız olduğunda (9,99 veya 3,14515 gibi) float noktalı bir tür kullanmalısınız. Float ve double veri türleri kesirli sayıları saklayabilir. Değeri float için "F" ve double için "D" ile bitirmeniz gerekmektedir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/7f49525a-447a-4165-a883-830032732170)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/c418e1db-e6bb-4132-a983-10e33bd403fb)
+
+
+**Float mı yoksa double mı kullanmalıyım?**
+
+Bir kayan nokta değerinin hassasiyeti, değerin ondalık noktadan sonra kaç basamaklı olabileceğini gösterir. Float'ın hassasiyeti yalnızca altı veya yedi ondalık basamak iken, double değişkenlerin hassasiyeti yaklaşık 15 basamaktır. Bu nedenle çoğu hesaplama için **double** kullanmak daha güvenlidir.
+
+##### Bilimsel Sayılar
+
+Kayan nokta sayısı, 10'un kuvvetini belirtmek için bir "e" ile bilimsel bir sayı da olabilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/022dc47d-6e94-4460-9576-9eca6b402270)
+
+
+#### Booleans
+
+Bir boolean veri türü bool anahtar sözcüğü ile bildirilir ve yalnızca true veya false değerlerini alabilir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/9739d94a-3399-4c32-9c4e-b3a798bfb9eb)
+
+Boolean değerleri çoğunlukla koşullu testler için kullanılır.
+
+
+#### Characters
+
+char veri türü tek bir karakteri saklamak için kullanılır. Karakter, 'A' veya 'c' gibi tek tırnak işaretleriyle çevrelenmelidir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/84e440ce-f04b-423f-b6e8-0b8590c21b67)
+
+
+#### Strings
+
+Dize veri türü, bir karakter dizisini (metin) saklamak için kullanılır. Dize değerleri çift tırnak işaretiyle çevrelenmelidir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/044b316b-4116-41dd-aa9e-a4e3bbd99dec)
+
+
+### C# Type Casting
+
+- Tür atama, bir veri türündeki bir değeri başka bir türe atamanızdır.
+
+_**C#'ta iki tür döküm vardır:**_
+
+- Implicit Casting (otomatik olarak) - daha küçük bir yazıyı daha büyük bir yazı boyutuna dönüştürme
+char -> int -> long -> float -> double
+- Explicit Casting (manuel) - daha büyük bir tipi daha küçük boyutlu bir tipe dönüştürme
+double -> float -> long -> int -> char
+
+#### Implicit Casting
+
+Daha küçük boyutlu bir türü daha büyük boyutlu bir türe geçirirken implicit casting otomatik olarak yapılır.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e0c7b3e9-8005-4a35-9c86-868a8c3fd962)
+
+#### Explicit Casting
+
+Explicit Casting, değerin önüne parantez içinde tür yerleştirilerek manuel olarak yapılmalıdır.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/31316fe2-f27b-46a7-b47c-2c6870279c2d)
+
+
+#### Tip Dönüştürme Yöntemleri
+
+**Convert.ToBoolean**, **Convert.ToDouble**, **Convert.ToString**, **Convert.ToInt32 (int)** ve **Convert.ToInt64 (long)** gibi yerleşik yöntemleri kullanarak veri türlerini açıkça dönüştürmek de mümkündür.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/24dbfc4b-bdeb-4772-9bbb-e1d646846fca)
+
+### C# User Input
+
+- **Console.WriteLine()** işlevinin değerlerin çıktısını almak (yazdırmak) için kullanıldığını zaten öğrenmiştiniz.
+- Kullanıcı girdisini almak için **Console.ReadLine()** kullanacağız.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/0d94ab3a-e590-4742-9680-4dde6df61d2c)
+
+#### User Input and Numbers
+
+- **Console.ReadLine()** yöntemi bir dize döndürür. Bu nedenle, int gibi başka bir veri türünden bilgi alamazsınız.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/852b84ed-ed04-4b85-a9de-0bcf44044ade)
+
+
+**Not:** Yanlış girdi girerseniz (örneğin sayısal bir girdide metin), bir istisna/hata mesajı alırsınız (System.FormatException: 'Input string was not in a correct format.' gibi).
+
+
+### C# Operatorler
+
+
+
+
+
 
 
 
