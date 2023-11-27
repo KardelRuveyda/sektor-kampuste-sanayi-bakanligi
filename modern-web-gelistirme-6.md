@@ -288,6 +288,27 @@ Explicit Casting, değerin önüne parantez içinde tür yerleştirilerek manuel
 
 ### C# Operatorler
 
+- Operatörler, değişkenler ve değerler üzerinde işlem yapmak için kullanılır.
+**Aşağıdaki örneklerde, iki değeri toplamak için + operatörünü kullanılmaktadır.**
+
+  ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/3a4582f0-ad97-4c3e-8b8a-9d20d9f2f886)
+
+#### Aritmetik Operatörler
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e0919194-a14d-4e42-93a6-4137e4a89c38)
+
+#### Atama Operatörleri
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/4027c818-6d59-4b84-8332-db181ecf4c73)
+
+#### Karşılaştırma Operatörleri
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/d475f378-00ce-43b7-b942-1bd2eff983b1)
+
+#### Mantıksal Operatörler
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/dcbbba78-19a4-402c-b284-030b92ff278f)
+
 
 
 
