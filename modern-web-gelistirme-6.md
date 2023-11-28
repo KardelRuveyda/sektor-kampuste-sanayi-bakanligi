@@ -634,4 +634,43 @@ Ancak C#, temel sınıf içindeki yönteme virtual anahtar sözcüğünü ekleye
 2) C# "çoklu kalıtımı" desteklemez (bir sınıf yalnızca bir temel sınıftan miras alabilir). Ancak, sınıf birden fazla arayüzü uygulayabildiği için arayüzlerle bu başarılabilir. Not: Birden fazla arayüz uygulamak için bunları virgülle ayırın (aşağıdaki örneğe bakın).
 
 
+#### Multiple Interfaces
+Birden çok arayüzü uygulamak için bunları virgülle ayrılarak eklenir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fa6077b2-b865-4b95-b01f-bd51d0a02f97)
+
+### C# Enums
+- Enum, bir grup sabiti (değiştirilemez/sadece okunabilir değişkenler) temsil eden özel bir "sınıftır".
+- Bir enum oluşturmak için, enum anahtar sözcüğünü (sınıf veya arayüz yerine) kullanın ve enum öğelerini virgülle ayırın:
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/ffd4db85-1781-4002-bee9-fed5c2cfb33f)
+
+### C# Exceptions - Try..Catch
+
+- C# kodunu çalıştırırken farklı hatalar meydana gelebilir: programcı tarafından yapılan kodlama hataları, yanlış girdiden kaynaklanan hatalar veya diğer öngörülemeyen şeyler.
+- Bir hata oluştuğunda, C# normalde durur ve bir hata mesajı oluşturur. Bunun teknik terimi şudur: C# bir istisna atar (hata verir).
+
+#### C# try and catch
+
+- try deyimi, yürütülürken hatalara karşı test edilecek bir kod bloğu tanımlamanıza olanak tanır.
+- catch deyimi, try bloğunda bir hata oluşması durumunda çalıştırılacak bir kod bloğu tanımlamanıza olanak tanır.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/95ee9ddb-45b2-49ca-9fd0-abf7151e3b8a)
+
+#### Finally
+
+**finally** deyimi, try...catch işleminden sonra sonuç ne olursa olsun kodu çalıştırmanızı sağlar.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/6a9378d5-0eca-4d95-81b7-70eee5d6aa12)
+
+
+#### The throw keyword
+
+- throw deyimi özel bir hata oluşturmanıza olanak tanır.
+- throw deyimi bir exception sınıfı ile birlikte kullanılır.
+- C#'ta birçok exception sınıfı mevcuttur: **ArithmeticException**, **FileNotFoundException**, **IndexOutOfRangeException**, **TimeOutException**, vb:
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fe5e4da1-c45d-4c3e-a7d4-23189727ffb8)
+
 
