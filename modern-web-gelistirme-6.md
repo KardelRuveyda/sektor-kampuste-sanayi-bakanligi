@@ -1,4 +1,4 @@
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/1da9f844-d822-4d87-8950-dfee1794623c)#  Modern Web Geliştirme 6
+#  Modern Web Geliştirme 6
 
 ## C# Temelleri
 
