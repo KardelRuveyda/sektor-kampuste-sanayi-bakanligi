@@ -309,11 +309,106 @@ Explicit Casting, değerin önüne parantez içinde tür yerleştirilerek manuel
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/dcbbba78-19a4-402c-b284-030b92ff278f)
 
+### C# Strings
+#### String Birleştirme
+
+- "+", dizeleri birleştirmek için dizeler arasında kullanılabilir. Buna birleştirme denir.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/a99d00c1-ba38-4d4d-b5b7-344e858a1066)
+
+- _Yazdırma sırasında ad ve soyad arasında bir boşluk oluşturmak için "John" kelimesinden sonra bir boşluk eklediğimize dikkat edin._
+- İki dizeyi birleştirmek için **string.Concat()** yöntemini de kullanabilirsiniz.
+  
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/713c94f4-91ce-4312-94fe-30bdbf22c382)
+
+#### C# String Interpolation
+
+Dize birleştirmenin bir başka seçeneği de, değişkenlerin değerlerini bir dizedeki yer tutucuların yerine koyan dize enterpolasyonudur. 
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/7d9682a3-076d-44ee-92b2-9a66984b1f25)
+
+### C# If ... Else
+
+- C#, matematiğin olağan mantıksal koşullarını destekler.
+- Şundan daha az: a < b
+- Daha az veya eşit: a <= b
+- Şundan büyük: a > b
+- Büyük veya eşit: a >= b
+- a == b'ye eşittir
+- Eşit Değil: a != b
+- Farklı kararlar için farklı eylemler gerçekleştirmek üzere bu koşulları kullanabilirsiniz.
+
+_**C# aşağıdaki koşullu ifadelere sahiptir:**_
+
+- Belirtilen bir koşul doğruysa yürütülecek bir kod bloğu belirtmek için if kullanın
+- Aynı koşulun yanlış olması durumunda çalıştırılacak bir kod bloğu belirtmek için else kullanın
+- İlk koşulun yanlış olması durumunda test edilecek yeni bir koşul belirtmek için else if kullanın
+- Yürütülecek çok sayıda alternatif kod bloğu belirtmek için switch kullanın
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/824d7bac-fd05-4f75-90d0-5880c7d986c9)
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/9d79c42f-e356-45ed-b4db-fb918e990471)
+
+#### Ternary Operator
+Ayrıca, üç işlenenden oluştuğu için üçlü operatör olarak bilinen bir kısa el if else vardır. Birden fazla kod satırını tek bir satırla değiştirmek için kullanılabilir. Genellikle basit if else ifadelerinin yerine kullanılır.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/7c6874d8-7c34-45b6-9b95-b900660abb6b)
 
 
+### C# Switch
+
+Yürütülecek birçok kod bloğundan birini seçmek için switch deyimini kullanılabilir. 
+Şimdi dizelerden oluşan bir dizi tutan bir değişken bildirdik.
+
+Buna değer eklemek için bir dizi değişmezi kullanabiliriz - değerleri virgülle ayrılmış bir listeye, küme parantezleri içine yerleştirin:
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/082caafc-c0bb-4bb7-a7ac-47a0052e92e0)
+
+- switch ifadesi bir kez değerlendirilir
+- İfadenin değeri her bir durumun değerleriyle karşılaştırılır
+- Bir eşleşme varsa, ilgili kod bloğu yürütülür
+- C# bir break anahtar sözcüğüne ulaştığında switch bloğundan çıkar.
+- Bu, blok içinde daha fazla kod ve durum testinin yürütülmesini durduracaktır.
+- Bir eşleşme bulunduğunda ve iş bittiğinde, ara verme zamanı gelir.
+- Varsayılan anahtar kelime isteğe bağlıdır ve büyük/küçük harf eşleşmesi olmadığında çalıştırılacak bazı kodları belirtir.
+
+### C# While Loop
+- while döngüsü, belirli bir koşul Doğru olduğu sürece bir kod bloğu boyunca döner.
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/c13629ef-53ad-48fb-97ea-f69b3c3c0223)
+
+### C# For Loop
+Bir kod bloğunda tam olarak kaç kez döngü yapmak istediğinizi bildiğinizde, while döngüsü yerine for döngüsünü kullanabilirsiniz.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/dacf0767-8155-4125-b948-fa58cf2122b1)
+
+### C# Arrays
+- Diziler, her değer için ayrı değişkenler bildirmek yerine birden fazla değeri tek bir değişkende saklamak için kullanılır.
+- Bir dizi bildirmek için, değişken türünü köşeli parantezlerle tanımlanır.
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/a5b64454-8c3b-40cc-92ce-9fd943b88d74)
+
+### C# Çok Boyutlu Diziler
 
 
+Satırları ve sütunları olan bir tablo gibi verileri tablo biçiminde saklamak istiyorsanız, çok boyutlu dizilere aşina olmanız gerekir. Çok boyutlu bir dizi, temelde dizilerden oluşan bir dizidir.Diziler herhangi bir sayıda boyuta sahip olabilir. En yaygın olanları iki boyutlu dizilerdir (2D).
 
+
+_**Tek virgül [,] dizinin iki boyutlu olduğunu belirtir. Üç boyutlu bir dizide iki virgül bulunur: int[,,].**_
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fab75833-daca-4958-b17e-3eecfb07d65d)
+
+### C# Methodlar
+
+- Bir yöntem, yöntemin adı ve ardından gelen parantez () ile tanımlanır.
+- C#, Main() gibi zaten aşina olduğunuz bazı önceden tanımlanmış yöntemler sağlar, ancak belirli eylemleri gerçekleştirmek için kendi yöntemlerinizi de oluşturabilirsiniz.
+
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/a200a5ea-2c50-4721-a4f7-075413747ae7)
+
+
+#### Çoklu Parametreler
+
+İstediğiniz kadar parametreye sahip olabilirsiniz, sadece virgülle ayırılır.
+
+![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/368728e6-0376-4fb6-8ad6-31004a6b5f81)
 
 
 
