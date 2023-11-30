@@ -104,7 +104,7 @@ Diğer türlerdeki değişkenlerin nasıl bildirileceğine dair bir gösterim a�
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/5c7303ad-769e-4243-b391-7ba5cc308e77)
 
-#### Constants
+#### Const Kavramı
 
 Başkalarının (veya kendinizin) mevcut değerlerin üzerine yazmasını istemiyorsanız, değişken türünün önüne const anahtar sözcüğünü ekleyebilirsiniz.Bu, değişkeni değiştirilemez ve salt okunur anlamına gelen "sabit" olarak bildirecektir.
 
