@@ -118,16 +118,12 @@ Console.WriteLine(userName);
 #endregion
 
 #region 6-) Operatörler 
-
-
-#region Aritmetik Operatörler
+#region  Operatörler ile ilgili örnekler ( Karşılaştırma Operatörleri)
 Console.WriteLine("Lütfen sayı giriniz.");
 
 string integerValueString = Console.ReadLine();
 int integerValue = Convert.ToInt32(integerValueString);
 List<string> messageList = new List<string>();
-
-
 
 if (integerValue > 7)
 {
@@ -174,10 +170,6 @@ if(integerValue == 8 || integerValue > 8)
 }
 
 #endregion 
-
-
-
-
 Console.WriteLine(String.Join("\n", messageList));
 #endregion 
 
@@ -188,9 +180,12 @@ var lastName = "Çetin";
 var nameJoin = firstName + " " + lastName;
 var nameConcat = string.Concat(firstName, lastName);
 var stringInterpolation = $"Benim adım {firstName} {lastName}";
-var stringJoin = String.Join("Benim adım {0} {1}", firstName, lastName);
+var stringJoin = String.Format("Benim adım {0} {1}", firstName, lastName);
 
 Console.WriteLine(nameJoin);
+Console.WriteLine(nameConcat);
+Console.WriteLine(stringInterpolation);
+Console.WriteLine(stringJoin);
 
 #endregion
 
@@ -198,48 +193,61 @@ Console.WriteLine(nameJoin);
 #region 8-) IF-ELSE
 int value = 8;
 
-
 //Basit bir if bloğu
-if(value != 8)
+
+if (value != 8)
 {
-    Console.WriteLine("Bu ifade 8 değildir");
+    Console.WriteLine("Bu ifade 8 değildir.");
 }
 
-//Else-if condition
-
-if(value == 8)
+//Else-if
+if (value == 8)
 {
-    Console.Write("Bu ifade 8'dir.");
-}else if(value == 9)
-{
-    Console.Write("Bu ifade 9'dur.");
-
+    Console.WriteLine("Bu ifade 8'dir");
 }
-else if (value == 10)
+else if (value == 9)
 {
-    Console.Write("Bu ifade 10'dur.");
+    Console.WriteLine("Bu ifade 9'dur.");
 }
 else
 {
-    Console.WriteLine("Bu ifade 8,9 veya 10 değildir.");
+    Console.WriteLine("Bu ifade 8 ve ya 9 değildir.");
 }
 
-
+//Normal bir if else mantığı
 string messageIf = "";
 
-//normal if-else mantığıdır.
-if(value == 8)
+if (value == 8)
 {
-    messageIf = "Buradaki değer 8'dir";
+    messageIf = "Buradaki değer 8'dir.";
 }
 else
 {
     messageIf = "Buradaki değer 8 değildir.";
 }
 
-//ternary if şekklinde yazarsak
-
+//Ternary If tanımlaması 
 messageIf = value == 8 ? "Buradaki değer 8'dir." : "Buradaki değer 8 değildir.";
+
+//Daha karmaşık bir terary if
+messageIf = value == 8 ? "Buradaki değer 8'dir." : (value < 8 ? "Buradaki değer 8'den küçüktür." : "Buradaki 8'den büyüktür.");
+
+//Karmaşık terary if'i normal blogda yazalım.
+if (value == 8)
+{
+    messageIf = "Buradaki değer 8'dir.";
+}
+else
+{
+    if (value < 8)
+    {
+        messageIf = "Buradaki değer 8'den küçüktür.";
+    }
+    else
+    {
+        messageIf = "Buraki değer 8'den büyüktür.";
+    }
+}
 
 
 #endregion
@@ -266,28 +274,46 @@ switch (numberSwitch)
         Console.WriteLine("Girdiğiniz değer kısıtlarla eşleşmiyor.");
         break;
 }
+
+//Switch'i Ifle yazsaydık?
+
+if (numberSwitch == 10)
+{
+    Console.WriteLine("Girdiğiniz sayı 10'dur.");
+}
+else if (numberSwitch == 11)
+{
+    Console.WriteLine("Girdiğiniz sayı 11'dir.");
+}
+else if (numberSwitch == 12)
+{
+    Console.WriteLine("Girdiğiniz sayı 12'dir.");
+}
+else
+{
+    Console.WriteLine("Girdiğiniz sayı diğer kısıtlarla eşleşmiyor. ");
+}
 #endregion
 
 #region 10-) For Döngüsü
 
-//1'den 5'e kadar olan sayıları ekrana yazdıran bir döngü yazalım. 
+//1000 kere özür dilerim yazdırma
 
-for(int i=1; i <= 5; i++)
+//1000 kere yazdırabilmek için ;
+for (int i = 0; i < 1000; i++)
 {
-    Console.WriteLine(i);
+    Console.WriteLine("Özür Dilerim.");
 }
-
 #endregion
 
 #region 11-) While Döngüsü
-//1'den 3'e kadar olan sayıları ekrana yazdıran bir döngü yazalım. 
 
-int x = 1; //Başlangıç değerim
+int counter = 0;
 
-while (x <= 3) //Koşul
+while (counter < 1000)
 {
-    Console.WriteLine(x);
-    x++; //Her döngü adımında i'yi bir arttır.
+    Console.WriteLine("Özür dilerim.");
+    counter++;
 }
 
 #endregion
@@ -318,11 +344,4 @@ string[] carsNew = new string[] { "Volvo", "BMW", "Ford", "Mazda", "Nissan" };
 
 //new anahtar sözcüğünü kullanamdan dört elemanlı bir dizi oluşturma 
 string[] carsNew2 = { "Volvo", "BMW", "Mazda", "Ford", "Nissan"};
-
-string[] carsNew3 = { "Volvo", "BMW", "Mazda", "Ford", "Nissan"};
-
-string[] carsNew4 = { "Volvo", "BMW", "Mazda", "Ford", "Nissan"};
-
-
-
 #endregion
