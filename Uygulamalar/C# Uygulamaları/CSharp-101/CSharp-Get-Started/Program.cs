@@ -319,7 +319,7 @@ string[] carsNew = new string[] { "Volvo", "BMW", "Ford", "Mazda", "Nissan" };
 //new anahtar sözcüğünü kullanamdan dört elemanlı bir dizi oluşturma 
 string[] carsNew2 = { "Volvo", "BMW", "Mazda", "Ford", "Nissan" };
 
-string[] carsNew4 = { "Volvo", "BMW", "Mazda", "Ford", "Nissan"};
+string[] carsNew4 = { "Volvo", "BMW", "Mazda", "Ford", "Nissan","test"};
 
 
 
