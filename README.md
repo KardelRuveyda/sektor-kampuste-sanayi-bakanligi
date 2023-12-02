@@ -13,7 +13,7 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 - [x] [Modern Web Geliştirme- Notlar 4-Veri Tabanı Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-4.md)
 - [x] [Modern Web Geliştirme- Notlar 5-MSSQL Uygulamaları](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-5.md)
 - [x] [Modern Web Geliştirme- Notlar 6-C# Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-6.md)
-- [x] [Modern Web Geliştirme- Notlar 7-Solid&Design Patterns](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-7.md)
+- [ ] [Modern Web Geliştirme- Notlar 7-Solid&Design Patterns](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-7.md)
 - [ ] [Modern Web Geliştirme- Notlar 8-.Net Ekosistemi/.Net Core Giriş](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-8.md)
 - [ ] [Modern Web Geliştirme- Notlar 9-.Net Core Monolith Mimari Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-9.md)
 - [ ] [Modern Web Geliştirme- Notlar 10-.Net Core Microservices Mimari Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-10.md)
