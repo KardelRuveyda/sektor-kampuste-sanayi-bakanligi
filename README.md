@@ -6,7 +6,7 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 
 -> Ders notlarına aşağıdaki yönlendirmelerden ulaşabilirsiniz.
 
-[x] [Ben Kimim?](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/ben-kimim.md)
+- [x] [Ben Kimim?](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/ben-kimim.md)
 [x] [Modern Web Geliştirme- Notlar 1-IT'ye Giriş](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-1.md)
 [x] [Modern Web Geliştirme- Notlar 2-Agile Proje Yönetimi](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-2.md)
 [x] [Modern Web Geliştirme- Notlar 3-Versiyon Kontrol Sistemleri-Git](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-3.md)
