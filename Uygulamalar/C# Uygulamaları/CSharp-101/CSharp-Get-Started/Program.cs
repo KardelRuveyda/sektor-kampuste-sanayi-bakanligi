@@ -1,64 +1,47 @@
-﻿#region 1-) Komut Satırına Yazırma Komutları
-//Komut Satırına Yazdırma İşlemi
-Console.Write("Hello World");
-Console.WriteLine("Hello, i am new.I am learning C# Programming Language!");
-Console.WriteLine("This is fun!");
+﻿#region 1-) Komut Satırına Yazdırma İşlemleri
+Console.WriteLine("Hello World!");
 Console.WriteLine(2 + 2);
-
 #endregion
-
 
 #region 2-) Yorum Satırı İşlemleri
 //Yorum Satırı İşlemleri
-// Yorum satırına almak için // kullanabilirsiniz. 
-// Çoklu satırları yorum satına almak için ise  "/*" başlayıp "*/"
 
 /*
 Console.WriteLine("Test");
-Console.WriteLine("Test 2");
-Console.WriteLine("Test 3");
-Console.WriteLine("Test 4");
+Console.WriteLine("Test2");
 */
-
-
 #endregion
 
-
-#region 3-) C# Variables ( Değişken Tipleri ) 
-
-// integer Veri Tipi ( Bütün sayıları kapsayan bir alandır. Küsüratlı sayılar haricinde tüm sayıları kapsıyor. 
+#region 3-) C# Değişkenler 
+// Integer bir veri tipi tanımlayalım.
 int number = 0;
-int age = 28;
+int age = 21;
 
 Console.WriteLine(number + age);
 
-//Double (Küsratlı sayıların tanımında double değerleri kullanabilirsiniz.)
-double doubleValue = 5.99D;
+//Double bir değer tanımlama
+double doubleCase = 5.99D;
+Console.WriteLine(doubleCase);
 
-Console.WriteLine(doubleValue);
-
-// Char Veri Tipi : Karakterlerin tanımlanmasında kullanılyor. ( Tek harf vb. alanlarda kullanılır. )
-// String değeler "" tanımlanırken char değerleri '' tek tırnak tanımlanır.
+//Char veri tipi 
 char charValue = 'h';
 Console.WriteLine(charValue);
 
-//String değerler (text alanları, cümeler, kelimeler gibi alanları tanımlarken string ifadesinden yararlanıyoruz. 
-// string olarak tanımlayabileceğiniz gibi "var" tanımlayabilirsiniz 
-string name = "Kardel";
-var surname = "Çetin";
+//String değerler 
+var name = "Kardel";
+string surname = "Çetin";
 
-Console.WriteLine(String.Format("Adı: {0} Soyadı: {1}", name, surname));
-Console.WriteLine($"Benim adım : {name}, soyadım ise {surname}");
+Console.WriteLine(String.Format("Adı : {0} Soyadı: {1}", name, surname));
+Console.WriteLine($"Adı: {name} Soyadı:{surname}");
 
-//Boolean Değerler (True, False) değerlerin tanımlanmasında gerçekleştirilir. 
+//Boolean Değerler
 bool isActive = false;
 
-//Ternary İf Örneği ( ileride de değineceğiz. ) 
+//Ternary If Örneği
 isActive = name == "Kardel" ? true : false;
 string message = isActive ? $"{name} kullanıcısı aktif bir kullanıcıdır. " : $"{name} kullanıcısı pasif bir kullanıcıdır. ";
-Console.WriteLine(message);
 
-//Normal If Kullanımı (İleride Değineceğiz. ) 
+//Normal If Kullanımı 
 if (name == "Kardel")
 {
     isActive = true;
@@ -78,239 +61,275 @@ else
 {
     message2 = $"{name} kullanıcısı pasif bir kullanıcıdır. ";
 }
+
+Console.WriteLine(message2);
 #endregion
 
 #region 4-) Casting İşlemleri 
-
-// Double bir değeri integera cast etmek 
-double myValue = 9.78;
+//Double bir değeri integera cast etmek
+double myValue = 9.83;
 int myIntegerValue = (int)myValue;
 
-Console.WriteLine(myValue);
 Console.WriteLine(myIntegerValue);
 
-
-// Convert İşlemleri 
+//Convert
 int integerValueCast = 19;
-double doubleValueCast = 4.29;
+double doubleValueCast = 2.28;
 bool myBooleanCast = false;
 
-//Convert.ToString() -> Integer bir değeri Stringe çevirmek istiyorsam bu Convert işlemini kullanabilirim. 
+//Stringe Convert Etme
 string intToString = Convert.ToString(integerValueCast);
 Console.WriteLine(intToString);
-// Convert.ToDouble -> Integer bir değer var, bunu double'a çevirmeyi sağlıyor. 
-double intTodouble = Convert.ToDouble(integerValueCast);
-Console.WriteLine(intTodouble);
-//Convert.ToInt32 -> Double bir değeri integere çevirme.
-int doubleToInt = Convert.ToInt32(integerValueCast / 2);
-Console.WriteLine(doubleToInt);
+
+//Convert To Double -> Integer bir değeri Double'a çevirme işlemi 
+double intToDouble = Convert.ToDouble(integerValueCast);
+Console.WriteLine(intToDouble);
+//Convert To Int32 -> Double bir değeri int değere çevirme
+int doubleToInt = Convert.ToInt32(doubleValueCast);
+
+//Tablonuzda ID değeri vardır,Ama bu Id Değeri string bir biçimde tutulmuştur. 
+//"1203" ( Yüsra ) 
+var id = "1203";
+int idIntValue = Convert.ToInt32(id);
+
+//Convert Kullanılmadan Stringi integera çevirme işlemi ( Gizem Turan ) 
+#region String'i Int Çevirme İşlemi 
+int result = 0;
+int sign = 1;
+
+string nameString = "234";
+
+//Convert To Int 32 kullanarak String bir değeri Int'e çevirebilirim.
+int resultNormal = Convert.ToInt32(nameString);
+
+//String içindeki her karakteri kontrol edebilmek için bir döngüye ihtiyacım var. 
+//Döngülerde de kullanabilecekleriniz : for,while,foreach
+//Eğer bu hayatı sevmiyorsam aşağıdakini kullanabilirim.
+
+foreach (char c in nameString)
+{
+    //Eğer karakterim bir sayıdan oluşursa
+    if (char.IsDigit(c))
+    {
+        //Sayıyı bulduktan sonra sonuca ekleme işlemini gerçekleştirelim.
+        result = result * 10 + (c - '0');
+    }
+    else if (c == '-' && result == 0)
+    {
+        //Eğer karakterlerden bir tanesi "-" ve henüz bir sayı 
+        sign = -1;
+    }
+
+    //İşaret İşlemlerini Uygulasın 
+
+    result *= sign;
+    //Console.WriteLine(result);
+}
+#endregion
 #endregion
 
 #region 5-) Konsolda User Input İşlemleri 
-// Konsola aşağıdaki alan yazdırılır.
-Console.WriteLine("Kulllanıcı Adınızı Giriniz: ");
+//Konsola aşağıdaki alanı yazdırınız. 
+//Console.WriteLine("Kullanıcı adınızı giriniz.");
 
-// Konsoldan gelen değer çekilir 
+//Konsola ne yazarsam o değeri alsın ; 
 string userName = Console.ReadLine();
-
-// Tekrardan konsola yazdırılır. 
-Console.WriteLine(userName);
+//Tekrardan konsola yazdırsın.
+//Console.WriteLine($"Konsoldan gelen değer : {userName}");
 #endregion
 
-#region 6-) Operatörler 
-#region  Operatörler ile ilgili örnekler ( Karşılaştırma Operatörleri)
-Console.WriteLine("Lütfen sayı giriniz.");
+#region 6-) Operatörler
 
+//Aritmetik Operatörler
+int resultOperator = 2;
+
+resultOperator *= 4;
+resultOperator += 6;
+resultOperator -= 1;
+resultOperator /= 2;
+
+//Karşılaştırma Operatörleri
+//>,>=,<,<=, ==, !=
+
+Console.WriteLine("Operatörler için sayı değeri giriniz.");
 string integerValueString = Console.ReadLine();
 int integerValue = Convert.ToInt32(integerValueString);
+
 List<string> messageList = new List<string>();
 
 if (integerValue > 7)
 {
-    messageList.Add("Verilen değer yediden büyüktür.");
+    messageList.Add("Verilen değer 7'den büyüktür.");
 }
 
-if (integerValue >= 10)
+if (integerValue >= 7)
 {
-    messageList.Add("Verilen değer 10 veya 10'dam büyüktür.");
+    messageList.Add("Verilen değer 7'den büyük veye 7'ye eşittir. ");
 }
 
-if (integerValue < 9)
+if (integerValue < 8)
 {
-    messageList.Add("Verilen değer 9'dan küçüktür.");
+    messageList.Add("Verilen değer 8'den küçüktür.");
 }
 
-if (integerValue <= 12)
+if (integerValue <= 8)
 {
-    messageList.Add("Verilen değer 12'den küçük veya küçük eşittir.");
+    messageList.Add("Verilen değer 8'den küçük veya eşittir.");
 }
 
-if (integerValue == 10)
+if (integerValue == 12)
 {
-    messageList.Add("Verilen değer 10 sayısına eşittir.");
+    messageList.Add("Verilen değer 12'ye eşittir.");
 }
 
-if (integerValue != 10)
+if (integerValue != 12)
 {
-    messageList.Add("Verilen değer 10 değildir.");
+    messageList.Add("Verilen değer 12'ye eşit değildir. ");
 }
 
-#endregion
+// Mantıksal Operatörler ( &&, || )
 
+//Konsola girilen sayı 8 ile 12 arasında olsun 
 
-#region Mantıksal Operatörler
-if(integerValue >= 8 && integerValue <= 12)
+if (integerValue > 8 && integerValue < 12)
 {
     messageList.Add("Bu sayı 8 ile 12 arasındadır.");
 }
 
-if(integerValue == 8 || integerValue > 8)
+if (integerValue == 8 || integerValue > 8)
 {
-    messageList.Add("Bu sayı 8 ya da 8'den büyükttür.");
+    messageList.Add("Bu sayı 8'e eşit ya da 8'den büyüktür.");
 }
 
-#endregion 
 Console.WriteLine(String.Join("\n", messageList));
-#endregion 
+
+
+#endregion
 
 #region 7-) Strings
 var firstName = "Kardel";
-var lastName = "Çetin";
+var secondName = "Rüveyda";
 
-var nameJoin = firstName + " " + lastName;
-var nameConcat = string.Concat(firstName, lastName);
-var stringInterpolation = $"Benim adım {firstName} {lastName}";
-var stringJoin = String.Format("Benim adım {0} {1}", firstName, lastName);
+//String birleştirme Türleri 
+
+var nameJoin = firstName + ' ' + secondName;
+var nameConcat = string.Concat(firstName, ' ', secondName);
+var stringInterpolation = $"Benim adım {firstName} ikinci adım ise {secondName}";
+var stringFormat = String.Format("Benim adım {0} ikinci adım ise {1}", firstName, secondName);
 
 Console.WriteLine(nameJoin);
 Console.WriteLine(nameConcat);
 Console.WriteLine(stringInterpolation);
-Console.WriteLine(stringJoin);
-
+Console.WriteLine(stringFormat);
 #endregion
 
+#region 8-) IF - ELSE Şekilleri 
 
-#region 8-) IF-ELSE
-int value = 8;
+int value = 3;
 
-//Basit bir if bloğu
-
-if (value != 8)
+//Basit bir if örneği
+if (value != 3)
 {
-    Console.WriteLine("Bu ifade 8 değildir.");
+    Console.WriteLine("Bu ifade 3 değildir.");
 }
 
 //Else-if
-if (value == 8)
+
+if (value != 3)
 {
-    Console.WriteLine("Bu ifade 8'dir");
+    Console.WriteLine("Bu ifade 3 değildir.");
 }
-else if (value == 9)
+else if (value != 2)
 {
-    Console.WriteLine("Bu ifade 9'dur.");
+    Console.WriteLine("Bu ifade 2 değildir.");
 }
 else
 {
-    Console.WriteLine("Bu ifade 8 ve ya 9 değildir.");
+    Console.WriteLine("Bu ifade 2 ya da 3  değildir.");
 }
 
-//Normal bir if else mantığı
-string messageIf = "";
+// Normal bir if else örneği 
+string messageStringIf = "";
 
-if (value == 8)
+if (value == 2)
 {
-    messageIf = "Buradaki değer 8'dir.";
-}
-else
-{
-    messageIf = "Buradaki değer 8 değildir.";
-}
-
-//Ternary If tanımlaması 
-messageIf = value == 8 ? "Buradaki değer 8'dir." : "Buradaki değer 8 değildir.";
-
-//Daha karmaşık bir terary if
-messageIf = value == 8 ? "Buradaki değer 8'dir." : (value < 8 ? "Buradaki değer 8'den küçüktür." : "Buradaki 8'den büyüktür.");
-
-//Karmaşık terary if'i normal blogda yazalım.
-if (value == 8)
-{
-    messageIf = "Buradaki değer 8'dir.";
+    messageStringIf = "Bu ifade 2'dir";
 }
 else
 {
-    if (value < 8)
+    messageStringIf = "Bu ifade 2 değildir.";
+}
+
+//Ternary If
+messageStringIf = value == 2 ? "Bu ifade 2'dir" : "Bu ifade 2 değildir.";
+//Daha karmaşık bir ternary If yazalım .
+messageStringIf = value == 2 ? "Buradaki değer 2'dir." : (value < 2 ? "Buradaki değer 2'den küçüktür." : "Buradaki değer 2'den büyüktür.");
+
+//Ternary If'in normal If'e dönüştürülmüş hali
+if (value == 2)
+{
+    messageStringIf = "Buradaki değer 2'dir.";
+}
+else
+{
+    if (value < 2)
     {
-        messageIf = "Buradaki değer 8'den küçüktür.";
+        messageStringIf = "Buradaki değer 2'den küçüktür.";
     }
     else
     {
-        messageIf = "Buraki değer 8'den büyüktür.";
+        messageStringIf = "Buradaki değer 2'den büyüktür.";
     }
 }
 
-
 #endregion
 
+#region 9-) Switch Case
 
-#region 9-) Switch Case 
+int switchNumber = 10;
 
-
-Console.WriteLine("Lütfen Switch Case için sayı giriniz.");
-int numberSwitch = Convert.ToInt32(Console.ReadLine());
-
-switch (numberSwitch)
+switch (switchNumber)
 {
     case 10:
-        Console.WriteLine("Girdiğiniz sayı 10'dur");
+        Console.Write("Bu sayı 10'dur");
         break;
     case 11:
-        Console.WriteLine("Girdiğiniz sayı 11'dir");
-        break;
-    case 12:
-        Console.WriteLine("Girdiğiniz sayı 12'dir.");
+        Console.WriteLine("Bu sayı 11'dir.");
         break;
     default:
-        Console.WriteLine("Girdiğiniz değer kısıtlarla eşleşmiyor.");
+        Console.WriteLine("Bu sayı girdiğiniz herhangi bir değerle eşleşmiyor.");
         break;
 }
 
-//Switch'i Ifle yazsaydık?
-
-if (numberSwitch == 10)
+//Switch'i ife çevirirsek.
+if (switchNumber == 10)
 {
-    Console.WriteLine("Girdiğiniz sayı 10'dur.");
+    Console.Write("Bu sayı 10'dur");
 }
-else if (numberSwitch == 11)
+else if (switchNumber == 11)
 {
-    Console.WriteLine("Girdiğiniz sayı 11'dir.");
-}
-else if (numberSwitch == 12)
-{
-    Console.WriteLine("Girdiğiniz sayı 12'dir.");
+    Console.WriteLine("Bu sayı 11'dir.");
 }
 else
 {
-    Console.WriteLine("Girdiğiniz sayı diğer kısıtlarla eşleşmiyor. ");
+    Console.WriteLine("Bu sayı girdiğiniz herhangi bir değerle eşleşmiyor.");
 }
+
 #endregion
 
-#region 10-) For Döngüsü
+#region 10-) For ve While ile 1000 kere özür dilerim yazdıralım
 
-//1000 kere özür dilerim yazdırma
-
-//1000 kere yazdırabilmek için ;
+//For döngüsü
 for (int i = 0; i < 1000; i++)
 {
-    Console.WriteLine("Özür Dilerim.");
+    Console.WriteLine("Özür dilerim.");
 }
-#endregion
 
-#region 11-) While Döngüsü
+//While Döngüsü
 
 int counter = 0;
 
-while (counter < 1000)
+while (counter<1000)
 {
     Console.WriteLine("Özür dilerim.");
     counter++;
@@ -318,30 +337,30 @@ while (counter < 1000)
 
 #endregion
 
-#region 12-) Foreach
-
+#region 11-) Foreach Kullanımı
 List<int> listIntegers = new List<int>();
+
 listIntegers.Add(1);
 listIntegers.Add(2);
 listIntegers.Add(3);
+
 foreach (var item in listIntegers)
 {
     Console.WriteLine(item);
 }
-
 #endregion
 
-#region 13-) Arrays
+#region 12-) Arrays
 
-//Dört elemanlı bir dizi oluşturun ve değerleri sonra ekleyin.
+// Dört elmanlı bir dizi oluşturun ve değerleri sonra ekleyin .
 string[] cars = new string[4];
 
-// Dört elemanlı bir dizi oluşturun ve elemanları da ekleyin.
-cars = new string[4] { "Volvo", "BMW", "Ford", "Mazda"};
+//Dört elemanlı bir dizi oluşturun ve elemanları ekleyin.
+cars = new string[4] { "Volvo", "BMW", "Porche", "Nissan" };
 
-//Boyut belirtmeden dört elemanlı bir dizi oluşturabilirsiniz. 
-string[] carsNew = new string[] { "Volvo", "BMW", "Ford", "Mazda", "Nissan" };
+//Boyut belirtmeden dört elemanlı bir dizi oluşturabilrisiniz
+string[] carsNew = new string[] { "Volvo", "Bmw", "Porche", "Nissan", "Renault" };
 
-//new anahtar sözcüğünü kullanamdan dört elemanlı bir dizi oluşturma 
-string[] carsNew2 = { "Volvo", "BMW", "Mazda", "Ford", "Nissan"};
+//new anahtarı sözcüğünü kullanmadan dizi oluşturabilirsiniz.
+string[] carsNew2 = { "Test", "Test1", "Test2" };
 #endregion
