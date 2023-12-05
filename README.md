@@ -19,7 +19,9 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 - [ ] [Modern Web Geliştirme- Notlar 10-.Net Core Monolith Mimari Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-9.md)
 - [ ] [Modern Web Geliştirme- Notlar 11-.Net Core Microservices Mimari Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-10.md)
 
-12. [Modern Web Geliştirme- ÖDEVLENDİRMELER](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/odevlendirme.md)
+
+
+[Modern Web Geliştirme- ÖDEVLENDİRMELER](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/odevlendirme.md)
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f7f66973-4c40-4838-aff7-4ecb9ac08715)
 
 
