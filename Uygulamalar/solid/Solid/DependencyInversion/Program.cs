@@ -1,80 +1,88 @@
-﻿#region Kodun Çalıştırıldığı Yer
-#endregion
-
-RunCars();
+﻿#region Kodun Çalıştırıldığı Kısım
 void RunCars()
 {
-    new TripInfoLogger().LogToTurkey("Dependency olmadan");
-    new TripInfoLoggerDependency(new TurkeyLoggerDependency()).Log("Türkiye için dependency");
-    new TripInfoLoggerDependency(new FranceLoggerDependency()).Log("Fransa için dependency");
+    //Hata verirse Dependency ile log bassın. 
+
+    new TripIfoLoggerDependency(new TurkeyLoggerDependency()).Log();
+    new TripIfoLoggerDependency(new FranceLoggerDependency()).Log();
+
+    //Dependency kullanmasa
+
+    new TripInfoLogger().LogToTurkey("test");
+    new TripInfoLogger().LogInfoFrance("test");
 }
+#endregion
 
 
-#region Dependency Inversion Kullanılmasa
+
+#region Dependency Inversion Kullanılmasa ?
+
 public class TripInfoLogger
 {
-    public void LogToTurkey(string logInfo)
+    public void LogToTurkey(string tripInfo)
     {
-        new TurkeyLogger().Log(logInfo);
+        new TurkeyLogger().Log();
     }
 
-    public void LogToFrance(string logInfo)
+    public void LogInfoFrance(string logInfo)
     {
-        new FranceLogger().Log(logInfo);
+        new FranceLogger().Log();
     }
 }
+
 
 public class TurkeyLogger
 {
-    public void Log(string logInfo)
+    public void Log()
     {
-        Console.WriteLine($"Türkiye Loglama işlemi gerçekleşti.Log info:{logInfo}");
+        Console.WriteLine("Turkiye için loglama yapıldı.");
     }
 }
 
 public class FranceLogger
 {
-    public void Log(string logInfo)
+    public void Log()
     {
-        Console.WriteLine($"Fransa Loglama işlemi gerçekleşti.Log info:{logInfo}");
+        Console.WriteLine("Fransa için loglama yapıldı.");
     }
 }
 #endregion
 
+#region Dependency olursa nasıl yaparım ? 
 
-#region Dependency Inversion Kullanılsa 
-public class TripInfoLoggerDependency
+public class TripIfoLoggerDependency
 {
     private ILoggerDependency _logger;
 
-    public TripInfoLoggerDependency(ILoggerDependency logger)
+    public TripIfoLoggerDependency(ILoggerDependency logger)
     {
         _logger = logger;
     }
 
-    public void Log(string logInfo)
+    public void Log()
     {
-        _logger.Log("Dependency");
+        _logger.Log();
     }
 }
 
 public class TurkeyLoggerDependency : ILoggerDependency
 {
-    public void Log(string logStr)
+    public void Log()
     {
-        Console.WriteLine($"Loglama işlemi Türkiye:{logStr}");
+        Console.WriteLine("Türkiye için loglama yapıldı.");
     }
 }
 
 public class FranceLoggerDependency : ILoggerDependency
 {
-    public void Log(string logStr)
+    public void Log()
     {
-        Console.WriteLine($"Loglama işlemi Fransa:{logStr}");
+        Console.WriteLine("Fransa için loglama yapıldı.");
     }
 }
 public interface ILoggerDependency
 {
-    void Log(string logStr);
+    void Log();
 }
+
 #endregion

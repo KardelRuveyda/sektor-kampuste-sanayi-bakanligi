@@ -1,35 +1,40 @@
-﻿#region Kodun Çalıştırıldığı Kısım 
-
+﻿#region Kodun Çalıştırıldığı Kısım
 Renault renault = new Renault();
+//renault.SendInfoDriver(new DriverInfo
+//{
+//    City = "Trabzon",
+//    EmailAdress = "kardel@gmail.com",
+//    Telephone = "32432432423"
+//});
+
+
 renault.SendInfoDriverSms(new DriverInfo
 {
-    EmailAddress = "ruveyda@gmai.com",
-    Telephone = "530556456",
-    City = "İstanbul"
+    City = "Trabzon",
+    EmailAdress = "kardel@gmail.com",
+    Telephone = "32432432423"
 });
 
 renault.SendInfoDriverMail(new DriverInfo
 {
-    EmailAddress = "ramazan@gmai.com",
-    Telephone = "54654564",
-    City = "Ankara"
+    City = "Trabzon",
+    EmailAdress = "kardel@gmail.com",
+    Telephone = "32432432423"
 });
+
 #endregion
-
-
-#region Birinci Arabanın Class'ının Oluşturulması
 public class Renault
 {
     public int RoadKm { get; set; }
 
     public void Go()
     {
-        Console.WriteLine("Araba gidiyor.");
+        Console.WriteLine("Araba gidiyor..");
     }
 
     public void Stop()
     {
-        Console.WriteLine("Araba durdu.");
+        Console.WriteLine("Araba durdu..");
     }
 
     public void SendMail()
@@ -37,52 +42,49 @@ public class Renault
         Console.WriteLine("Mail gönderildi.");
     }
 
-    public void SendSMS()
+    public void SendSms()
     {
-        Console.WriteLine("SMS gönderildi.");
+        Console.WriteLine("Sms gönderildi.");
     }
 
-    #region Single Resp. Uymayan Kısım
-
+    #region Single Resp. Uymayan bir kod yazalım
     public void SendInfoDriver(DriverInfo info)
     {
-        if (!String.IsNullOrEmpty(info.EmailAddress))
+        if (!String.IsNullOrEmpty(info.EmailAdress))
         {
             SendMail();
         }
 
         if (!String.IsNullOrEmpty(info.Telephone))
         {
-            SendSMS();
+            SendSms();
         }
     }
     #endregion
 
-    #region Single Resp. Uyan Kısım 
+    #region Signle Resp. Uyan Yapı
+    public void SendInfoDriverMail(DriverInfo info)
+    {
+        if (!String.IsNullOrEmpty(info.EmailAdress))
+        {
+            SendMail();
+        }
+    }
 
     public void SendInfoDriverSms(DriverInfo info)
     {
         if (!String.IsNullOrEmpty(info.Telephone))
         {
-            SendSMS();
+            SendSms();
         }
     }
-
-    public void SendInfoDriverMail(DriverInfo info)
-    {
-        if (!String.IsNullOrEmpty(info.EmailAddress))
-        {
-            SendMail();
-        }
-    }
-
     #endregion
+
 }
 
 public class DriverInfo
 {
-    public string EmailAddress { get; set; }
+    public string EmailAdress { get; set; }
     public string Telephone { get; set; }
     public string City { get; set; }
 }
-#endregion

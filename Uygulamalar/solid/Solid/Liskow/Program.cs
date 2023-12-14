@@ -1,112 +1,107 @@
-﻿#region Kodun çalıştırıldığı yer
+﻿#region Kodun Çalıştırılma Kısmı
 
-SendSMS();
-void SendSMS()
+SendSMSRenault();
+void SendSMSRenault()
 {
     var renault = new Renault();
-    renault.SendSMS();
+    renault.SendInfoDriverSms(new DriverInfo
+    {
+        City = "Tes",
+        EmailAdress = "ruve@gmail.com",
+        Telephone = "213123213"
+    });
 }
 #endregion
 
+#region Renault  işlemleri 
 public class Renault : BaseCar,ISmsSendable
 {
     public override double GetCostPerKM()
     {
-        return 2.3;
+        return 2.5;
     }
 
-    public void SendInfoDriverSms()
+    public void SendInfoDriverSms(DriverInfo info)
     {
-        Console.WriteLine("SMS Gönderildi.");
+        Console.WriteLine("Sms gönderildi.");
     }
 }
+
+#endregion
+
+#region Nissan işlemleri için 
 
 public class Nissan : BaseCar,ISmsSendable,IMailSendable
 {
     public override double GetCostPerKM()
     {
-        return 3.5;
+        return 1.5;
     }
 
-    public void SendInfoDriverSms()
+    public void SendInfoDriverEmail(DriverInfo info)
     {
-        Console.WriteLine("SMS Gönderildi.");
+        Console.WriteLine("Email gönderildi.");
     }
 
-    public void SendMailInfoDriver()
+    public void SendInfoDriverSms(DriverInfo info)
     {
-        Console.WriteLine("Mail Gönderildi.");
+        Console.WriteLine("Sms gönderildi.");
+
     }
 }
 
-#region SMS ve Mail Servisleri Interface
-public interface ISmsSendable
-{
-    void SendInfoDriverSms();
-}
-
-public interface IMailSendable
-{
-    void SendMailInfoDriver();
-}
 #endregion
 
 
-#region Yakıt Giderlerini Hesaplayan Bir Class 
+#region Yakıt Giderlerini Hesaplayan Bir Class
 public class FuelCostCalculator
 {
     public double Calculate(BaseCar car)
     {
-        //if(car is Renault)
-        //{
-        //    return car.RoadKm * 5.6;
-        //}else if ( car is Nissan)
-        //{
-        //    return car.RoadKm * 3.5;
-        //}
-        //else
-        //{
-        //    return car.RoadKm * 1;
-        //}
         return car.RoadKm * car.GetCostPerKM();
     }
-}
 
+}
 #endregion
 
-
-#region Base Car Abstract Class Oluşturalım
+#region Base Car Abstract Class'ı ( Tekrar tekrar kod yazmadan kaçınmak için bir soyut sınıf açtık.)
 public abstract class BaseCar
 {
-    public double RoadKm { get; set; } = 2.6;
+    public double RoadKm { get; set; } = 2.2;
 
     public abstract double GetCostPerKM();
-
     public void Go()
     {
-        Console.WriteLine("Araba gidiyor.");
+        Console.WriteLine("Araba gidiyor..");
     }
 
     public void Stop()
     {
-        Console.WriteLine("Araba durdu.");
-    }
-
-    public void SendMail()
-    {
-        Console.WriteLine("Mail gönderildi.");
-    }
-
-    public void SendSMS()
-    {
-        Console.WriteLine("SMS gönderildi.");
+        Console.WriteLine("Araba durdu..");
     }
 }
+
+#endregion
+
+#region Interfacelerin Oluşturulması
+//SMS interface tanımlaması
+public interface ISmsSendable
+{
+    void SendInfoDriverSms(DriverInfo info);
+}
+
+//Mail interface tanımlaması
+
+public interface IMailSendable
+{
+    void SendInfoDriverEmail(DriverInfo info);
+}
+
+#endregion
 
 public class DriverInfo
 {
-    public string EmailAddress { get; set; }
+    public string EmailAdress { get; set; }
     public string Telephone { get; set; }
     public string City { get; set; }
 }
-#endregion
