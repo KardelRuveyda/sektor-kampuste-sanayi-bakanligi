@@ -15,11 +15,11 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 - [x] [Modern Web Geliştirme- Notlar 6-C# Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-6.md)
 - [x] [Modern Web Geliştirme- Notlar 7-C# 102](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-7.md)
 - [x] [Modern Web Geliştirme- Notlar 8-Solid](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-8.md)
-- [ ] [Modern Web Geliştirme- Notlar 9-.Net Ekosistemi](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-9.md)
-- [ ] [Modern Web Geliştirme- Notlar 10-.Net Core Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-10.md)
-- [ ] [Modern Web Geliştirme- Notlar 11-.Net Core Best Practices](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-11.md)
-- [ ] [Modern Web Geliştirme- Notlar 12- Monolitik Mimari Nedir? SOA Nedir? Mikroservis Mimarisi nedir?](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-12.md)
-- [ ] [Modern Web Geliştirme- Notlar 13-.N-Layer Proje Yapısı](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-13.md)
+- [x] [Modern Web Geliştirme- Notlar 9-.Net Ekosistemi](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-9.md)
+- [x] [Modern Web Geliştirme- Notlar 10-.Net Core Temelleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-10.md)
+- [x] [Modern Web Geliştirme- Notlar 11-.Net Core Best Practices](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-11.md)
+- [x] [Modern Web Geliştirme- Notlar 12- Monolitik Mimari Nedir? SOA Nedir? Mikroservis Mimarisi nedir?](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-12.md)
+- [x] [Modern Web Geliştirme- Notlar 13-.N-Layer Proje Yapısı](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-13.md)
 
 
 
