@@ -23,7 +23,7 @@ aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleş
 - [ ] [Modern Web Geliştirme- Notlar 14-Core Katmanı Geliştirmeleri](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/modern-web-gelistirme-14.md)
 
 
-
+[Modern Web Geliştirme-FAYDALI KAYNAKLAR](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/faydaliKaynaklar.md)
 [Modern Web Geliştirme- ÖDEVLENDİRMELER](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/odevlendirme.md)
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f7f66973-4c40-4838-aff7-4ecb9ac08715)
 
