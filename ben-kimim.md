@@ -4,3 +4,4 @@
 🏆1 Eylül 2024 tarihi itibariyle,gönüllü olarak gerçekleştirdiğim paylaşımlar ve topluluk çalışmaları sonucunda #Microsoft .NET alanında **Microsoft Most Valuable Professional (MVP)** unvanına layık görüldüm. Bu muhteşem topluluğun bir parçası olduğum için büyük bir gurur ve minnettarlık duyuyorum!
 
 ![{4774DCFE-6C7D-48AF-B4D0-257614D12186}](https://github.com/user-attachments/assets/d4a156b2-9ad7-40a3-8fe5-208720b0ba1b)
+![{A0D675E7-397B-4019-9A2C-AF53DC4C1475}](https://github.com/user-attachments/assets/86956acf-f441-4792-a0cc-5d331df07bb5)
