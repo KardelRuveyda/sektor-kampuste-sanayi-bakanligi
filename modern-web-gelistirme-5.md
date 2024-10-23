@@ -1,6 +1,5 @@
 #  Modern Web Geliştirme 5
 
-
 ## MSSQL Uygulamaları
 
 -> [https://www.w3schools.com/ ](https://www.w3schools.com/sql/default.asp) ( SQL ile ilgili alıştırmalara bu siteden de bakabilirsiniz.) 
@@ -35,71 +34,6 @@ Microsoft SQL Server sürümleri; yazılımı, yazılımı geliştiren programc�
 ### Sürümlere nerden ulaşabilirim?
 
 - https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15 linkinden ulaşabilirsiniz.
-
-### Microsoft SQL Server Express Kurulum Aşamaları
-
-- SQL Server 2017 ile beraber Management Studio ile SQL Server birbirinden ayrıldı. SQL Server’ı kurunca SQL Server Management Studio gelmiyor. O nedenle önce SQL Server’ı daha sonra SQL Server Management Tools’u kurmanız gerekmektedir.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/cdb924f9-f115-46bb-994d-c4fa368d1142)
-
-- Bu alanda sürüm seçimi yapılmaktadır.
-- Express sürümünü veya Evaluation Sürümünü seçebilirsiniz.
-- **Evulation** : 180 günlük deneme sürümü
-- **Developer:** Geliştiricilere yönelik lisanslamadır.
-- **Express :** Ücretsiz olan bir sürümdür .Database boyutu olarak en fazla 10 GB’a kadar desteklemektedir.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/0a58bd10-a
-
-b43-4cf5-b984-d72d48465bbe)
-
-- Lisans şartları kabul edilir.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/54e28c54-a9ae-4427-880d-37318e427832)
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/f4c64149-5731-4276-b7ae-8055bb172dbf)
-
-- Update şartları kabul edilir ve Next denir.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/cb215b10-2013-48d0-9ff6-2d6c54f27ac6)
-
-- Aşağıdaki alanda Firewall ile ilgili uyarı verilmektedir. Uyarıda ilgili portların açık olmaması; Windows Firewall’ı disable edebilir.
-
-  ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/e2792720-3c45-49ce-83fa-3ba6180984f4)
-
-- Aşağıdaki alanda karşınıza Feature Select alanı gelmektedir. Bu alanda ihtiyacınız olan alanları kurmanız daha sağlıklı olacaktır. Zaten burada işaretlemediklerinizi daha sonra ihtiyaç duyduğunuz takdirde Setup alanından tekrar kurabilirsiniz.
-- Bu alanlarda Feature’ler ile ilgili özelliklere aşağıdaki linkten ulaşabilmeniz mümkündür.
-- **Feature Özellikleri:** https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15
-
-![Picture1](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/754f2244-0986-4aa0-a847-66d47827e003)
-
-- Instance ismini değiştirmeden devam edebilirsiniz veya değiştirebilirsiniz.
-  
-![Picture2](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/9c3a506e-ef51-40ff-9b83-5676bd12f04c)
-
-- Domain ortamında iseniz SQL Server Agent için bir kullanıcı oluşturup tanımlamanız gerekmektedir. Sarı ile işaretlenen alan SQL Server 2016 ile eklenmiş bir özelliktir. SQL Server data işlemlerinde ( Veri tabanı oluşturma, Data File ekleme,Boyut Arttırma vb.) gibi durumlarda performans olarak yüksek bir avantaj sağlar.
-
-![Picture4](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/477b1ea6-ee07-435c-bdf3-a2f722328d25)
-
-- Bu alanda Mixed Mode seçilerek “SA” için şifre belirlenir ve Admin kullanıcı eklenip diğer Tab’e geçilir.
-  
-![Picture5](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/1fd4fdae-0adf-4db3-bf21-48d16c3b7d16)
-
-- Aşağıdaki alanda ise Database dosyalarının hangi konumda barındırılacağı seçilir.
-- -Seçtiğiniz disklerin ayırma boyutları 64K olmalıdır.-Database ve Log ayrı disklerde olmalıdır.
-  
-![Picture6](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/092f1880-7541-43e4-a7d1-fb1e3e884c20)
-
-- Aşağıdaki alanda Temp DB ile ilgili ayarlar bulunur.File sayısını Core sayınız kadar yapmak mantıklı olandır. Temp File’lar aynı boyutta olmalıdır. Hepsi 1 GB olabilir.
-
-![Picture7](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/2603c9ce-484f-4c74-aa20-896a2b9aa566)
-
-- Artık yüklemeye hazırsınız!
-
-![Picture8](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/30f7225a-e558-4936-9dfc-9d50d1c1eae9)
-
-- Yukarıdaki alandan SQL Server Management Tools kurulunu seçip Management Studio Kurulumunu da gerçekleştirebilirsiniz.
-
-![Picture9](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/5658d63e-f37d-4f81-85b7-dc681ad3e69f)
 
 ### Hazır Veri Tabanları İle Çalışma
 
