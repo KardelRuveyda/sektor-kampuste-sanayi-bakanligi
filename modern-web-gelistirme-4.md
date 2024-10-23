@@ -4,19 +4,25 @@
 
 ### Neden Veri Tabanı?
 
-İş hayatında artan rekabet koşulları altında kurumların yaşamları ve gelecekle ile ilgili planlarında, esas kilit nokta; aldıkları veya alacakları kararlardır. Günümüzde kurumlar aldıkları bazı yanlış kararlarda geri dönüp bu yanlışı düzeltme gibi bir lükse sahip olamazlar ve faaliyetlerini durdurmak zorunda kalabilirler. Doğru karar vermenin önemini bilen ve kavrayan kurum ve kuruluşlar ise tüm işlemlerini, daha sonra da kullanabilmek adına elektronik ortamlarda yani veri tabanlarında muhafaza etmeye başlamışlardır. Şirketlerin bu sisteme geçişteki ilk amacı; zaman kazanmak, raporlamaları daha kolay bir şekilde yapabilmek ve istediği bilgilere anında ulaşabilmekti. Fakat daha sonra iş dünyasında artan rekabet, veri tabanını bu işlevlerden daha fazlasını kullanmaya zorladı ve çoğu şirketin ikinci amacı; depolanan verilerden analiz yaparak, çeşitli sonuçlara ulaşıp, ulaştığı sonuçlardan belli başlı istatistikler çıkarmak oldu. Kısacası, iş dünyasının veya birçok alanın karmaşıklaşan yapısı, veri tabanı teknolojilerinin geliştirilmesiyle daha basite indirgenmiştir.
+Günümüzün rekabetçi iş dünyasında, kurumların başarısı ve sürdürülebilirliği, aldıkları stratejik kararların doğruluğuna bağlıdır. Şirketlerin yanlış kararları düzeltme lüksü olmadığı gibi, bu durum faaliyetlerinin durmasına bile yol açabilir. Bu nedenle, doğru ve güvenilir kararlar almak için işletmeler, işlemlerini kaydedip analiz edebilecekleri veri tabanı sistemlerine yönelmişlerdir.
+
+Başlangıçta, veri tabanları zaman kazandırmak, raporlamaları kolaylaştırmak ve verilere hızlı erişim sağlamak amacıyla kullanılıyordu. Ancak, rekabetin artmasıyla birlikte veri tabanlarının işlevi genişledi; artık veriler analiz edilip, sonuçlar çıkarılarak karar alma süreçlerine katkıda bulunulmaktadır. Bu durum, iş dünyasının karmaşıklığını veri tabanı teknolojileriyle daha basit ve yönetilebilir hale getirmiştir.
 
 ### Veri Nedir?
 
-Veri ve bilgi terimleri birbirinin yerine kullanılan iki kavram olarak açıklanabilmektedir. Veri kavramı; olayları, yerleri, insanları veya nesneleri ilgilendiren gerçeklerdir. Bu nedenle veri kavramı her durum için farklılıklar gösterebilmektedir. Bilgisayar ortamında veri kavramı; bilgisayarın manyetik disk üzerinde (Örneğin; Hard disk),yarı iletkenden oluşmuş hafıza biriminde ise (Örneğin; RAM) olarak kabul edilebilir[2]. Veri çeşitli şekillerde işlenmeye hazır durumda olan, fakat ilk bakışta faydasız ve anlamsız gibi görünen birçok kaydı gösterir.Bilgi kavramı, verinin işlenmiş, kullanıcı için faydalı ve kullanışlı hale getirilmiş hali olarak tanımlanabilir. Örneğin; şirket bilgilerinin tutulduğu bir veri tabanı düşünecek olursak, bu veri tabanından “İnsan Kaynakları” departmanı çalışanları içinden “İşe Alım Ekibi” ’nin bu ay mülakat yaptığı adayları listelemek, bilgiyi işleyip veri haline getirmeye bir örnektir.
+"Veri" ve "bilgi" terimleri sık sık birbirinin yerine kullanılsa da aslında farklı anlamlar taşırlar. Veri, olaylar, yerler, kişiler veya nesneler hakkında elde edilen ham gerçeklerdir. Bu veriler, bilgisayar ortamında işlenmemiş ve anlamlandırılmamış halde bulunur. Veri, genellikle manyetik diskler (örneğin, sabit disk) veya yarı iletken belleklerde (örneğin, RAM) saklanır.
+
+Bilgi ise işlenmiş, anlamlandırılmış ve kullanıcıya fayda sağlayacak hale getirilmiş veridir. Örneğin, bir şirketin çalışanlarının listesi ham bir veriyken, belirli bir departmandaki çalışanların raporlanması bilgiye dönüşmüş halidir.
 
 ### Veri tabanı Kavramı
 
-Veri tabanı; veriyi belirli şekillerde kategorize etmeyi; kategorize ettiği veriler ile kataloglar oluşturmayı ve alt birimlerinde verinin dallarını oluşturmayı sağlayan bir yapıdır. Veri tabanının amacı veriye hızlı ve doğru bir şekilde erişebilmektir. Kimin erişeceğini nasıl erişeceğini ve güvenlik haklarının belirlenmesini veri tabanı kendisi sağlamaktadır. En önemli görevi ise, verinin verimli bir şekilde tutulmasını sağlayabilmektir. Veri tabanları verinin canlı bir şekilde tutulmasını ve saklanmasını sağlar. Veriyi verimli tutmaktansa veriyi en hızlı şekilde nasıl tutarım kavramı ise “Big Data” ’ nın çalışma alanına girer. “Big Data” yani “Büyük Veri” kavramı veri tabanları gibi veriyi canlı olarak saklamaz veya bu veriyi saklamak için herhangi bir sorgulama diline ihtiyaç duymaz. Verinin işlendiği her yerde veri tabanından bahsedilebilir. Veri tabanları; birbiriyle ilişkili olan verilerin tutulduğu, kullanım amacına uygun olarak düzenlenmiş veriler topluluğu olarak açıklanan bilgi ambarları olarak da bilinmektedir. Gerçekte var olan ve birbirleriyle ilişkileri olan nesneler ile ilgilenir ve bu nesneler için uygun modeller oluşturur. Banka üniversite, okul, seyahat şirketi, hastane, devlet dairesi gibi bir kuruluşun çalışıp işleyebilmesi için gereken uygulama programları temelinde veri tabanına ihtiyaç duyar. Ticari bir şirket için müşteri bilgileri, satış bilgileri, ürün bilgileri, ödeme bilgileri vb. Okul için öğrenci bilgileri, açılan dersler, okula kaydedilmiş öğrenciler, öğretmen bilgileri vb. Hastane için hasta bilgileri, doktor bilgileri, yatakların doluluk ve boşluk bilgileri, teşhis-tedavi bilgileri, mali bilgiler vb. veri tabanlarında kullanılan çok amaçlı verilere örnek olarak gösterilebilir.
+Veri tabanı, belirli kategorilere göre düzenlenmiş verilerin saklandığı bir yapıdır. Bu yapı, veriye hızlı ve güvenli bir şekilde erişim sağlamayı, verinin kim tarafından nasıl kullanılacağını yönetmeyi amaçlar. Ayrıca veri tabanları, verilerin düzenli ve verimli bir şekilde saklanmasını sağlar. Büyük Veri (Big Data) kavramı ise veriyi analiz etmek ve anlamlandırmak üzerine odaklanır. Bu noktada, veri tabanlarının yapıları ve işlevleri genişlemekte, karmaşık veriler anlamlı hale getirilmektedir.
+
+Veri tabanları, banka, hastane, üniversite gibi büyük kuruluşlarda önemli iş süreçlerinin yönetilmesi ve raporlanması için kullanılır. Örneğin, bir banka müşterilerinin hesap bilgileri, bir hastane ise hasta kayıtlarını veri tabanında saklar. Veri tabanları, verilerin merkezi ve tutarlı bir şekilde yönetilmesini sağlar.
 
 ###  Neden veri tabanı kullanılır?
 
-Dijital ortamda bilgilerin yani verilerin tutulması, saklanması ve erişilmesinde değişik yollar ve teoriler geliştirilmiştir. Bilgisayar ortamında tutulan her bilgi veri değildir, her veri ise bilgi değildir. Verilerin saklanmasında en yaygın olan metotlardan birisi; “Geleneksel Yaklaşım Metot’ u ” ’dur. Bu metotta toplanan verilerin hepsi ayrı ayrı dosyalarda tutulur ve gruplandırılır. Verilerde meydana gelen olası değişikler, verilere aynı anda erişilmesi gibi ihtiyaçlar arttıkça; “Geleneksel Yaklaşım” yeteriz kalmıştır. Bu nedenle yeni yaklaşım kuralları belirlenmiştir. Bu kurallar sayesinde veri tabanı kullanımı daha elverişli hale getirilmiştir.
+Bilgiye hızlı, güvenli ve düzenli bir şekilde erişebilmek için çeşitli veri yönetim yaklaşımları geliştirilmiştir. Geleneksel dosya tabanlı sistemler, her bir veri setini ayrı dosyalarda tutarken, bu sistemlerdeki veriye eşzamanlı erişim ve değişiklik yapma zorlukları nedeniyle yetersiz kalmışlardır. Bu sorunlar, veri tabanı yönetim sistemlerinin geliştirilmesine yol açmıştır. Veri tabanları, verilerin merkezi olarak yönetilmesini, veri tekrarının azaltılmasını ve verilerin daha güvenli bir şekilde saklanmasını sağlar.
 
 ### Veri tabanı yaklaşımının avantajları
 
@@ -30,7 +36,9 @@ Dijital ortamda bilgilerin yani verilerin tutulması, saklanması ve erişilmesi
 
 ### Veri tabanı yönetim sistemi nedir?
 
-Bir veri tabanının oluşturulması, verilerin eklenmesi, yeni eklenen kayıtların güncellenmesi ve işlenmesi, kısacası veri tabanının yönetilebilmesi için kullanılan sistemlere “Veri Tabanı Yönetim Sistemi” denir.
+Veri tabanlarının oluşturulması, yönetimi, güncellenmesi ve verilerin işlenmesi için kullanılan sistemlere Veri Tabanı Yönetim Sistemi (DBMS) denir. Bu sistemler, verilerin fiziksel olarak nasıl depolanacağını yönetirken, kullanıcılara standart bir SQL (Structured Query Language) arayüzü sunarak veriye erişim ve veri işleme süreçlerini kolaylaştırır.
+
+DBMS, kullanıcıların veri yapısı ve depolama gibi detaylarla uğraşmasına gerek bırakmaz, verilerin güvenli ve verimli bir şekilde saklanmasını sağlar. Ayrıca, sistemdeki kullanıcılar, roller ve erişim yetkileri, veri tabanı yöneticisi tarafından denetim altında tutulur.
 
 ### Veri tabanı yönetim sistemi amacı nedir?
 
@@ -76,6 +84,8 @@ Veri tabanı Türleri üç kısımda incelenmektedir. Bu veri tabanları Hiyera
 **Hiyerarşik veri tabanları**
 
 Hiyerarşik Veri Tabanları, veriyi işlemek ve depolamak için geliştirilmiş olan ilk veri tabanı modeli olarak bilinmektedir. Bu modelde, kök düğüm yani root node haricinde kalan bütün düğümler, kendisinden bir üst düğüme bağlanmak zorundadır. Temelinde Binary Search metodu bulunmaktadır. Hiyerarşik veri tabanları, dünya genelinde yaygın bir kullanıma kavuşmamıştır. Anlaşılacağı üzere hiyerarşik veri tabanları, günlük hayatta yaygın olarak kullanılmamaktadır.
+
+
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/bac7f702-e045-4e29-b768-044b62e1af0e)
 
 **İlişkisel Veri Tabanları**
