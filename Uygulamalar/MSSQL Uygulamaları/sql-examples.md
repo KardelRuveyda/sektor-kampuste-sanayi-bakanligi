@@ -1,12 +1,12 @@
 # Northwind Veritabanında INNER JOIN ve GROUP BY Kullanımı
 
-Bu dosyada, Northwind veritabanını kullanarak örnekler gerçekleştirilmiştir.
+Bu dosyada, **Northwind** veritabanını kullanarak örnekler gerçekleştirilmiştir.
 
 
 ## Senaryo 1 
 
 * Her bir ürünün kategori adını ve tedarikçi adını getiren bir sorgu oluşturun.
-* Products tablosu Categories ve Suppliers tablolarıyla birleştirildi.
+* Products tablosu **Categories** ve **Suppliers** tablolarıyla birleştirildi.
 * Bu sorgu, her ürünün adı, kategori adı ve tedarikçi adını getirir.
 
 ```sql
@@ -27,7 +27,7 @@ INNER JOIN
 ## Senaryo 2
 
 * Her müşterinin verdiği siparişleri ve bu siparişlerde yer alan ürünleri listeleyin.
-* **Customers** tablosu Orders ile, Orders tablosu Order_Details ile ve Order_Details tablosu Products ile birleştirildi.
+* **Customers** tablosu **Orders** ile, **Orders** tablosu **Order_Details** ile ve **Order_Details** tablosu **Products** ile birleştirildi.
 * Sorgu, müşteri adı, sipariş kimliği, siparişte yer alan ürün adı, miktarı ve birim fiyatını listeler.
 
 ```sql
@@ -81,7 +81,7 @@ INNER JOIN
 ## Senaryo 4: En Çok Satılan Ürünler
 
 * Her ürün için toplam satış miktarını hesaplayın ve en çok satılan ürünleri azalan sırayla listeleyin.
-* Products ve Order_Details tabloları birleştirildi.
+* **Products** ve **Order_Details** tabloları birleştirildi.
 * Her ürün için toplam satış miktarı hesaplandı ve en çok satılandan en aza doğru sıralandı.
 
 
@@ -131,7 +131,7 @@ INNER JOIN
 ## Senaryo 6 Kategorilere Göre Toplam Satış Miktarını Hesaplama
 
 * Her bir kategoriye ait toplam satış miktarını (ürün sayısını) bulmak için GROUP BY ve SUM ifadelerini kullanabilirsiniz.
-* **Categories** ve **Products** tabloları, ardından Order_Details tablosu ile INNER JOIN kullanılarak bağlandı
+* **Categories** ve **Products** tabloları, ardından **Order_Details** tablosu ile **INNER JOIN** kullanılarak bağlandı
 * GROUP BY ifadesi ile her kategoriye göre gruplama yapılır ve SUM(Order_Details.Quantity) ile her kategorideki toplam satış miktarı hesaplanır.
 
 
@@ -153,7 +153,7 @@ GROUP BY
 ```
 
 
-## ÖDEV 1 Müşterilerin Toplam Sipariş Tutarlarını Hesaplama
+## ÖDEV: Müşterilerin Toplam Sipariş Tutarlarını Hesaplama
 
 Görev Tanımı: Northwind veritabanını kullanarak, her müşterinin verdiği siparişlerin toplam tutarını hesaplayan bir SQL sorgusu yazmanız beklenmektedir. Bu sorgu, müşteri bilgilerini ve sipariş detaylarını birleştirerek, her müşterinin toplam harcamasını gösterecektir.
 
