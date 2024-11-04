@@ -188,3 +188,4 @@ Bu tabloları kullanarak, müşterilerin sipariş bilgilerini birleştirin.
 * Sorgu kodunu ve çıktısını içeren bir dosya (Word veya PDF formatında) oluşturun.
 * Dosyanızda, sorgu ile birlikte her bölümün açıklamasını ve ekran görüntüsünü eklemeyi unutmayın.
 * ruveydakardelcetin@gmail.com 'a atabilirsiniz.
+* **Teslim Tarihi**: **18.11.2024 00.00 **
