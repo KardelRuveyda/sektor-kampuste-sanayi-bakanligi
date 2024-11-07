@@ -32,55 +32,11 @@ Versiyon kontrol sistemleri, yazılım geliştirme süreçlerinde yapılan deği
 
 ### Git Kurulum İşlemleri
 
-- https://git-scm.com/downloads adresinden indirmeniz gerekiyor.
+Git kullanmaya başlamak için öncelikle Git'in resmi sitesinden Git'i indirip kurmanız gerekmektedir. Kurulum işlemi tamamlandıktan sonra, işletim sisteminize göre komut satırına (Mac kullanıcıları için Terminal, Windows kullanıcıları için CMD) erişmeniz gerekir. Ardından, terminal veya komut satırına git --version yazarak Git'in başarılı bir şekilde kurulduğundan ve hangi sürümünün yüklü olduğundan emin olabilirsiniz. Git'in kurulumunun ardından, proje yönetimi ve sürüm kontrolü için çeşitli komutlar kullanmaya başlayabilirsiniz.
 
-  ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/3a4374b0-c11a-425e-9571-9fbb9c9f4400)
+Git'i kurduktan sonra, özellikle Windows kullanıcıları için Git Bash adlı bir terminal uygulaması da kurulur. Git Bash, Git komutlarını kullanmak için özel olarak tasarlanmış bir terminal ortamıdır. Git Bash, Unix benzeri komutları çalıştırmak için kullanılır ve bu sayede Linux veya MacOS kullanıcılarının alışık olduğu terminal deneyimini Windows ortamında sağlar. Git Bash, Git'in tüm özelliklerini kullanmanıza olanak tanırken, aynı zamanda dosya ve dizinlerle çalışma gibi işlemleri de kolaylaştırır.
 
-- Kullanıcı hesap denetimi ayarlarınız açık ise karşınıza bir pencere gelecektir. Bu aşama da işlemin tarafımızdan gerçekleştirildiğini onaylamamız gerekiyor. "Evet" seçeneğini seçerek işleme izin vermeniz gerekir.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/82b961d3-5a6c-4dcd-8811-d9a1999db726)
-
-- Kurulumun ilk aşamasında bizi "GNU General Public License" lisansı karşılamaktadır. "Next" butonuna tıklayarak bir sonra ki aşamaya geçiyoruz.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/fca09bb2-82fb-4e85-8b14-ef34ac2f4365)
-
-- Bu aşamada Git'in kurulacağı dizini belirtmemiz gerekiyor. Eğer farklı bir dizin seçmeyecek seniz, "Next" butonu ile bir sonra ki aşamaya geçiyoruz.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/afcc40bd-012b-4e9d-9100-0c5bf38fc42c)
-
-- Bu aşamada kurmak istediğiniz ekstra bileşenler varsa bu aşamada seçiyoruz. Bu aşamayı da "Next" butonu ile geçiyoruz.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/19122356-48a4-4e73-8187-b4f2bd2392bd
-
-- Varsayılan olarak kullandığımız bir editör varsa, burada belirtmemiz gerekiyor. Ben varsayılan olarak Visual Studio Code kullandığımdan "Use Visual Studio Code as Git's default editor" seçeneğini seçtim. Eğer bu seçimi yaptıysanız, sonra ki aşamaya geçelim.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/294b7f89-8170-4c4c-aec5-a19129ab40c2)
-
-- Bu aşamada ise bağlantı sağlayacağımız yöntemi seçmemiz gerekiyor. commit ederken siz Windows, arkadaşınız Linux kullanıyorsa önemli!
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/238b05f1-c51e-4735-9a4f-3170cdb3ac6a)
-
-- Bu aşamada Git Bash'ın kullanacağı terminali belirtiyoruz. İsterseniz MinTTY gibi çok fonksiyonlu bir terminal kullanabilir veya klasik "Komut istemcisini" kullanabilirsiniz.
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/78a50e36-76eb-4dcc-9aed-6f9dae1bdee7)
-
-- Veee, mutlu son :)
-
-![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/7d83b364-cbd9-4f8d-8da7-a6961b2db453)
-
-- Git Bash, Git'i kullanırken Windows işletim sistemi üzerinde bir komut satırı arabirimi sağlayan bir uygulamadır. Windows kullanıcılarına Git komutlarını çalıştırmak, depolarını yönetmek ve Unix benzeri komutları kullanmak için bir çözüm sunar. Git Bash aynı zamanda Git'in özelliklerini kullanmanıza ve Linux veya macOS terminali benzeri bir deneyim elde etmenize olanak tanır.
-
-Git Bash, aşağıdaki önemli özelliklere sahiptir:
-
-Git Komutları: Git Bash, Git komutlarını Windows'ta kullanmanıza izin verir. git init, git clone, git commit, git pull, git push gibi Git komutlarını burada kullanabilirsiniz.
-
-Unix Benzeri Ortam: Git Bash, Unix ve Linux terminalini taklit eden bir komut satırı deneyimi sunar. Bu, Unix benzeri komutları kullanmayı kolaylaştırır.
-
-Shell Desteği: Git Bash, Bash shell üzerine inşa edilmiştir ve birçok Unix komut dosyası (shell script) ve araçlarıyla uyumludur. Bu, özelleştirme ve otomasyon için kullanışlıdır.
-
-Daha Fazla Araç: Git Bash ayrıca temel Git dışındaki araçları da içerebilir. Örneğin, SSH anahtarları oluşturmak ve yönetmek için kullanabileceğiniz ssh-keygen gibi araçlar mevcuttur.
-
-Git Bash, Windows kullanıcılarına Git'i kullanma ve geliştirme projelerini yönetme konusunda güçlü bir araç sunar. Ayrıca Git'in komut satırı arayüzünü tercih edenler için ideal bir seçenektir. Git Bash, Git'i Windows ortamında daha etkili bir şekilde kullanmanıza yardımcı olur.
+Git Bash’i açtıktan sonra, normal bir terminalde olduğu gibi Git komutlarını yazabilir ve çalıştırabilirsiniz. Örneğin, git --version komutunu kullanarak kurulu olan Git sürümünü öğrenebilir, git init komutuyla bir projeyi başlatabilir veya git status komutuyla çalışma dizininizdeki durumu kontrol edebilirsiniz. Git Bash, aynı zamanda Windows üzerinde Linux ve macOS'tan alışık olduğunuz komut satırı deneyimini sağlar ve Git kullanımını daha verimli hale getirir.
 
 ![image](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/assets/33912144/554b6edd-0bad-4a81-9dab-6b2078ab7a08)
 
