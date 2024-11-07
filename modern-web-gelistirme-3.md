@@ -28,17 +28,7 @@ Git açık kaynak kodlu bir versiyon sürüm kontrol sistemidir
 
 **Versiyon Kontrol Sistem Tipleri**
 
-**1. Local Versiyon Kontrol Sistemleri**
-
-En eski versiyon kontrol sistemi yaklaşımıdır. Çalıştığımız projemiz ve yaptığımız değişiklikler kullanıcı makinası üzerindeki veritabanında tutulur. Her yapılan commit bir versiyon olarak tutulur ve commit değerine hash ataması yapılarak her versiyon birbirinden ayırt edilmektedir. Ayrıca versiyon görüntüleme imkanını sağlar. Ancak bu sistemde sadece bir kullanıcı etkin bir şekilde çalışabilir.
-
-**2. Merkezi Versiyon Kontrol Sistemleri**
-
-Birden fazla kişinin bir proje üzerinde etkin çalışması için ortaya atılmış versiyonlama sistemidir. CVS, SVN birer merkezi versiyon kontrol sistemleridir. Bu sistemde proje ortak bir respository’de tutulur ve birden fazla geliştirici aynı respository üzerinde checkout ve commit işlemlerini gerçekleştirmektedir. Bu yöntemde herkesin projeye katkı sağlamasının yanısıra bazı ciddi sorunları vardır. Tek merkezli sunucu 1 saatliğine arızalanması durumunda, kullanıcılar 1 saat boyunca çalışmalarını veya çalıştıkları projenin sürümlenmiş kopyalarını kaydetmeleri mümkün olmayacaktır.
-
-**3. Dağıtık Versiyon Kontrol Sistemleri**
-
-
+Versiyon kontrol sistemleri, yazılım geliştirme süreçlerinde yapılan değişikliklerin takip edilmesini sağlar ve projelerin yönetimini kolaylaştırır. Lokal versiyon kontrol sistemleri, tüm değişikliklerin yerel makinede saklanmasını sağlar ancak yalnızca tek bir kullanıcı tarafından kullanılabilir. Merkezi versiyon kontrol sistemleri (örneğin, CVS ve SVN), birden fazla geliştiricinin aynı proje üzerinde çalışmasına olanak tanır, ancak merkezi sunucunun arızalanması durumunda projedeki değişiklikler kaybolabilir. Dağıtık versiyon kontrol sistemleri (örneğin, Git), her geliştiricinin tüm proje geçmişine sahip olmasını sağlar, böylece merkezi sunucuya ihtiyaç duymadan bağımsız çalışabilirler ve yedeklilik ile güvenlik avantajı sunar. Dağıtık sistemler, büyük ve dağıtık ekiplerde yüksek verimlilik ve esneklik sağlar.
 
 ### Git Kurulum İşlemleri
 
