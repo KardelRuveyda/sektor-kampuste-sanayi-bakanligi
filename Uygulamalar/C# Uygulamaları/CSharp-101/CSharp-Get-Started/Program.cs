@@ -363,4 +363,21 @@ string[] carsNew = new string[] { "Volvo", "Bmw", "Porche", "Nissan", "Renault" 
 
 //new anahtarı sözcüğünü kullanmadan dizi oluşturabilirsiniz.
 string[] carsNew2 = { "Test", "Test1", "Test2" };
+
+
+// 3 adet string tipinde bir dizi oluşturun ve değerlerini sonradan ekleyin.
+string[] myCars = new string[3];
+int[] myNumbers = new int[3];
+
+// Değerleri sonradan atayalım. 
+cars[0] = "Toyota";
+cars[1] = "Ford";
+cars[2] = "Nissan";
+
+myNumbers[0] = 10;
+myNumbers[1] = 20;
+myNumbers[3] = 30;
+
 #endregion
+
+
