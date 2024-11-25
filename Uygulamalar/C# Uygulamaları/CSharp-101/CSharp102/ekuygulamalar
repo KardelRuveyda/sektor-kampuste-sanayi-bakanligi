@@ -1,0 +1,333 @@
+#region Kodların Çalıştırıldığı Kısım
+//HelloWorld();
+//MyMethod("Kardel","Çetin");
+//IsMarried("Alex");
+//IsMarriedRefactor("Alex");
+//IsMarriedInteger("Alex");
+//CarFeatures();
+//SaveFruitNameAndColor();
+//UsePolymorphism();
+//UseAbstractClass();
+//UseInterface();
+UseMultipleInterface();
+#endregion
+
+#region Metotlar 
+//Void Metotu : Geri dönüş değeri olmayan metotlardır.
+//Response Değer, Yok: Yazdığımız metotların geri dönüş değerleri olarak adlandırılır. 
+
+void HelloWorld()
+{
+    Console.WriteLine("Hello World");
+}
+//Metotun gene geri dönüş değeri olmasın
+// İki adet parametre alsın ( firstName ve lastName)
+
+void MyMethod(string firstName, string lastName)
+{
+    Console.WriteLine($"Benim adım {firstName},soyadım ise {lastName}");
+}
+//Metotun bir geri dönüş değeri de olsun.
+// Evli mi değil mi ? Kişinin evli olup olmadığını belirten bir metot yazalım.
+// Geri dönüş değeri olarak bool dönsün.
+// Parametre olarak da isim alsın. 
+
+bool IsMarried(string name)
+{
+    bool isMarried = false;
+    string message = "";
+
+    if (name == "Alex")
+    {
+        isMarried = true;
+    }
+    else
+    {
+        isMarried = false;
+    }
+
+    if (isMarried)
+    {
+        message = $"{name} evlidir.";
+    }
+    else
+    {
+        message = $"{name} evli değildir.";
+    }
+
+    return isMarried;
+}
+
+bool IsMarriedRefactor(string name)
+{
+    bool isMarriedRefacfor = name == "Alex" ? true : false;
+    string messageRefactor = isMarriedRefacfor ? $"{name} evlidir." : $"{name} evli değildir.";
+    Console.WriteLine(messageRefactor);
+
+    return isMarriedRefacfor;
+}
+
+int IsMarriedInteger(string name)
+{
+    //Ternary if
+    int isMarriedInteger = name == "Alex" ? 1 : 0;
+    string messageIntegerValue = isMarriedInteger == 1 ? $"{name} evlidir." : $"{name} evli değildir.";
+    Console.WriteLine(messageIntegerValue);
+    return isMarriedInteger;
+}
+
+//Araba özelliklerini getiren bir metot yazalım
+Car CarFeatures()
+{
+    Car car = new Car();
+
+    car.Brand = "BMW";
+    car.Model = "M3";
+    car.Year = 2021;
+
+    Car car2 = new Car
+    {
+        Brand = "Mercedes",
+        Model = "C180",
+        Year = 2020
+    };
+
+    Console.WriteLine(car.Year);
+    Console.WriteLine(car2.Brand);
+
+    return car;
+}
+
+//Meyvenin ismini ve rengini değiştiren bir metot yazalım
+
+Fruit SaveFruitNameAndColor()
+{
+    Fruit fruit = new Fruit
+    {
+        Color = "Yellow",
+        Name = "Banana"
+    };
+
+    Console.WriteLine($"Meyvenin ismi: {fruit.Name}, rengi: {fruit.Color}");
+    return fruit;
+}
+
+void UsePolymorphism()
+{
+    //Polimorfizm ile farklı araçları oluşturalım.
+    List<Vehicle> vehicles = new List<Vehicle>
+    {
+        new NewCar(),
+        new Bicycle(),
+        new Airplane(),
+    };
+
+    //Tüm araçları hareket ettir
+    foreach (var vehicle in vehicles)
+    {
+        //her araç kendi Move metodunu çağıracak.
+        vehicle.Move();
+    }
+
+}
+
+void UseAbstractClass()
+{
+    List<Animal> animals = new List<Animal>
+    {
+        new Dog(),
+        new Cat(),
+        new Cow()
+    };
+
+    //Hayvanların seslerini tespit etmek için;
+
+    foreach (var animal in animals)
+    {
+        animal.MakeSound();
+    }
+
+}
+
+void UseInterface()
+{
+    //Arayüzü kullanan cihazları listeye ekleme işlemi yapalım
+
+    List<IControllable> devices = new List<IControllable>
+    {
+        new Television(),
+        new Computer()
+    };
+
+    //Tüm cihazları aç.
+
+    foreach (var device in devices)
+    {
+        device.TurnOn();
+    }
+}
+
+void UseMultipleInterface()
+{
+    // Smart Device örneğini kullanalım.
+    SmartDevice smartDevice = new SmartDevice();
+
+    // IChargale ve IControllable türlerine atama yapmak istiyorum.
+    IChargeable chargeable = smartDevice;
+    IControllable controllable = smartDevice;
+
+    //Metotları çağırma işlemi
+    chargeable.Charge();
+    controllable.TurnOn();
+    controllable.TurnOff();
+}
+#endregion
+
+    #region Sınıfların Tanımlandığı Kısım
+class Car
+{
+    public string Brand { get; set; }
+    public string Model { get; set; }
+    public int Year { get; set; }
+}
+
+class Fruit
+{
+    public string Name { get; set; }
+    public string Color { get; set; }
+}
+#endregion
+
+#region Polimorfizm Örneği için yapıldı.
+//Temel bir Base Class
+class Vehicle
+{
+    public virtual void Move()
+    {
+        Console.WriteLine("Araç hareket ediyor.");
+    }
+}
+
+// Bu classtan türetilmiş (Derived Classes) 
+class NewCar : Vehicle
+{
+    public override void Move()
+    {
+        Console.WriteLine("Araba yolda hareket ediyor.");
+    }
+}
+
+class Bicycle : Vehicle
+{
+    public override void Move()
+    {
+        Console.WriteLine("Bisiklet pedallarla hareket ediyor.");
+    }
+}
+
+class Airplane : Vehicle
+{
+    public override void Move()
+    {
+        Console.WriteLine("Uçak havada hareket ediyor.");
+    }
+}
+#endregion
+
+#region Abstract Örneği
+
+public abstract class Animal
+{
+    // abstract anahtar kelimesi , bu sınıfın soyut olduğunu ve bu sınıfın 
+    // tek başına kullanılamayacağını belirtir.
+    //MakeSound metotu soyuttur; yani bu sınıfı kullanan alt sınıflar bu metotu
+    //kendilerine özgü bir şekilde doldurmalııdır.
+    public abstract void MakeSound(); // soyut bir metot
+}
+
+public class Cat : Animal
+{
+    public override void MakeSound()
+    {
+        Console.WriteLine("Miyav miyav");
+    }
+}
+
+public class Cow : Animal
+{
+    public override void MakeSound()
+    {
+       Console.WriteLine("Möö");
+    }
+}
+
+public class Dog : Animal
+{
+    public override void MakeSound()
+    {
+      Console.WriteLine("Hav hav!");
+    }
+}
+
+#endregion
+
+#region Interface Örneği
+
+public interface IControllable
+{
+    void TurnOn(); // Cihaz açılsın
+    void TurnOff(); // Cihaz kapatılsın
+}
+
+public class Television : IControllable
+{
+    public void TurnOff()
+    {
+        Console.WriteLine("Televizyon kapatıldı");
+    }
+
+    public void TurnOn()
+    {
+        Console.WriteLine("Televizyon açıldı.");
+    }
+}
+
+public class Computer : IControllable
+{
+    public void TurnOff()
+    {
+        Console.WriteLine("Bilgisayar kapatıldı.");
+    }
+
+    public void TurnOn()
+    {
+        Console.WriteLine("Bilgisayar açıldı.");
+    }
+}
+
+#endregion
+
+#region Interface ve Dependency Injection Örneği
+public interface IChargeable
+{
+    void Charge();
+}
+
+public class SmartDevice : IChargeable, IControllable
+{
+    public void Charge()
+    {
+        Console.WriteLine("Cihaz şarj ediliyor...");
+    }
+
+    public void TurnOff()
+    {
+        Console.WriteLine("Cihaz kapatıldı...");
+    }
+
+    public void TurnOn()
+    {
+        Console.WriteLine("Cihaz açıldı..");
+    }
+}
+#endregion
