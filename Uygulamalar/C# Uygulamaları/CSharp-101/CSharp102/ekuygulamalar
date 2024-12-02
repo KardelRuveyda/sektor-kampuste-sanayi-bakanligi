@@ -9,7 +9,13 @@
 //UsePolymorphism();
 //UseAbstractClass();
 //UseInterface();
-UseMultipleInterface();
+//UseMultipleInterface();
+//useEnums();
+using System.Reflection.Metadata;
+using System.Security.Principal;
+
+//UserLogin();
+UserLogin2(7);
 #endregion
 
 #region Metotlar 
@@ -181,9 +187,119 @@ void UseMultipleInterface()
     controllable.TurnOn();
     controllable.TurnOff();
 }
+
+
+#region C# Enumsların anlaşılması
+void useEnums()
+{
+    Days today = Days.Monday;
+
+    if(today == Days.Monday)
+    {
+        Console.WriteLine("Bugün Pazartesi!");
+    }
+
+    Console.WriteLine((int)Days.Monday);
+}
+
+string CheckPermissions(UserRole role)
+{
+    string message = "";
+
+    switch (role)
+    {
+        case UserRole.Guest:
+            message = "Misafir Kullanıcı Giriş Yaptı.";
+            break;
+        case UserRole.User:
+            message = "Normal Kullanıcı Giriş Yaptı.";
+            break;
+        case UserRole.Moderator:
+            message = "İçerik denetçisi Giriş Yaptı.";
+            break;
+        case UserRole.Administrator:
+            message = "Admin kullanıcı Giriş Yaptı.";
+            break;
+        default:
+            message = "Bilinmeyen kullanıcı Giriş Yaptı.";
+            break;
+    
+    }
+
+    return message;
+}
+
+void UserLogin()
+{
+    UserRole currentUserRole = UserRole.Administrator;
+
+    try
+    {
+        Console.WriteLine($"Şu anki rol : {currentUserRole.ToString()}");
+        string checkUserName = CheckPermissions(currentUserRole);
+
+        Console.Write($"Servisten gelen yetkilendirme mesajı: {checkUserName}");
+    }
+    catch (Exception e)
+    {
+
+        Console.WriteLine(e.Message);
+    }
+    
+}
+
+void UserLogin2(int roleId)
+{
+    var userRoles = GetUserRolesFromDatabase();
+
+    // roleId'nin listede olup olmadığını kontrol et
+
+    if (userRoles.Any(x => x.RoleId == roleId))
+    {
+        Console.WriteLine($"Role ID {roleId} kapsam olarak bulunmaktadır.");
+    }
+    else
+    {
+        Console.WriteLine($"Role ID {roleId} kapsam olarak bulunamamaktadır. Lütfen veri tabanından ekleme yapınız")
+            ;
+    }
+}
+
+List<UserRoleClass> GetUserRolesFromDatabase()
+{
+    List<UserRoleClass> userRoles = new List<UserRoleClass>
+    {
+        new UserRoleClass
+        {
+            RoleId = 1,
+            RoleName = "Guest"
+        },
+        new UserRoleClass
+        {
+            RoleId = 2,
+            RoleName = "User"
+        },
+        new UserRoleClass
+        {
+            RoleId = 3,
+            RoleName = "Moderator"
+        },
+        new UserRoleClass
+        {
+            RoleId = 4,
+            RoleName = "Administrator"
+        }
+    };
+
+    return userRoles;
+}   
+
+#endregion
 #endregion
 
-    #region Sınıfların Tanımlandığı Kısım
+
+
+#region Sınıfların Tanımlandığı Kısım
 class Car
 {
     public string Brand { get; set; }
@@ -195,6 +311,33 @@ class Fruit
 {
     public string Name { get; set; }
     public string Color { get; set; }
+}
+
+
+enum Days
+{
+    Monday,//0
+    Tuesday,//1
+    Wednesday,//2
+    Thursday,//3
+    Friday,//4
+    Saturday,//5
+    Sunday//5
+}   
+
+enum UserRole
+{
+    Guest = 1, // Misafir Kullanıcı
+    User,// Normal Kullanıcı
+    Moderator,// İçerik denetçisi
+    Administrator, // Admin kullanıcı
+    EkYetki
+}
+
+class UserRoleClass
+{
+    public string RoleName { get; set; }
+    public int RoleId { get; set; }
 }
 #endregion
 
