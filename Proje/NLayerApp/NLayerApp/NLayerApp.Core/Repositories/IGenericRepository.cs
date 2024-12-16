@@ -9,7 +9,7 @@ namespace NLayerApp.Core.Repositories
 {
     public interface IGenericRepository<T> where T: class
     {
-       Task<T> GetByIdAsync(int id);
+        Task<T> GetByIdAsync(int id);
         //IQueryable<T> GetAll();
         IEnumerable<T> GetAll();
         Task AddAsync();
