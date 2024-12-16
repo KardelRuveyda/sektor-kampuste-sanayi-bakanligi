@@ -4,6 +4,8 @@ Sektör Kampüste Programı, çalışma alanları doğrultusunda güncel bilgile
 Bu program kapsamında Ankara Üniversitesi'nde 1317MTHG01/MTH-24-31 kodlu, Bursa Uludağ Üniversitesi'nde MTH3021 kodlu, Kütahya Dumlupınar Üniversitesi'nde ise 1317MTHG01/MTH-24-31 kodlu Modern Web Geliştirme Temelleri dersini vermekteyim. Bu ders kapsamında amacım öğrencileri sektöre hazırlamak, üniversitede
 aldığı derslerin sektörde nasıl uygulanacağına dair pratikler gerçekleştirmek ve öğrencilerin kendine en uygun alanı bulabilmelerini hedeflemektir. 
 
+
+
 -> Ders notlarına aşağıdaki yönlendirmelerden ulaşabilirsiniz.
 
 - [x] [Ben Kimim?](https://github.com/KardelRuveyda/sektor-kampuste-sanayi-bakanligi/blob/master/ben-kimim.md)
