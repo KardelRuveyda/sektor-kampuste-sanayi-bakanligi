@@ -11,8 +11,8 @@ namespace NLayerApp.Core.Repositories
     {
         Task<T> GetByIdAsync(int id);
         //IQueryable<T> GetAll();
-        IEnumerable<T> GetAll();
-        Task AddAsync();
+        IQueryable<T> GetAll();
+        Task AddAsync(T entity);
         Task AddRangeAsync(IEnumerable<T> entities);
         void Update(T entity);
         void Remove(T entity);

@@ -9,5 +9,8 @@ namespace NLayerApp.Core.Models
     public class Team:BaseEntity
     {
         public string TeamName { get; set; } = "";
+        
+        //Bire çok ilişki sağlanır.
+        public ICollection<User>? Users { get; set; } 
     }
 }
